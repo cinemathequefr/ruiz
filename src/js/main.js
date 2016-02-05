@@ -44,9 +44,9 @@ var places = [
 ];
 
 var proj = d3.geo
-    // .orthographic() // Projection type
+    .orthographic() // Projection type
+    // .mercator() // Projection type
     // .august() // Projection type
-    .mercator() // Projection type
     .center([0, 0])
     .rotate([-2.35, -48.86, -30])
     .scale(scaleRange[0])
@@ -60,21 +60,15 @@ var canvas = d3.select("body").append("canvas")
 var c = canvas.node().getContext("2d");
 var path = d3.geo.path().projection(proj).context(c).pointRadius(6);
 
-// d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-110m.json", function(error, world) {
-d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-50m.json", function(error, world) {
+d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-110m.json", function(error, world) {
+// d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-50m.json", function(error, world) {
 
   if (error) throw error;
 
-  console.log(topojson.presimplify);
-
   // topojson.presimplify(world); // http://bl.ocks.org/mbostock/7755778
 
-
   var land = topojson.feature(world, world.objects.land);
-
-
   var zoom = d3.geo.zoom().projection(proj).scale(scaleRange[0]).scaleExtent(scaleRange);
-  // var zoom = d3.geo.zoom().projection(proj).scale(200).scaleExtent([100, 300]);
 
   var pins = {
     type: "MultiPoint",
@@ -84,13 +78,20 @@ d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/wor
   }
 
   zoom.on("zoom.redraw", function () {
-    d3.event.sourceEvent.preventDefault();
+    // d3.event.sourceEvent.preventDefault();
     draw();
   });
 
-  canvas.call(zoom);
+  canvas.call(zoom).call(zoom.event);
   draw();
 
+  // Just for fun: transition through all points
+  var count = 0;
+  var interval = window.setInterval(function () {
+    proj.rotate(zoom.rotateTo(coordsPlace(count++))); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6
+    canvas.transition().duration(500).call(zoom.projection(proj).event);
+    if (count >= places.length) window.clearInterval(interval);
+  }, 500);
 
 
   function draw () {
@@ -124,7 +125,16 @@ d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/wor
         coordinates: [d.lng, d.lat]
       };
     });
-  } 
+  }
+
+
+  function coordsPlace(i) {
+    return [places[i].lng, places[i].lat, 0];
+  }
+
+
+
+
 
 });
 
