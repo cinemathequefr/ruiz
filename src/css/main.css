@@ -4,31 +4,9 @@ body {
 
 canvas {
   position: absolute;
-  top: 12px; left: 12px; bottom: 12px; right: 12px;
-  outline: solid 1px red;
-  background-color: #9cf;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #335566;
+  cursor: grab;
 }
-
-/*.globe {
-  fill: #69f;
-}
-
-.land {
-  fill: #369;
-}
-
-.pin {
-  fill: #000;
-  stroke: #ccc;
-  stroke-width: 2px;
-}
-
-.arc {
-  fill: transparent;
-  stroke: #000;
-  stroke-width: 6px;
-  stroke-dasharray: 1,6;
-  opacity: 1;
-}
-*/
-
