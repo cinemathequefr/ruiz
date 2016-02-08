@@ -2,11 +2,22 @@ body {
   margin: 0;
 }
 
-canvas {
+svg {
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0; left: 0; bottom: 0; width: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #335566;
+  background-color: #778899;
   cursor: grab;
 }
+
+.land {
+  fill: #ccaa99;
+  filter: drop-shadow(0 0 8px #333);
+}
+
+.pin {
+  fill: #69f;
+  stroke: #336699;
+  stroke-width: 1.5px;
+}
+
