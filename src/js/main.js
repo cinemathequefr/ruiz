@@ -4,7 +4,7 @@
 // Voir : http://bl.ocks.org/mbostock/4183330
 
 var height = window.innerHeight,
-    width = window.innerWidth;
+    width = window.innerWidth / 2;
 
 var scaleRange = [Math.max(width, height) * 0.33, [Math.max(width, height)]]
 
@@ -44,9 +44,9 @@ var places = [
 ];
 
 var proj = d3.geo
-    .orthographic() // Projection type
+    // .orthographic() // Projection type
     // .mercator() // Projection type
-    // .august() // Projection type
+    .august() // Projection type
     .center([0, 0])
     .rotate([-2.35, -48.86, -30])
     .scale(scaleRange[0])
