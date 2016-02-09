@@ -12,12 +12,19 @@ svg {
 
 .land {
   fill: #ccaa99;
-  filter: drop-shadow(0 0 8px #333);
+  filter: drop-shadow(0 0 8px #444);
 }
 
 .pin {
   fill: #69f;
-  stroke: #336699;
+  stroke: #369;
   stroke-width: 1.5px;
+  cursor: pointer;
+  transition: 0.15s;
 }
 
+.pin:hover {
+  stroke-width: 12px;
+  filter: drop-shadow(0 0 6px #444);
+
+};

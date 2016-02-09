@@ -35,12 +35,12 @@ var places = [
 var height = window.innerHeight,
     width = window.innerWidth / 2;
 
-var scaleRange = [Math.max(width, height) * 0.33, [Math.max(width, height)]]
+var scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 1.5]];
 
 var projection = d3.geo
     .august()
     .center([0, 0])
-    .rotate([0, 0, 0])
+    .rotate([0, 0, 20])
     .scale(scaleRange[0])
     .clipAngle(90)
     .translate([(width / 2), (height / 2)]);
@@ -49,15 +49,52 @@ var svg = d3.select("body").append("svg").attr("width", width).attr("height", he
 var path = d3.geo.path().projection(projection);
 var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
 
-// var pins = {
-//   type: "MultiPoint",
-//   coordinates: _.map(places, function (d) {
-//     return [d.lng, d.lat];
-//   })
-// };
+d3.queue = d3_queue.queue;
 
-// d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-50m.json", function(error, world) {
-d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/world-110m.json", function(error, world) {
+d3.queue()
+.defer(d3.json, "data/world-110m.json")
+.defer(d3.xml, "img/compass.svg")
+.awaitAll(function (error, data) {
+
+  if (error) throw error;
+
+  var world = data[0];
+  var compass = data[1];
+
+
+  svg.append("path")
+    .datum(topojson.feature(world, world.objects.land))
+    .attr("class", "land")
+    .attr("d", path);
+
+  svg.node().appendChild(compass.getElementsByTagName("svg")[0]);
+
+  svg.selectAll(".pin")
+    .data(geoPlaces(places))
+    .enter()
+    .append("circle")
+    .attr("class", "pin")
+    .attr("r", 9)
+    .attr("transform", function (d) {
+      return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
+    })
+    .on("click", function () { console.log(this); });
+
+
+  svg.call(zoom);
+  svg.call(zoom.event);
+  zoom.on("zoom.redraw", zoomed);
+
+});
+
+
+
+
+/*
+d3.json("data/world-110m.json", function(error, world) {
+// d3.json("data/world-50m.json", function(error, world) {
+
+  if (error) throw error;
 
   var land = topojson.feature(world, world.objects.land);
 
@@ -66,28 +103,29 @@ d3.json("https://raw.githubusercontent.com/mbostock/topojson/master/examples/wor
     .attr("class", "land")
     .attr("d", path);
 
+  d3.xml("img/compass.svg", "image/svg+xml", function (error, data) {
+    if (error) throw error;
+    var compass = data.getElementsByTagName("svg")[0];
+    svg.node().appendChild(compass);
+  });
+
   svg.selectAll(".pin")
     .data(geoPlaces(places))
     .enter()
     .append("circle")
     .attr("class", "pin")
-    .attr("r", 7)
+    .attr("r", 9)
     .attr("transform", function (d) {
-      console.log(projection([ d.coordinates[0], d.coordinates[1] ]));
       return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
-    });
-
-
+    })
+    .on("click", function () { console.log(this); });
 
 
   svg.call(zoom);
   svg.call(zoom.event);
   zoom.on("zoom.redraw", zoomed);
-
-
-
 });
-
+*/
 
 function zoomed () {
   svg.selectAll(".land").attr("d", path);
