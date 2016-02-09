@@ -29,7 +29,8 @@ var places = [
   { name: "Grenoble", lat: 45.19, lng: 5.72 },
   { name: "Angola", lat: -8.89, lng: 13.33 },
   { name: "Mer du Groenland", lat: 73.86, lng: -7.5 },
-  { name: "Suisse", lat: 46.62, lng: 6.49 }
+  { name: "Suisse", lat: 46.62, lng: 6.49 },
+  { name: "La Colonie pénitentiaire", lat: -1.27, lng: -81.07 }
 ];
 
 var height = window.innerHeight,
@@ -40,7 +41,7 @@ var scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 1.
 var projection = d3.geo
     .august()
     .center([0, 0])
-    .rotate([0, 0, 20])
+    .rotate([10, 10, 150])
     .scale(scaleRange[0])
     .clipAngle(90)
     .translate([(width / 2), (height / 2)]);
@@ -57,6 +58,14 @@ d3_queue.queue()
 
   var world = data[0];
   var compass = data[1];
+
+  var tip = d3.tip()
+    .attr("class", "d3-tip")
+    .offset([-10, 0])
+    .html(function(d) {
+      return "<strong>" + d.name + "</strong>";
+    })
+
 
   svg.append("path")
     .datum(topojson.feature(world, world.objects.land))
@@ -79,12 +88,27 @@ d3_queue.queue()
   svg.call(zoom).call(zoom.event);
 
   zoom.on("zoom.redraw", zoomed);
+
+
+  // Just for fun: transition through all points
+  var count = 0;
+  var interval = window.setInterval(function () {
+    projection.rotate(zoom.rotateTo(coordsPlace(count++))); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6
+    svg.transition().duration(500).call(zoom.projection(projection).event);
+    if (count >= places.length) window.clearInterval(interval);
+  }, 500);
+
+ function coordsPlace(i) {
+    return [places[i].lng, places[i].lat, 0];
+  }
+
+
+
 });
 
 
 function zoomed () {
   svg.selectAll(".land").attr("d", path);
-
   svg.selectAll(".pin")
   .attr("transform", function (d) {
     return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
@@ -96,7 +120,12 @@ function geoPlaces(places) {
   return places.map(function(d) {
     return {
       type: "Point",
-      coordinates: [d.lng, d.lat]
+      coordinates: [d.lng, d.lat],
+      name: d.name // Extended
     };
   });
+}
+
+places.centerOn = function (selector) {
+  console.log(this);
 }
