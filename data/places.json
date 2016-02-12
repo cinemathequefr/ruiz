@@ -20,12 +20,13 @@
   { "id": 19, "name": "Hollande", "lat": 51.63, "lng": 4.67 },
   { "id": 20, "name": "Patagonie", "lat": -41.73, "lng": -68.92 },
   { "id": 21, "name": "Castel di Tusa", "lat": 38.01, "lng": 14.25 },
-  { "id": 22, "name": "Taiwan", "lat": 25.04, "lng": 121.55 },
+  { "id": 22, "name": "Taïwan", "lat": 25.04, "lng": 121.55 },
   { "id": 23, "name": "Tunis", "lat": 36.8, "lng": 10.18 },
   { "id": 24, "name": "Maroc", "lat": 31.63, "lng": -7.98 },
   { "id": 25, "name": "Grenoble", "lat": 45.19, "lng": 5.72 },
   { "id": 26, "name": "Angola", "lat": -8.89, "lng": 13.33 },
   { "id": 27, "name": "Mer du Groenland", "lat": 73.86, "lng": -7.5 },
   { "id": 28, "name": "Suisse", "lat": 46.62, "lng": 6.49 },
-  { "id": 29, "name": "La Colonie pénitentiaire", "lat": -1.27, "lng": -81.07 }
+  { "id": 29, "name": "La Colonie pénitentiaire", "lat": -1.27, "lng": -81.07 },
+  { "id": 30, "name": "Singapour", "lat": 1.27, "lng": 103.84 } 
 ]

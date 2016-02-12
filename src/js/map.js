@@ -9,17 +9,17 @@ var map = (function () {
   var projection = d3.geo
       .august()
       .center([0, 0])
-      // .rotate([10, 10, 150])
-      .rotate([0, 0, 0])
+      .rotate([0, -90, -90])
       .scale(scaleRange[0])
-      // .clipAngle(90)
       .translate([(width / 2), (height / 2)]);
 
   var path = d3.geo.path().projection(projection);
   var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
-  var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
-  var worldData, pointsData, compass;
 
+  // var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+  var svg = d3.select("svg").attr("width", width).attr("height", height);
+
+  var worldData, pointsData, compass;
 
   function load(worldDataUrl, pointsDataUrl) {
     d3_queue.queue()
@@ -55,10 +55,12 @@ var map = (function () {
       .enter()
       .append("circle")
       .attr("class", "pin")
+      .attr("data-id", function (d) { return d.id; })
       .attr("r", 9)
       .attr("transform", function (d) {
         return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
       })
+      .each(function (d) { _.assign(d, { svg: this }) }) // Assign to each point object its corresponding svg element
       .on("click", function (d) {
         $.publish("click", d);
       });
@@ -78,7 +80,6 @@ var map = (function () {
     projection.rotate(zoom.rotateTo(point.coordinates)); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6
     svg.transition().duration(500).call(zoom.projection(projection).event);
   }
-
 
   function zoomed() {
     svg.selectAll(".land").attr("d", path);
