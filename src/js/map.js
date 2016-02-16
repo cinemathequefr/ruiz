@@ -9,50 +9,32 @@ var map = (function () {
   var projection = d3.geo
       .august()
       .center([0, 0])
-      // .rotate([0, -90, -90])
       .rotate([60, 0, -180])
       .scale(scaleRange[0])
       .translate([(width / 2), (height / 2)]);
 
   var path = d3.geo.path().projection(projection);
   var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
-
-  // var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
   var svg = d3.select("svg").attr("width", width).attr("height", height);
 
-  var worldData, pointsData, compass;
+  var world, points;
 
-  function load(worldDataUrl, pointsDataUrl) {
-    d3_queue.queue()
-    .defer(d3.json, worldDataUrl)
-    .defer(d3.json, pointsDataUrl)
-    .defer(d3.xml, "img/compass.svg")
-    .awaitAll(function (error, data) {
-      if (error) throw error;
-      run(data);
-    });
+  function init() {
+    world = arguments[0];
+    points = arguments[1];
+    run();
   }
 
-
-  function run(data) {
-    worldData = data[0];
-    compass = data[2];
-    pointsData = _.map(data[1], function (d) {  // Collection of GeoJSON points (w/ extra properties)
-      return _.assign(d, {
-        type: "Point",
-        coordinates: [d.lng, d.lat]
-      });
-    });
-
+  function run() {
     svg.append("path")
-      .datum(topojson.feature(worldData, worldData.objects.land))
+      .datum(topojson.feature(world, world.objects.land))
       .attr("class", "land")
       .attr("d", path);
 
-    svg.node().appendChild(compass.getElementsByTagName("svg")[0]);
+    // svg.node().appendChild(compass.getElementsByTagName("svg")[0]);
 
     svg.selectAll(".pin")
-      .data(pointsData)
+      .data(points)
       .enter()
       .append("circle")
       .attr("class", "pin")
@@ -90,15 +72,9 @@ var map = (function () {
     });
   }
 
-
-  function points() {
-    return pointsData;
-  }
-
   return {
-    load: load,
+    init: init,
     on: on,
-    panTo: panTo,
-    points: points
+    panTo: panTo
   };
 })();
