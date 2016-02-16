@@ -6,6 +6,10 @@ body {
   font-weight: 400;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 svg {
   position: fixed;
   top: 0; left: 0; bottom: 0; width: 50%;
@@ -13,6 +17,7 @@ svg {
   background-color: #778899;
   cursor: grab;
   transition: background-color 1s;
+  box-sizing: border-box;
 }
 
 .land {
@@ -57,6 +62,11 @@ svg.night .land {
   background-color: #251e18; color: #eee;
 }
 
+.videoOverlay {
+  position: fixed; display: block;
+  top: 0; right: 0; bottom: 0; width: 50%;
+  padding: 0;
+}
 
 a.logocf {
   position: fixed;
@@ -79,7 +89,7 @@ h1 {
 
 .ctrl-day {
   position: fixed;
-  right: 50%; top: 8px;
+  right: 48%; top: 8px;
 }
 
 

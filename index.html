@@ -17,14 +17,21 @@
     <script src="src/js/vendor/d3-queue.min.js"></script>
     <script src="src/js/vendor/d3.geo.zoom.js"></script><!-- Important : Jason Davis's plugin for zooming/panning on a globe -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js"></script> -->
+    <script src="src/js/vendor/jquery.vide.min.js"></script>
+
   </head>
   <body>
     <svg></svg>
-    <div class="cardContainer"></div>
+    <div class="cardContainer">
+    </div>
+
+    <div class="videoOverlay" "width: 100%; height: 640px;"
+        data-vide-bg="mp4:http://cf.pasoliniroma.com/static/ruiz/video/trois-couronnes-du-matelot-3.mp4"
+        data-vide-options="loop: true, muted: true, position: 50% 50%">
+    </div>
+
     <a class="logocf" href="//www.cinematheque.fr/"></a>
-
     <input class="ctrl-day" type="checkbox">
-
   </body>
   <script src="src/js/map.js"></script>
   <script src="src/js/card.js"></script>

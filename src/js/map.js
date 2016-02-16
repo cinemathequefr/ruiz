@@ -9,7 +9,8 @@ var map = (function () {
   var projection = d3.geo
       .august()
       .center([0, 0])
-      .rotate([0, -90, -90])
+      // .rotate([0, -90, -90])
+      .rotate([60, 0, -180])
       .scale(scaleRange[0])
       .translate([(width / 2), (height / 2)]);
 
