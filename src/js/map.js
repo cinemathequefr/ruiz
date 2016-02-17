@@ -31,7 +31,10 @@ var map = (function () {
       .attr("class", "land")
       .attr("d", path);
 
-    // svg.node().appendChild(compass.getElementsByTagName("svg")[0]);
+    d3_queue.queue().defer(d3.xml, "img/compass.svg").awaitAll(function (error, data) {
+      if (error) throw error;
+      svg.node().appendChild(data[0].getElementsByTagName("svg")[0]);
+    });
 
     svg.selectAll(".pin")
       .data(points)

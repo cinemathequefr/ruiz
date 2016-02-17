@@ -1,13 +1,16 @@
 body {
   position: relative;
   margin: 0;
-  font-family: Source Sans Pro, sans-serif;
-  font-size: 100%;
-  font-weight: 400;
+  font-family: Source Sans Pro, sans-serif; font-size: 100%; font-weight: 400;
+  background-color: #251e18; color: #eee;
 }
 
 div {
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }
 
 svg {
@@ -59,28 +62,22 @@ svg.night .land {
   position: fixed; display: block;
   top: 0; right: 0; bottom: 0; width: 50%;
   margin: 48px 0 0 0;
-  background-color: #251e18; color: #eee;
 }
 
 .card {
-  position: absolute; display: block;
-  width: 100%; height: 100vh;
-  background-color: rgba(25, 125, 125, 0.5);
-}
-
-.card {
-  top: 0;
-}
-
-.card + .card {
-  top: 50px;
-}
-
-.card + .card + .card {
-  top: 100px;
+  margin: 0 0 0 0;
+  padding: 24px 0 24px 0;
+  transition: 0.5s;
 }
 
 
+.card:hover {
+  background: #2e251e;
+}
+
+.card p, .card h2 {
+  margin-left: 48px; margin-right: 48px;
+}
 
 /*
 .videoOverlay {
