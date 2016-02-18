@@ -22,6 +22,13 @@ d3_queue.queue()
   })
   .value();
 
+  // Replace each point id by the reference to the actual point object
+  cards = _.map(cards, function (card) {
+    return _.assign(card, { points: _.map(card.points, function (p) {
+      return _.find(points, { id: p });
+    })});
+  });
+
   map.init(world, points);
   card.init(points, cards);
 
@@ -31,6 +38,14 @@ d3_queue.queue()
     map.panTo(point);
     card.show(point);
   });
+
+  $(".cardContainer").on("click", "li", function (e) {
+    var pointId = $(this).data("pointid");
+    map.panTo(_.find(points, { id: pointId }));
+  });
+
+
+
 });
 
 

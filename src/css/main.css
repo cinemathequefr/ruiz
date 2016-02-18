@@ -67,10 +67,8 @@ svg.night .land {
 .card {
   overflow: hidden;
   margin: 0 0 0 0;
-  padding: 24px 0 24px 0;
+  padding: 24px 48px;
   transition: background-color 0.5s;
-  border-bottom: solid 1px #363319;
-  outline: solid 1px red;
 }
 
 .card:hover {
@@ -81,9 +79,28 @@ svg.night .land {
   width: 100%; height: auto;
 }
 
+
+.card ul {
+  margin: 0; padding: 0;
+}
+
+.card li {
+  display: inline-block;
+  padding: 3px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.card li:hover {
+  background-color: #69f;
+}
+
+
+/*
 .card p, .card h2 {
   margin-left: 48px; margin-right: 48px;
 }
+*/
 
 /*
 .videoOverlay {
