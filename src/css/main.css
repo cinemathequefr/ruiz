@@ -65,14 +65,20 @@ svg.night .land {
 }
 
 .card {
+  overflow: hidden;
   margin: 0 0 0 0;
   padding: 24px 0 24px 0;
-  transition: 0.5s;
+  transition: background-color 0.5s;
+  border-bottom: solid 1px #363319;
+  outline: solid 1px red;
 }
-
 
 .card:hover {
   background: #2e251e;
+}
+
+.card img {
+  width: 100%; height: auto;
 }
 
 .card p, .card h2 {

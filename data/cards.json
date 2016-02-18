@@ -8,5 +8,16 @@
     "id": 2,
     "title": "Élections législatives dans le 12e arrondissement de Paris",
     "points": [8]
+  },
+  {
+    "id": 3,
+    "title": "Un cinéma arabe à Belleville",
+    "points": [8]
+  },
+  {
+    "id": 4,
+    "title": "Hollande",
+    "img": ["56615-1"],
+    "points": [19]
   }
 ]
