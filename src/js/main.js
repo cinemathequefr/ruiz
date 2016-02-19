@@ -7,7 +7,7 @@ d3_queue.queue()
   if (error) throw error;
 
   var world = data[0];
-  var cards = normalizeCollection(data[1], ["img", "video"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+  var cards = normalizeCollection(data[1], ["img", "video", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
   var points = _(data[2])
   .map(function (d) {  // (1) Collection of GeoJSON points (w/ extra properties)
     return _.assign(d, {
@@ -33,20 +33,25 @@ d3_queue.queue()
   card.init(points, cards);
 
   map.on("click", function (e, point) {
-    $(_.map(points, "svg")).removeClass("on");
-    $(point.svg).addClass("on");
-    map.panTo(point);
-    card.show(point);
+    selectPoint(point);
   });
 
   $(".cardContainer").on("click", "li", function (e) {
-    var pointId = $(this).data("pointid");
-    map.panTo(_.find(points, { id: pointId }));
+    var point = _.find(points, { id: $(this).data("pointid") });
+    selectPoint(point);
   });
 
 
+  function selectPoint(point) {
+      $(_.map(points, "svg")).removeClass("on");
+      $(point.svg).addClass("on");
+      map.panTo(point);
+      card.show(point);
+  }
+
 
 });
+
 
 
 // Returns a normalized collection where "unused" properties (passed as an array of names) are present with a null value.

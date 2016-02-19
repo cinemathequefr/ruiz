@@ -2,11 +2,13 @@
   {
     "id": 1,
     "title": "Les Trois couronnes du matelot : l'embarquement",
+    "video": [{ "id": "155391983", "ratio": "43" }],
     "points": [16, 5, 6]
   },
   {
     "id": 2,
-    "title": "Élections législatives dans le 12e arrondissement de Paris",
+    "title": "Élections législatives dans le 12e arrondissement",
+    "img": ["126617-2"],
     "points": [8]
   },
   {
@@ -19,5 +21,23 @@
     "title": "La Hollande patagonienne d'Henri Alekan",
     "img": ["56615-1"],
     "points": [19, 20]
+  },
+  {
+    "id": 5,
+    "title": "1941 : Naissance à Puerto Montt",
+    "text": "<p>Raúl Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago.</p>",
+    "points": [1]
+  },
+  {
+    "id": 6,
+    "title": "Un dancing à Valparaíso",
+    "video": [{ "id": "155408815", "ratio": "43" }],
+    "text": "<p>Lors d'une escale, le matelot du Funchalense rencontre Mathilde.</p>",
+    "points": [16]
+  },
+  {
+    "id": 7,
+    "title": "Histoires de glace dans le golfe de Bothnie",
+    "points": [27]
   }
 ]
