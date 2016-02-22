@@ -4,7 +4,7 @@
 var map = (function () {
   var height = window.innerHeight,
       width = window.innerWidth / 2,
-      scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 1.5]];
+      scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 2.5]];
 
   var projection = d3.geo
       .august()
@@ -42,7 +42,10 @@ var map = (function () {
       .append("circle")
       .attr("class", "pin")
       .attr("data-id", function (d) { return d.id; })
-      .attr("r", 9)
+      // .attr("r", 9)
+      .attr("r", function (d) {
+        return 6 + (d.cards.length * 3); // Variable radius
+      })
       .attr("transform", function (d) {
         return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
       })
@@ -60,7 +63,6 @@ var map = (function () {
   function on(event, callback) {
     $.subscribe(event, callback);
   }
-
 
   function panTo(point) {
     projection.rotate(zoom.rotateTo(point.coordinates)); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6

@@ -68,8 +68,14 @@ svg.night .land {
   overflow: hidden;
   margin: 0 0 0 0;
   padding: 24px 48px;
+  border-bottom: solid 1px #666;
   transition: background-color 0.5s;
 }
+
+/*
+.card:nth-child(odd) { background-color: #345; }
+.card:nth-child(odd) { background-color: #654; }
+*/
 
 .card:hover {
   background: #2e251e;

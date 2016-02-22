@@ -15,22 +15,22 @@ d3_queue.queue()
       coordinates: [d.lng, d.lat]
     });
   })
-  .map(function (p) { // (2) Extend with a cards property that holds the array of ids of cards referencing this point
-    return _.assign(p, { cards: _.map(_.filter(cards, function (c) {
+  .map(function (p) {   // (2) Extend each point object with a cards property holding a reference to the cards referencing this point
+    return _.assign(p, { cards: _.filter(cards, function (c) {
       return _.indexOf(c.points, p.id) > -1;
-    }), "id") });
+    })});
   })
   .value();
 
-  // Replace each point id by the reference to the actual point object
-  cards = _.map(cards, function (card) {
+  cards = _.map(cards, function (card) { // Replace each point id by the reference to the actual point object
     return _.assign(card, { points: _.map(card.points, function (p) {
       return _.find(points, { id: p });
     })});
   });
 
   map.init(world, points);
-  card.init(points, cards);
+  // card.init(points, cards);
+  card.init(points);
 
   map.on("click", function (e, point) {
     selectPoint(point);

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Les Trois couronnes du matelot : l'embarquement",
+    "title": "À bord du Funchalense",
     "video": [{ "id": "155391983", "ratio": "43" }],
     "points": [16, 5, 6]
   },
@@ -14,7 +14,7 @@
   {
     "id": 3,
     "title": "Un cinéma arabe à Belleville",
-    "points": [8]
+    "points": [8, 9]
   },
   {
     "id": 4,
@@ -24,7 +24,7 @@
   },
   {
     "id": 5,
-    "title": "1941 : Naissance à Puerto Montt",
+    "title": "La ville natale",
     "text": "<p>Raúl Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago.</p>",
     "points": [1]
   },
@@ -38,6 +38,45 @@
   {
     "id": 7,
     "title": "Histoires de glace dans le golfe de Bothnie",
+    "img": ["78830-1"],
     "points": [27]
+  },
+  {
+    "id": 8,
+    "title": "Châteaux de sable en Hollande",
+    "points": [31]
+  },
+  {
+    "id": 9,
+    "title": "La tour de Sigismond",
+    "img": ["c21-1"],
+    "points": [21]
+  },
+  {
+    "id": 10,
+    "title": "Aventures dans l'île de Madère",
+    "img": ["51146-1"],
+    "points": [5]
+  },
+  {
+    "id": 11,
+    "title": "Fantômes dans un cimetière",
+    "points": [22]
+  },
+  {
+    "id": 12,
+    "title": "À Versailles",
+    "points": [32]
+  },
+  {
+    "id": 13,
+    "title": "Château dans le ciel",
+    "img": ["126618-2"],
+    "points": [18]
+  },
+  {
+    "id": 14,
+    "title": "Au-dessous du « Volcan »",
+    "points": [9]
   }
 ]
