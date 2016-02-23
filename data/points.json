@@ -30,5 +30,6 @@
   { "id": 29, "name": "La Colonie pénitentiaire", "lat": -1.27, "lng": -81.07 },
   { "id": 30, "name": "Singapour", "lat": 1.27, "lng": 103.84 },
   { "id": 31, "name": "Hollande", "lat": 52.37, "lng": 4.45 },
-  { "id": 32, "name": "Versailles", "lat": 48.81, "lng": 2.11 }
+  { "id": 32, "name": "Versailles", "lat": 48.81, "lng": 2.11 },
+  { "id": 33, "name": "Vienne", "lat": 48.21, "lng": 16.37 }
 ]

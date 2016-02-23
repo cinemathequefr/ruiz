@@ -55,10 +55,9 @@ var map = (function () {
       });
 
     svg.call(zoom).call(zoom.event);
-    zoom.on("zoom.redraw", zoomed);
+    zoom.on("zoom.redraw", zoomed); // Use arbitrary namespace to prevent unwanted removal of existing listener on this event type
     $.publish("ready");
   }
-
 
   function on(event, callback) {
     $.subscribe(event, callback);
@@ -66,7 +65,7 @@ var map = (function () {
 
   function panTo(point) {
     projection.rotate(zoom.rotateTo(point.coordinates)); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6
-    svg.transition().duration(500).call(zoom.projection(projection).event);
+    svg.transition().duration(1000).call(zoom.projection(projection).event);
   }
 
   function zoomed() {

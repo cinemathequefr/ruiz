@@ -13,6 +13,10 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 svg {
   position: fixed;
   top: 0; left: 0; bottom: 0; width: 50%;
@@ -83,8 +87,12 @@ svg.night .land {
 
 .card img {
   width: 100%; height: auto;
+  margin: 12px 0 36px;
 }
 
+.card .video {
+  margin: 12px 0 36px;
+}
 
 .card ul {
   margin: 0; padding: 0;
@@ -143,9 +151,6 @@ h1 {
 
 span+span:before { content: '\20\2192\20'; }
 
-.video {
-  margin: 12px 0 36px;
-}
 
 
 /*

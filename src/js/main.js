@@ -1,3 +1,5 @@
+// Dependencies: path.js
+
 d3_queue.queue()
 .defer(d3.json, "data/world-110m.json")
 .defer(d3.json, "data/cards.json")
@@ -29,8 +31,8 @@ d3_queue.queue()
   });
 
   map.init(world, points);
-  // card.init(points, cards);
   card.init(points);
+
 
   map.on("click", function (e, point) {
     selectPoint(point);
@@ -41,13 +43,57 @@ d3_queue.queue()
     selectPoint(point);
   });
 
-
   function selectPoint(point) {
       $(_.map(points, "svg")).removeClass("on");
       $(point.svg).addClass("on");
       map.panTo(point);
       card.show(point);
   }
+
+
+  // TODO
+
+  // console.log(validatePath(16, 3));
+
+  // pid / cid => pid / cid
+  // Unexisting pid or Invalid pid/cid combination: cid has precedence and we use the first valid pid
+  // Unexisting cid => first valid cid for the given pid
+  // All else : null
+
+
+  // function validatePath (pid, cid) {
+  //   var p = _.find(points, { id: pid });
+
+  //   if (_.isUndefined(_.find(p.cards, { id: cid })) === false) { // Valid pid/cid combination
+  //     return { pid: pid, cid: cid };
+  //   } else 
+
+
+  //   if (_.isUndefined(p) === false) {
+  //     var c;
+  //     out.pid = pid;
+  //     if (_.isUndefined(_.find(p.cards, { id: cid })) === false) {
+  //       out.cid = cid;
+  //     }
+  //   } else if (c = _.isUndefined(_.find(cards, { id: cid }) === false)) { // Invalid pid but valid cid
+  //     out.cid = cid;
+  //     if (_.isUndefined(_.find(c.points, { id: pid })) === false) out.pid = pid;
+  //   }
+  //   return out;
+  // }
+
+  // function navigate (pid, cid) {
+  //   var p = _.find(points, { id: pid });
+  //   if (_.isUndefined(p) === false) {
+  //     if (_.isUndefined(_.find(p.cards, { id: cid })) === false) {
+  //       window.location.hash = ("#!/" + pid + "/" + cid);
+  //     } else {
+  //       window.location.hash = ("#!/" + pid);
+  //     }
+  //   }
+  // }
+
+
 
 
 });
@@ -62,3 +108,4 @@ function normalizeCollection (collection, properties) {
     return _.assign({}, _.zipObject(properties, _.fill(Array(properties.length), null)), obj);
   });
 }
+
