@@ -10,7 +10,11 @@ var card = (function () {
 
   var renderTemplate = {};
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
-  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><% _.forEach(img, function (i) { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ i }}.jpg'><% }); %><% _.forEach(video, function (i) { %><iframe class='video ratio{{ i.ratio }}' src='//player.vimeo.com/video/{{ i.id }}' width='320' height='240' frameborder='0'></iframe><% }); %><h2>{{ title }}</h2><p>{{ text }}</p><ul class='places'><% _.forEach(points, function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul></div>");
+  // renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><% _.forEach(img, function (i) { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ i }}.jpg'><% }); %><% _.forEach(video, function (i) { %><iframe class='video ratio{{ i.ratio }}' src='//player.vimeo.com/video/{{ i.id }}' width='320' height='240' frameborder='0'></iframe><% }); %><h2>{{ title }}</h2><p>{{ text }}</p><ul class='places'><% _.forEach(points, function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul></div>");
+  // renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %><h2>{{ title }}</h2><p>{{ text }}</p></div>");
+  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><h2>{{ title }}</h2><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %><p>{{ text }}</p></div>");
+
+
 
   var points, cards;
   var deck = []; // Array: DOM elements of cards

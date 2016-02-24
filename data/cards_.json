@@ -2,13 +2,13 @@
   {
     "id": 1,
     "title": "À bord du Funchalense",
-    "assets" : [{ "type": "video", "id": 155391983 }],
+    "video": [{ "id": "155391983", "ratio": "43" }],
     "points": [16, 5, 6]
   },
   {
     "id": 2,
     "title": "Élections législatives dans le 12e arrondissement",
-    "assets" : [{ "type": "img", "id": "126617-2" }],
+    "img": ["126617-2"],
     "points": [8]
   },
   {
@@ -19,7 +19,7 @@
   {
     "id": 4,
     "title": "La Hollande patagonienne d'Henri Alekan",
-    "assets" : [{ "type": "img", "id": "56615-1" }],
+    "img": ["56615-1"],
     "points": [19, 20]
   },
   {
@@ -31,32 +31,32 @@
   {
     "id": 6,
     "title": "Un dancing à Valparaíso",
-    "assets" : [{ "type": "video", "id": 155408815 }],
+    "video": [{ "id": "155408815", "ratio": "43" }],
     "text": "<p>Lors d'une escale, le matelot du Funchalense rencontre Mathilde.</p>",
     "points": [16]
   },
   {
     "id": 7,
     "title": "Histoires de glace dans le golfe de Bothnie",
-    "assets" : [{ "type": "img", "id": "78830-1" }],
+    "img": ["78830-1"],
     "points": [27]
   },
   {
     "id": 8,
     "title": "Châteaux de sable en Hollande",
-    "assets" : [{ "type": "video", "id": 156388145 }],
+    "video": [{ "id": "156388145", "ratio": "43" }],
     "points": [31]
   },
   {
     "id": 9,
     "title": "La tour de Sigismond",
-    "assets" : [{ "type": "img", "id": "c21-1" }],
+    "img": ["c21-1"],
     "points": [21]
   },
   {
     "id": 10,
     "title": "Aventures dans l'île de Madère",
-    "assets" : [{ "type": "img", "id": "51146-1" }],
+    "img": ["51146-1"],
     "points": [5]
   },
   {
@@ -67,13 +67,13 @@
   {
     "id": 12,
     "title": "À Versailles",
-    "assets" : [{ "type": "video", "id": 156572327 }],
+    "video": [{ "id": "156572327", "ratio": "43" }],
     "points": [32]
   },
   {
     "id": 13,
     "title": "Château dans le ciel",
-    "assets" : [{ "type": "img", "id": "126618-2" }],
+    "img": ["126618-2"],
     "points": [18]
   },
   {

@@ -85,13 +85,21 @@ svg.night .land {
   background: #2e251e;
 }
 
-.card img {
-  width: 100%; height: auto;
-  margin: 12px 0 36px;
+.asset {
+  float: left;
+  width: 50%;
+  outline: solid 1px blue;
 }
 
-.card .video {
-  margin: 12px 0 36px;
+.asset > img {
+  display: block;
+  width: 100%; height: auto;
+  /*margin: 12px 0 36px;*/
+}
+
+.asset > .video {
+  width: 100%; height: auto;
+  /*margin: 12px 0 36px;*/
 }
 
 .card ul {

@@ -9,7 +9,8 @@ d3_queue.queue()
   if (error) throw error;
 
   var world = data[0];
-  var cards = normalizeCollection(data[1], ["img", "video", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+  // var cards = normalizeCollection(data[1], ["img", "video", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+  var cards = normalizeCollection(data[1], ["assets", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
   var points = _(data[2])
   .map(function (d) {  // (1) Collection of GeoJSON points (w/ extra properties)
     return _.assign(d, {
@@ -70,7 +71,6 @@ d3_queue.queue()
     var point = _.find(points, { id: pid });
 
     if (v.isModified) {
-      console.log(v);
       setPath(pid, cid);
       return;
     }
@@ -93,7 +93,7 @@ d3_queue.queue()
     if (!_.isUndefined(c)) {
       p = _.find(c.points, { id: pid });
       out.cid = cid;
-      out.pid = (_.isUndefined(p) ? c.points[0].id : p.id)
+      out.pid = (_.isUndefined(p) ? c.points[0].id : p.id);
     } else {
       p = _.find(points, { id: pid });
       if (!_.isUndefined(p)) {
@@ -115,7 +115,7 @@ d3_queue.queue()
 
 // Returns a normalized collection where "unused" properties (passed as an array of names) are present with a null value.
 // Used to prevent missing property errors with lodash template.
-function normalizeCollection (collection, properties) {
+function normalizeCollection(collection, properties) {
   properties = properties || [];
   return _.map(collection, function (obj) {
     return _.assign({}, _.zipObject(properties, _.fill(Array(properties.length), null)), obj);
