@@ -33,33 +33,54 @@ d3_queue.queue()
   map.init(world, points);
   card.init(points);
 
-
   map.on("click", function (e, point) {
-    // selectPoint(point);
-    navigate(point.id);
+    setPath(point.id);
   });
 
-  $(".cardContainer").on("click", "li", function (e) {
-    var point = _.find(points, { id: $(this).data("pointid") });
-    selectPoint(point);
+  $(".cardContainer").on("click", "li", function () {
+    setPath($(this).data("pointid"));
   });
+
+
+
+  // Routing
 
   Path.root("#!/");
-  Path.map("#!/:pid(/:cid)").to(function () {
+  Path.map("#!/(:pid)(/:cid)").to(navigate);
+  Path.listen();
+
+  function setPath(pid, cid) {
+    pid = parseInt(pid, 10) || null;
+    cid = parseInt(cid, 10) || null;
+    if (pid) {
+      if (cid) {
+        window.location.hash = "#!/" + pid + "/" + cid;
+      } else {
+        window.location.hash = "#!/" + pid;
+      }
+    } else {
+      window.location.hash = "#!/";
+    }
+  }
+
+  function navigate() { // Should not be called directly. Call setPath instead
     var v = validatePath(this.params.pid, this.params.cid);
     var pid = v.pid;
     var cid = v.cid;
-    console.log(pid, cid);
-    if (pid) selectPoint(_.find(points, { id: pid }));
-  });
-  Path.listen();
+    var point = _.find(points, { id: pid });
 
-  function selectPoint(point) {
-    $(_.map(points, "svg")).removeClass("on");
-    $(point.svg).addClass("on");
-    // navigate(point.id);
-    map.panTo(point);
-    card.show(point);
+    if (v.isModified) {
+      console.log(v);
+      setPath(pid, cid);
+      return;
+    }
+
+    if (point) {
+      $(_.map(points, "svg")).removeClass("on");
+      $(point.svg).addClass("on");
+      map.panTo(point);
+      card.show(point);
+    }
   }
 
   function validatePath(pid, cid) { // Given 2 path parameters pid (point id) and cid (card id), returns a "valid" pair, following fallback rules when the given combination is invalid.
@@ -68,6 +89,7 @@ d3_queue.queue()
     var out = { pid: null, cid: null };
     var c = _.find(cards, { id: cid });
     var p;
+
     if (!_.isUndefined(c)) {
       p = _.find(c.points, { id: pid });
       out.cid = cid;
@@ -80,21 +102,11 @@ d3_queue.queue()
         if (!_.isUndefined(c)) out.cid = c.id;
       }
     }
+
+    out.isModified = (pid !== out.pid || cid !== out.cid); // True: path has been modified to a valid one
     return out;
   }
-
-  function navigate(pid, cid) {
-    var v = validatePath(pid, cid);
-    pid = v.pid;
-    cid = v.cid;
-    if (pid == null) {
-      window.location.hash = "#!/";
-    } else if (cid == null) {
-      window.location.hash = "#!/" + pid;
-    } else {
-      window.location.hash = "#!/" + pid + "/" + cid;
-    }
-  }
+  // End routing
 
 
 });
