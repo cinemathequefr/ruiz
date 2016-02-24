@@ -35,7 +35,8 @@ d3_queue.queue()
 
 
   map.on("click", function (e, point) {
-    selectPoint(point);
+    // selectPoint(point);
+    navigate(point.id);
   });
 
   $(".cardContainer").on("click", "li", function (e) {
@@ -43,57 +44,57 @@ d3_queue.queue()
     selectPoint(point);
   });
 
+  Path.root("#!/");
+  Path.map("#!/:pid(/:cid)").to(function () {
+    var v = validatePath(this.params.pid, this.params.cid);
+    var pid = v.pid;
+    var cid = v.cid;
+    console.log(pid, cid);
+    if (pid) selectPoint(_.find(points, { id: pid }));
+  });
+  Path.listen();
+
   function selectPoint(point) {
-      $(_.map(points, "svg")).removeClass("on");
-      $(point.svg).addClass("on");
-      map.panTo(point);
-      card.show(point);
+    $(_.map(points, "svg")).removeClass("on");
+    $(point.svg).addClass("on");
+    // navigate(point.id);
+    map.panTo(point);
+    card.show(point);
   }
 
+  function validatePath(pid, cid) { // Given 2 path parameters pid (point id) and cid (card id), returns a "valid" pair, following fallback rules when the given combination is invalid.
+    pid = parseInt(pid, 10) || null;
+    cid = parseInt(cid, 10) || null;
+    var out = { pid: null, cid: null };
+    var c = _.find(cards, { id: cid });
+    var p;
+    if (!_.isUndefined(c)) {
+      p = _.find(c.points, { id: pid });
+      out.cid = cid;
+      out.pid = (_.isUndefined(p) ? c.points[0].id : p.id)
+    } else {
+      p = _.find(points, { id: pid });
+      if (!_.isUndefined(p)) {
+        out.pid = p.id;
+        c = _.find(p.cards, { id: cid });
+        if (!_.isUndefined(c)) out.cid = c.id;
+      }
+    }
+    return out;
+  }
 
-  // TODO
-
-  // console.log(validatePath(16, 3));
-
-  // pid / cid => pid / cid
-  // Unexisting pid or Invalid pid/cid combination: cid has precedence and we use the first valid pid
-  // Unexisting cid => first valid cid for the given pid
-  // All else : null
-
-
-  // function validatePath (pid, cid) {
-  //   var p = _.find(points, { id: pid });
-
-  //   if (_.isUndefined(_.find(p.cards, { id: cid })) === false) { // Valid pid/cid combination
-  //     return { pid: pid, cid: cid };
-  //   } else 
-
-
-  //   if (_.isUndefined(p) === false) {
-  //     var c;
-  //     out.pid = pid;
-  //     if (_.isUndefined(_.find(p.cards, { id: cid })) === false) {
-  //       out.cid = cid;
-  //     }
-  //   } else if (c = _.isUndefined(_.find(cards, { id: cid }) === false)) { // Invalid pid but valid cid
-  //     out.cid = cid;
-  //     if (_.isUndefined(_.find(c.points, { id: pid })) === false) out.pid = pid;
-  //   }
-  //   return out;
-  // }
-
-  // function navigate (pid, cid) {
-  //   var p = _.find(points, { id: pid });
-  //   if (_.isUndefined(p) === false) {
-  //     if (_.isUndefined(_.find(p.cards, { id: cid })) === false) {
-  //       window.location.hash = ("#!/" + pid + "/" + cid);
-  //     } else {
-  //       window.location.hash = ("#!/" + pid);
-  //     }
-  //   }
-  // }
-
-
+  function navigate(pid, cid) {
+    var v = validatePath(pid, cid);
+    pid = v.pid;
+    cid = v.cid;
+    if (pid == null) {
+      window.location.hash = "#!/";
+    } else if (cid == null) {
+      window.location.hash = "#!/" + pid;
+    } else {
+      window.location.hash = "#!/" + pid + "/" + cid;
+    }
+  }
 
 
 });
