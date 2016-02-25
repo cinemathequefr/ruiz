@@ -42,6 +42,12 @@ d3_queue.queue()
     setPath($(this).data("pointid"));
   });
 
+  viewer.init($(".viewer"));
+
+  $(".cardContainer").on("click", "img", function () {
+    viewer.open(this.src);
+  });
+
 
 
   // Routing

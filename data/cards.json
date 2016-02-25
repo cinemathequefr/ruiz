@@ -1,8 +1,13 @@
 [
   {
     "id": 1,
-    "title": "À bord du Funchalense",
-    "assets" : [{ "type": "video", "id": 155391983 }],
+    "title": "L'embarquement sur le Funchalense",
+    "assets" : [
+      { "type": "video", "id": 155391983 },
+      { "type": "img", "id": "ruiz" },
+      { "type": "img", "id": "ruiz" },
+      { "type": "img", "id": "ruiz" }
+    ],
     "points": [16, 5, 6]
   },
   {
@@ -30,9 +35,8 @@
   },
   {
     "id": 6,
-    "title": "Un dancing à Valparaíso",
+    "title": "Un cabaret à Valparaíso",
     "assets" : [{ "type": "video", "id": 155408815 }],
-    "text": "<p>Lors d'une escale, le matelot du Funchalense rencontre Mathilde.</p>",
     "points": [16]
   },
   {
@@ -51,11 +55,12 @@
     "id": 9,
     "title": "La tour de Sigismond",
     "assets" : [{ "type": "img", "id": "c21-1" }],
+    "text": "«&nbsp;Un mécène italien, Antonio Presti, m'a proposé de construire une tour. J'en ai fait deux, en terre. On peut y dormir, elles font partie d'un hôtel. Simultanément, nous y avons tourné un film, <em>Turris eburnea</em>.&nbsp;»",
     "points": [21]
   },
   {
     "id": 10,
-    "title": "Aventures dans l'île de Madère",
+    "title": "Aventures à Madère",
     "assets" : [{ "type": "img", "id": "51146-1" }],
     "points": [5]
   },
@@ -80,5 +85,11 @@
     "id": 14,
     "title": "Au-dessous du « Volcan »",
     "points": [9]
+  },
+  {
+    "id": 15,
+    "title": "Le Transpatagonien",
+    "points": [20]
   }
+
 ]
