@@ -9,8 +9,7 @@ d3_queue.queue()
   if (error) throw error;
 
   var world = data[0];
-  // var cards = normalizeCollection(data[1], ["img", "video", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
-  var cards = normalizeCollection(data[1], ["assets", "text"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+  var cards = normalizeCollection(data[1], ["assets", "text", "copyright"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
   var points = _(data[2])
   .map(function (d) {  // (1) Collection of GeoJSON points (w/ extra properties)
     return _.assign(d, {

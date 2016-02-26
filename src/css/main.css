@@ -116,6 +116,7 @@ svg.night .land {
 .asset > .video {
   display: block; position: absolute;
   top: 0; width: 100%; height: 100%;
+  background-color: #000;
 }
 
 .card ul {
@@ -131,6 +132,10 @@ svg.night .land {
 
 .card li:hover {
   background-color: #69f;
+}
+
+.card .title {
+  font-weight: 700; font-size: 1.125rem; color: #fff;
 }
 
 

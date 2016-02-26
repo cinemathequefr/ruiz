@@ -1,12 +1,9 @@
 [
   {
     "id": 1,
-    "title": "L'embarquement sur le Funchalense",
+    "title": "Sur les quais",
     "assets" : [
-      { "type": "video", "id": 155391983 },
-      { "type": "img", "id": "ruiz" },
-      { "type": "img", "id": "ruiz" },
-      { "type": "img", "id": "ruiz" }
+      { "type": "video", "id": 156826233 }
     ],
     "points": [16, 5, 6]
   },
@@ -24,7 +21,7 @@
   {
     "id": 4,
     "title": "La Hollande patagonienne d'Henri Alekan",
-    "assets" : [{ "type": "img", "id": "56615-1" }],
+    "assets" : [{ "type": "img", "id": "56615-1", "copyright": "Raoul Ruiz / Ina" }],
     "points": [19, 20]
   },
   {
@@ -41,7 +38,7 @@
   },
   {
     "id": 7,
-    "title": "Histoires de glace dans le golfe de Bothnie",
+    "title": "Histoires de glace",
     "assets" : [{ "type": "img", "id": "78830-1" }],
     "points": [27]
   },
@@ -66,7 +63,8 @@
   },
   {
     "id": 11,
-    "title": "Fantômes dans un cimetière",
+    "title": "Ombres dans un cimetière",
+    "text": "<p>À l'hiver 1996, Raoul Ruiz tourne à Taïwan un film resté inachevé, <em>La Comédie des ombres</em>. «&nbsp;C'est un film en mandarin tourné dans un cimetière, inspiré d'un récit du philosophe taoïste Tchouang-tseu. Le titre anglais du recueil est <em>Wandering on the Way</em>. Un cinéaste veut faire un film sur une sculpture mais il cherche en réalité à faire <em>Six personnages en quête d'auteur</em> de Pirandello. Un jour, au volant de sa voiture, il est pris d'éternuements répétés qui provoquent un accident dans lequel il meurt. À l'instant de sa mort, il pense au film qu'il n'a pas fait, et c'est à ce moment que surgissent d'autres morts à la recherche d'un cinéaste qui voudrait bien faire un film sur eux. Un film post-mortem, donc.&nbsp;»</p>",
     "points": [22]
   },
   {
@@ -77,19 +75,36 @@
   },
   {
     "id": 13,
-    "title": "Château dans le ciel",
+    "title": "Le château dans le ciel",
     "assets" : [{ "type": "img", "id": "126618-2" }],
     "points": [18]
   },
   {
     "id": 14,
     "title": "Au-dessous du « Volcan »",
+    "assets": [{ "type": "img", "id": "le-havre" }],
     "points": [9]
   },
   {
     "id": 15,
     "title": "Le Transpatagonien",
     "points": [20]
+  },
+  {
+    "id": 15,
+    "title": "Terre de sorciers",
+    "assets": [{ "type": "img", "id": "126899-1" }],
+    "points": [34]
+  },
+  {
+    "id": 16,
+    "title": "L'école de cinéma de Santa Fe",
+    "points": [14]
+  },
+  {
+    "id": 17,
+    "title": "Nucingen Haus",
+    "assets" : [{ "type": "video", "id": 156830514 }],
+    "points": [35]
   }
-
 ]
