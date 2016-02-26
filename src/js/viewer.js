@@ -3,28 +3,30 @@ var viewer = (function () {
   var $elViewer;
   var $elViewerContent;
   var $elViewerClose;
-  var $document = $(document);
+  var $elViewerImg;
   var _isOpen = false;
 
   function init() {
     $elViewer = arguments[0];
     $elViewer.append("<div class='viewerContent'></div><div class='viewerClose'></div>");
-    $elViewerContent = $elViewer.find(".viewerContent");
-    $elViewerClose = $elViewer.find(".viewerClose");
+    $elViewerContent = $elViewer.children(".viewerContent");
+    $elViewerClose = $elViewer.children(".viewerClose");
+    $(window).on("resize", windowResize);
   }
 
   function open(src) {
-    // TODO: resize image to fit viewport (use naturalWidth, naturalHeight to get real dimensions)
     $elViewerContent.append("<img src='" + src +"'>");
+    $elViewerImg = $elViewerContent.children("img");
+    windowResize();
     $elViewer.fadeIn(250, function () {
       _isOpen = true;
       $elViewerClose.one("click", close);
-      $document.one("keydown", function (e) {
+      $(document).one("keydown", function (e) {
         if (e.which === 27) {
           $elViewerClose.addClass("on");
         }
       });
-      $document.one("keyup", function (e) { // Close with Escape key
+      $(document).one("keyup", function (e) { // Close with Escape key
         if (e.which  === 27) {
           $elViewerClose.removeClass("on");
           close();
@@ -32,6 +34,22 @@ var viewer = (function () {
       });
     });
   }
+
+  function windowResize() {
+    var ww = $(window).width() - 24; // 2*12px margin
+    var wh = $(window).height() - 80; // 2*12px margin + some height for caption
+    var f = fitInBox($elViewerImg[0].naturalWidth, $elViewerImg[0].naturalHeight, ww, wh, false);
+
+    $elViewerImg.css({
+      width: f.width + "px",
+      height: f.height + "px",
+      position: "absolute",
+      top: "12px",
+      left: ((ww - f.width) / 2) + "px"
+    });
+
+  }
+
 
   function close() {
     $elViewer.fadeOut(250, function () {

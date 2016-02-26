@@ -106,5 +106,10 @@
     "title": "Nucingen Haus",
     "assets" : [{ "type": "video", "id": 156830514 }],
     "points": [35]
+  },
+  {
+    "id": 18,
+    "title": "Une dictature insulaire",
+    "points": [29]
   }
 ]

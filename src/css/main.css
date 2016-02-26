@@ -17,10 +17,6 @@ h2 {
   font-size: 1.25rem;
 }
 
-p {
-  font-size: 0.938rem; letter-spacing: 0.04rem;
-}
-
 svg {
   position: fixed;
   top: 0; left: 0; bottom: 0; width: 50%;
@@ -119,6 +115,10 @@ svg.night .land {
   background-color: #000;
 }
 
+.card p, .card ul {
+  font-size: 0.938rem; letter-spacing: 0.04rem;
+}
+
 .card ul {
   margin: 0; padding: 0;
 }
@@ -137,6 +137,8 @@ svg.night .land {
 .card .title {
   font-weight: 700; font-size: 1.125rem; color: #fff;
 }
+
+
 
 
 /*
