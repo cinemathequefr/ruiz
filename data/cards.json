@@ -111,5 +111,16 @@
     "id": 18,
     "title": "Une dictature insulaire",
     "points": [29]
+  },
+  {
+    "id": 19,
+    "title": "[Antofagasta]",
+    "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville du nord du Chili, entre le désert et l'océan.",
+    "points": [36]
+  },
+  {
+    "id": 20,
+    "title": "Le Territoire",
+    "points": [37]
   }
 ]
