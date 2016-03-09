@@ -5,7 +5,7 @@
   { "id": 4, "name": "Jamaïque", "lat": 17.98, "lng": -76.8 },
   { "id": 5, "name": "Madère", "lat": 32.75, "lng": -17 },
   { "id": 6, "name": "Lisbonne", "lat": 38.71, "lng": -9.14 },
-  { "id": 7, "name": "Baleal (Portugal)", "lat": 39.38, "lng": -9.34 },
+  { "id": 7, "name": "Baleal", "lat": 39.38, "lng": -9.34 },
   { "id": 8, "name": "Paris", "lat": 48.86, "lng": 2.35 },
   { "id": 9, "name": "Le Havre", "lat": 49.49, "lng": 0.13 },
   { "id": 10, "name": "Allemagne", "lat": 50.73, "lng": 7.1 },
@@ -25,13 +25,14 @@
   { "id": 24, "name": "Maroc", "lat": 31.63, "lng": -7.98 },
   { "id": 25, "name": "Grenoble", "lat": 45.19, "lng": 5.72 },
   { "id": 26, "name": "Angola", "lat": -8.89, "lng": 13.33 },
-  { "id": 27, "name": "Golfe de Bothnie", "lat": 64, "lng": 21.86 },
+  { "id": 27, "name": "Golfe de Botnie", "lat": 64, "lng": 21.86 },
   { "id": 28, "name": "Suisse", "lat": 46.62, "lng": 6.49 },
-  { "id": 29, "name": "Une île au large des côtes équatoriennes", "lat": -1.27, "lng": -81.07 },
+  { "id": 29, "name": "Isla Captiva", "lat": -3.17, "lng": -83.1 },
   { "id": 30, "name": "Singapour", "lat": 1.27, "lng": 103.84 },
   { "id": 31, "name": "Hollande", "lat": 52.37, "lng": 4.45 },
   { "id": 32, "name": "Versailles", "lat": 48.81, "lng": 2.11 },
   { "id": 33, "name": "Vienne", "lat": 48.21, "lng": 16.37 },
   { "id": 34, "name": "Chiloé", "lat": -42.62, "lng": -73.92 },
-  { "id": 35, "name": "Région d'O'Higgins (Chili)", "lat": -34, "lng": -70.73 }
+  { "id": 35, "name": "O'Higgins", "lat": -34, "lng": -70.73 },
+  { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4 }
 ]

@@ -22,6 +22,7 @@ svg {
   top: 0; left: 0; bottom: 0; width: 50%;
   background-repeat: no-repeat;
   background-color: #778899;
+  /*background-color: #615d99;*/
   cursor: grab;
   transition: background-color 1s;
   box-sizing: border-box;

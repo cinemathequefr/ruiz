@@ -1,6 +1,7 @@
 // Dependencies: path.js
 
 d3_queue.queue()
+// .defer(d3.json, "data/world-50m.json")
 .defer(d3.json, "data/world-110m.json")
 .defer(d3.json, "data/cards.json")
 .defer(d3.json, "data/points.json")
