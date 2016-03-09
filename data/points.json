@@ -35,4 +35,5 @@
   { "id": 34, "name": "Chiloé", "lat": -42.62, "lng": -73.92 },
   { "id": 35, "name": "O'Higgins", "lat": -34, "lng": -70.73 },
   { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4 }
+  { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4 }
 ]
