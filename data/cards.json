@@ -135,12 +135,17 @@
   },
   {
     "id": 21,
-    "title": "Joris Ivens",
+    "title": "Joris Ivens au Chili",
     "points": [16]
   },
   {
     "id": 22,
     "title": "La Ville des pirates",
     "points": [7, 36]
+  },
+  {
+    "id": 23,
+    "title": "Un roman policier d'Eiryo Waga",
+    "points": [38]
   }
 ]
