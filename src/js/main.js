@@ -5,12 +5,29 @@ d3_queue.queue()
 .defer(d3.json, "data/world-110m.json")
 .defer(d3.json, "data/cards.json")
 .defer(d3.json, "data/points.json")
+.defer(d3.json, "data/films.json")
 .awaitAll(function (error, data) {
 
   if (error) throw error;
 
   var world = data[0];
-  var cards = normalizeCollection(data[1], ["assets", "text", "copyright"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+  var films = data[3];
+
+  // var cards = normalizeCollection(data[1], ["assets", "text", "copyright", "films"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+
+  var cards = _(data[1])
+    .thru(function (d) {
+      return normalizeCollection(d, ["assets", "text", "copyright", "films"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
+    })
+    .map(function (i) {
+      return _.assign(i, {
+        films: _.map(i.films, function (id) { // Replace an array of IDs with an array of references pointing to the respective film object
+          return _.find(films, { id: id });
+        })
+      });
+    })
+    .value();
+
   var points = _(data[2])
   .map(function (d) {  // (1) Collection of GeoJSON points (w/ extra properties)
     return _.assign(d, {
@@ -24,6 +41,8 @@ d3_queue.queue()
     })});
   })
   .value();
+
+  console.log(films);
 
   cards = _.map(cards, function (card) { // Replace each point id by the reference to the actual point object
     return _.assign(card, { points: _.map(card.points, function (p) {

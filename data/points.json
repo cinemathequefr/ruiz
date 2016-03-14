@@ -19,7 +19,7 @@
   { "id": 18, "name": "Chambord", "lat": 47.61, "lng": 1.52 },
   { "id": 19, "name": "Hollande", "lat": 51.63, "lng": 4.67 },
   { "id": 20, "name": "Patagonie", "lat": -41.73, "lng": -68.92 },
-  { "id": 21, "name": "Castel di Tusa (Sicile)", "lat": 38.01, "lng": 14.25 },
+  { "id": 21, "name": "Sicile", "lat": 38.01, "lng": 14.25 },
   { "id": 22, "name": "Taïwan", "lat": 25.04, "lng": 121.55 },
   { "id": 23, "name": "Tunis", "lat": 36.8, "lng": 10.18 },
   { "id": 24, "name": "Maroc", "lat": 31.63, "lng": -7.98 },
@@ -36,5 +36,6 @@
   { "id": 35, "name": "O'Higgins", "lat": -34, "lng": -70.73 },
   { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4 },
   { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4 },
-  { "id": 38, "name": "Japon", "lat": 35.68, "lng": 139.72 }
+  { "id": 38, "name": "Japon", "lat": 35.68, "lng": 139.72 },
+  { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2 }
 ]

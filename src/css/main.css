@@ -5,6 +5,10 @@ body {
   background-color: #251e18; color: #ddd;
 }
 
+a {
+  text-decoration: inherit;
+}
+
 div {
     box-sizing: border-box;
 }
@@ -78,14 +82,10 @@ svg.night .land {
 }
 
 /*
-.card:nth-child(odd) { background-color: #345; }
-.card:nth-child(odd) { background-color: #654; }
-*/
-
 .card:hover {
   background: #2e251e;
 }
-
+*/
 
 .mediaContainer {
   display: block; overflow: hidden; width: 100%;
@@ -138,6 +138,16 @@ svg.night .land {
 .card .title {
   font-weight: 700; font-size: 1.125rem; color: #fff;
 }
+
+.card a {
+  color: #ddd;
+  font-weight: 600;
+  text-decoration: inherit;
+  border-bottom: solid 2px #69f;
+  padding: 0 0px;
+}
+
+
 
 
 

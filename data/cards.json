@@ -5,6 +5,7 @@
     "assets" : [
       { "type": "video", "id": 156826233 }
     ],
+    "films": [51155],
     "points": [16, 5, 6]
   },
   {
@@ -68,7 +69,7 @@
   {
     "id": 11,
     "title": "Ombres dans un cimetière",
-    "text": "<p>À l'hiver 1996, Raoul Ruiz tourne à Taïwan un film resté inachevé, <em>La Comédie des ombres</em>. «&nbsp;C'est un film en mandarin tourné dans un cimetière, inspiré d'un récit du philosophe taoïste Tchouang-tseu. Le titre anglais du recueil est <em>Wandering on the Way</em>. Un cinéaste veut faire un film sur une sculpture mais il cherche en réalité à faire <em>Six personnages en quête d'auteur</em> de Pirandello. Un jour, au volant de sa voiture, il est pris d'éternuements répétés qui provoquent un accident dans lequel il meurt. À l'instant de sa mort, il pense au film qu'il n'a pas fait, et c'est à ce moment que surgissent d'autres morts à la recherche d'un cinéaste qui voudrait bien faire un film sur eux. Un film post-mortem, donc.&nbsp;»</p>",
+    "text": "À l'hiver 1996, Raoul Ruiz est à Taïwan pour tourner un film resté inachevé, <em>La Comédie des ombres</em>. «&nbsp;C'est un film en mandarin tourné dans un cimetière, inspiré d'un récit du philosophe taoïste Tchouang-tseu. Le titre anglais du recueil est <em>Wandering on the Way</em>. Un cinéaste veut faire un film sur une sculpture mais il cherche en réalité à faire <em>Six personnages en quête d'auteur</em> de Pirandello. Un jour, au volant de sa voiture, il est pris d'éternuements répétés qui provoquent un accident dans lequel il meurt. À l'instant de sa mort, il pense au film qu'il n'a pas fait, et c'est à ce moment que surgissent d'autres morts à la recherche d'un cinéaste qui voudrait bien faire un film sur eux. Un film post-mortem, donc.&nbsp;»</p>",
     "points": [22]
   },
   {
@@ -145,7 +146,22 @@
   },
   {
     "id": 23,
-    "title": "Un roman policier d'Eiryo Waga",
+    "title": "Un roman à énigme japonais",
+    "text": "Disciple du célèbre Edogawa Ranpo, qui fut l'un des pères du roman à énigme au Japon, le dénommé Eiryo Waga est l'auteur de <em>Tous les nuages sont des horloges</em>, dont l'intrigue se déroule dans la campagne normande. Particularité embarrassante, il manque au texte son dernier chapitre. Tout aussi contrariant&nbsp;: le livre semble n'exister que dans une édition italienne de 1991 (<em>Tutte le nuvole sono orologi</em>, collection Collana blu, Éd. Baskerville, Bologne). Retour en arrière&nbsp;: en 1988, Ruiz fut chargé de donner un cours de scénario à la FEMIS. Le matin, ses étudiants travaillaient à l'adaptation du fameux roman, aiguillonnés par le chapitre absent. L'après-midi, Ruiz tournait <a href='http://www.cinematheque.fr/film/126919.html'>le film</a>. Et bien sûr, Eiryo Waga, c'était lui.",
+    "films": [126919],
     "points": [38]
+  },
+  {
+    "id": 24,
+    "title": "[L'Île au trésor]",
+    "films": [52262],
+    "points": [39]
+  },
+  {
+    "id": 25,
+    "title": "Angola",
+    "text": "Sur l'atlas ruizien, l'Angola restera encore <em>terra incognita</em>. Le nom du pays d'Afrique lusophone est présent dans le titre intrigant d'un film&nbsp;: <em>Angola ou les enfants du bannissement</em>.",
+    "points": [26]
   }
+
 ]
