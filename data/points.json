@@ -37,5 +37,6 @@
   { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4 },
   { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4 },
   { "id": 38, "name": "Japon", "lat": 35.68, "lng": 139.72 },
-  { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2 }
+  { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2 },
+  { "id": 40, "name": "Hambourg", "lat": 53.53, "lng": 9.9 }
 ]
