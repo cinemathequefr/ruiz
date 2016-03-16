@@ -12,7 +12,7 @@
   { "id": 11, "name": "New York", "lat": 40.71, "lng": -74.01 },
   { "id": 12, "name": "Bâton-Rouge", "lat": 30.42, "lng": -91.1 },
   { "id": 13, "name": "Duke University", "lat": 36, "lng": -78.94 },
-  { "id": 14, "name": "Santa Fe (Argentine)", "lat": -31.64, "lng": -60.70 },
+  { "id": 14, "name": "Santa Fe", "lat": -31.64, "lng": -60.70 },
   { "id": 15, "name": "Santiago", "lat": -33.44, "lng": -70.65 },
   { "id": 16, "name": "Valparaíso", "lat": -33.05, "lng": -71.62 },
   { "id": 17, "name": "Nice", "lat": 43.71, "lng": 7.26 },
@@ -33,10 +33,12 @@
   { "id": 32, "name": "Versailles", "lat": 48.81, "lng": 2.11 },
   { "id": 33, "name": "Vienne", "lat": 48.21, "lng": 16.37 },
   { "id": 34, "name": "Chiloé", "lat": -42.62, "lng": -73.92 },
-  { "id": 35, "name": "O'Higgins", "lat": -34, "lng": -70.73 },
+  { "id": 35, "name": "Chili central", "lat": -34, "lng": -70.73 },
   { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4 },
   { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4 },
   { "id": 38, "name": "Japon", "lat": 35.68, "lng": 139.72 },
   { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2 },
-  { "id": 40, "name": "Hambourg", "lat": 53.53, "lng": 9.9 }
+  { "id": 40, "name": "Hambourg", "lat": 53.53, "lng": 9.9 },
+  { "id": 41, "name": "Bogotá", "lat": 4.7, "lng": -74.07 },
+  { "id": 42, "name": "Étretat", "lat": 49.71, "lng": 0.2 }
 ]

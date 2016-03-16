@@ -42,8 +42,6 @@ d3_queue.queue()
   })
   .value();
 
-  console.log(films);
-
   cards = _.map(cards, function (card) { // Replace each point id by the reference to the actual point object
     return _.assign(card, { points: _.map(card.points, function (p) {
       return _.find(points, { id: p });
