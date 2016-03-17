@@ -23,7 +23,11 @@
   {
     "id": 4,
     "title": "La Hollande patagonienne d'Henri Alekan",
-    "assets" : [{ "type": "img", "id": "56615-1", "desc": "Photogramme du <em>Toit de la baleine</em> - Raoul Ruiz / Ina" }],
+    "assets" : [
+      { "type": "img", "id": "56615-1", "desc": "Photogramme du <em>Toit de la baleine</em> - Raoul Ruiz / Ina" },
+      { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Tournage du <em>Toit de la baleine</em>" }
+    ],
+    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les plats paysages de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux sera peint sur une plaque de verre fixée devant l'objectif. Il en résulte un lieu hybride, irréel, Patagonie mentale imprimée sur les prairies verdoyantes et les paisibles canaux.</p>",
     "points": [19, 20]
   },
   {
@@ -109,7 +113,7 @@
   {
     "id": 17,
     "title": "Nucingen Haus",
-    "text": "<p>Le titre de <a href='http://www.cinematheque.fr/film/108114.html'>La Maison Nucingen</a> est une fausse piste&nbsp;: pour ce film tourné dans la région du Libertador General O'Higgins (Chili central), Ruiz n'adapte pas le roman de Balzac, mais regarde plutôt du côté de la littérature gothique anglo-saxonne (le roman <em>Carmilla</em> de Sheridan Le Fanu) et du <em>Vampyr</em> de Dreyer. Un homme gagne au poker une grande demeure campagnarde au pied de la cordillère des Andes. Accompagné de sa jeune épouse neurasthénique, il fait le voyage depuis l'Europe et s'installe dans la maison déjà occupée par quelques personnages énigmatiques. La consonance du titre balzacien désigne donc ici, au pied de la lettre, cette grande demeure de tradition allemande (allusion à l'immigration germanique au Chili au cours du XIXe siècle), mais où, comble de raffinement, seule la langue française est tolérée. Une culture recouvre l'autre, et le Chili supposé servir de cadre au récit se dissout vite dans ce palimpseste de l'imagination.</p>",
+    "text": "<p>Le titre de <em>La Maison Nucingen</em> est une fausse piste&nbsp;: pour ce film tourné dans le Chili central, au Sud de Santiago, Ruiz n'adapte pas le roman de Balzac, mais regarde plutôt du côté de la littérature gothique anglo-saxonne (<em>Carmilla</em> de Sheridan Le Fanu) et du <em>Vampyr</em> de Dreyer. Un homme gagne au poker une grande demeure campagnarde au pied de la cordillère des Andes. Accompagné de sa jeune épouse neurasthénique, il fait le voyage depuis l'Europe et s'installe dans la maison déjà occupée par quelques personnages énigmatiques. La consonance du titre balzacien désigne donc ici, au pied de la lettre, une maisonnée sous influence allemande (allusion à l'immigration germanique au Chili au cours du XIXe siècle), mais où, comble du raffinement, seule la langue française est tolérée. Une culture recouvre l'autre, et le Chili n'est bientôt qu'un écho lointain dans une histoire de revenants hors du temps et de la géographie.</p>",
     "assets" : [{ "type": "video", "id": 156830514 }],
     "points": [35]
   },
@@ -127,7 +131,7 @@
   {
     "id": 20,
     "assets" : [{ "type": "video", "id": 159230150, "desc": "Extrait de <em>La Noche de enfrente</em>" }],
-    "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville côtière du nord du Chili, entre le désert et l'océan, où il n'est pas revenu depuis 1970. «&nbsp;Je suis arrivé ici il y a quelques jours, et en me promenant dans le centre, j'ai senti que je pourrai y tourner un film que j'ai en projet, <em>La Noche de enfrente</em>. C'est une ville d'une grande vitalité, et en même temps une ville de retraités. Il y a cette lumière particulière, un côté mélancolique que l'on trouve jusque dans la façon de marcher des gens &ndash; y compris les jeunes. Je réalise qu'elle me fait penser à une ville qui n'a rien à voir, Luxembourg. Une ville que l'on quitte pour vivre sa vie et où l'on ne revient qu'à la fin de ses jours.&nbsp;» Trois ans plus tard, Ruiz y tourne effectivement <a href='http://www.cinematheque.fr/film/116557.html'>La Noche de enfrente</a> (<em>La Nuit d'en face</em>), qui sera son dernier film.",
+    "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville côtière du nord du Chili, entre le désert et l'océan, où il n'est pas revenu depuis 1970. «&nbsp;Je suis arrivé ici il y a quelques jours, et en me promenant dans le centre, j'ai senti que je pourrai y tourner un film que j'ai en projet, <em>La Noche de enfrente</em>. C'est une ville d'une grande vitalité, et en même temps une ville de retraités. Il y a cette lumière particulière, un côté mélancolique que l'on trouve jusque dans la façon de marcher des gens &ndash; y compris les jeunes. Je réalise qu'elle me fait penser à une ville qui n'a rien à voir, Luxembourg. Une ville que l'on quitte pour vivre sa vie et où l'on ne revient qu'à la fin de ses jours.&nbsp;» Trois ans plus tard, Ruiz y tourne effectivement <em>La Noche de enfrente</em> (<em>La Nuit d'en face</em>), qui sera son dernier film.",
     "points": [36]
   },
   {
@@ -148,7 +152,7 @@
   {
     "id": 23,
     "title": "Un roman à énigme",
-    "text": "<p>Disciple du célèbre Edogawa Ranpo, qui fut l'un des pères du roman à énigme au Japon, le dénommé Eiryo Waga est l'auteur de <em>Tous les nuages sont des horloges</em>, un récit dont l'intrigue se déroule dans la campagne normande. Particularité embarrassante, il manque au texte son dernier chapitre. Tout aussi contrariant&nbsp;: le livre semble n'exister que dans une édition italienne de 1991 (<em>Tutte le nuvole sono orologi</em>, éditions Baskerville, Bologne). Retour en arrière&nbsp;: en 1988, Ruiz est chargé de donner un cours de scénario à la FEMIS. Le matin, ses étudiants travaillent à l'adaptation du fameux roman, aiguillonnés par le chapitre absent à inventer. L'après-midi, Ruiz tourne <a href='http://www.cinematheque.fr/film/126919.html'>le film</a>. Et bien sûr, Eiryo Waga, c'était lui.</p>",
+    "text": "<p>Disciple du célèbre Edogawa Ranpo, qui fut l'un des pères du roman à énigme au Japon, le dénommé Eiryo Waga est l'auteur de <em>Tous les nuages sont des horloges</em>, un récit dont l'intrigue se déroule dans la campagne normande. Particularité embarrassante, il manque au texte son dernier chapitre. Tout aussi contrariant&nbsp;: le livre semble n'exister que dans une édition italienne de 1991 (<em>Tutte le nuvole sono orologi</em>, éditions Baskerville, Bologne). Retour en arrière&nbsp;: en 1988, Ruiz est chargé de donner un cours de scénario à la FEMIS. Le matin, ses étudiants travaillent à l'adaptation du fameux roman, aiguillonnés par le chapitre absent à inventer. L'après-midi, Ruiz tourne <em>le film</em>. Et bien sûr, Eiryo Waga, c'était lui.</p>",
     "films": [126919],
     "points": [38]
   },
@@ -172,7 +176,7 @@
   {
     "id": 27,
     "title": "Pages arrachées",
-    "text": "<p>En 1993, Raoul Ruiz anime un atelier de cinéma dans la capitale colombienne. Le cinéaste Luis Ospina, qui avait rencontré Ruiz à Paris à la fin des années 1970, le rejoint et lui propose de coréaliser un film avec lui. Il en sort le court métrage <a href='http://www.cinematheque.fr/film/126888.html'>Capítulo 66</a>, sorte de cadavre exquis cinématographique imaginé comme un épisode pris au hasard d'une telenovela gothique dont on ne saura rien d'autre.</p>",
+    "text": "<p>En 1993, Raoul Ruiz anime un atelier de cinéma dans la capitale colombienne. Le cinéaste Luis Ospina, qui avait rencontré Ruiz à Paris à la fin des années 1970, le rejoint et lui propose de coréaliser un film avec lui. Il en sort le court métrage <em>Capítulo 66</em>, sorte de cadavre exquis cinématographique imaginé comme un épisode pris au hasard d'une <em>telenovela</em> gothique dont on ne saura rien d'autre.</p>",
     "points": [41]
   },
   {
@@ -182,7 +186,14 @@
       { "type": "video", "id": 159231485, "desc": "Extrait de <em>Mammame</em>" },
       { "type": "img", "id": "etretat", "desc": "Photo de plateau de <em>Mammame</em>" }
     ],
-    "text": "<p>Nommé directeur de la Maison de la culture du Havre fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <a href='http://www.cinematheque.fr/film/39481.html'>Mammame</a>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>",
+    "text": "<p>Nommé directeur de la Maison de la culture du Havre fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <em>Mammame</em>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>",
     "points": [42]
+  },
+  {
+    "id": 29,
+    "title": "L'appartement de la rue Huelén",
+    "assets" : [],
+    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille, quittant la région de Valparaíso, emménage dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Lettre d'un cinéaste</em>. Le 16 septembre 2013, eut lieu l'inauguration d'une plaque commémorative portant ces mots&nbsp;: «&nbsp;Dans cette maison vécut, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>",
+    "points": [15]
   }
 ]

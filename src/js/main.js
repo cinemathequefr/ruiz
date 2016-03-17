@@ -40,6 +40,7 @@ d3_queue.queue()
       return _.indexOf(c.points, p.id) > -1;
     })});
   })
+  .filter(function (p) { return p.cards.length > 0; }) // Leave out points without cards
   .value();
 
   cards = _.map(cards, function (card) { // Replace each point id by the reference to the actual point object
