@@ -24,8 +24,8 @@
     "id": 4,
     "title": "La Hollande patagonienne d'Henri Alekan",
     "assets" : [
-      { "type": "img", "id": "56615-1", "desc": "Photogramme du <em>Toit de la baleine</em> - Raoul Ruiz / Ina" },
-      { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Tournage du <em>Toit de la baleine</em>" }
+      { "type": "video", "id": 159503026, "desc": "Extrait du <em>Toit de la baleine</em>" },
+      { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Sur le tournage du <em>Toit de la baleine</em>, la mise en place du trucage sur plaque de verre" }
     ],
     "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les plats paysages de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux sera peint sur une plaque de verre fixée devant l'objectif. Il en résulte un lieu hybride, irréel, Patagonie mentale imprimée sur les prairies verdoyantes et les paisibles canaux.</p>",
     "points": [19, 20]
@@ -48,14 +48,14 @@
     "text": "En mars 1986, trois cinéastes s'embarquent sur le brise-glace suédois Frej&nbsp;: un maître du cinéma ethnographique (Jean Rouch), une jeune diplômée d'une école de cinéma suédoise (Titte Törnroth), et Raoul Ruiz. En immersion parmi l'équipage de ce bâtiment qui sillonne le Golfe de Botnie d'octobre à mai pour ouvrir des voies de passage aux navires de commerce à travers la glace, les trois réalisateurs rendent compte de leur expérience, caméra Aäton à la main. Le film qui en résulte, <em>Brise-glace</em>, montre successivement ces trois regards.",
     "assets" : [
       { "type": "img", "id": "78830-1" },
-      { "type": "video", "id": 158186881 }
+      { "type": "video", "id": 159503021 }
     ],
     "points": [27]
   },
   {
     "id": 8,
     "title": "Châteaux de sable en Hollande",
-    "assets" : [{ "type": "video", "id": 156388145 }],
+    "assets" : [{ "type": "video", "id": 159503020 }],
     "points": [31]
   },
   {
@@ -170,7 +170,10 @@
   },
   {
     "id": 26,
-    "title": "Trois ateliers",
+    "title": "Ateliers",
+    "assets": [
+      { "type": "video", "id": 159504752, "desc": "Exrait de <em>Miotte vu par Ruiz</em>" }
+    ],
     "points": [40, 11]
   },
   {
@@ -193,7 +196,25 @@
     "id": 29,
     "title": "L'appartement de la rue Huelén",
     "assets" : [],
-    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille, quittant la région de Valparaíso, emménage dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Lettre d'un cinéaste</em>. Le 16 septembre 2013, eut lieu l'inauguration d'une plaque commémorative portant ces mots&nbsp;: «&nbsp;Dans cette maison vécut, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>",
+    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble &nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>",
+    "points": [15]
+  },
+  {
+    "id": 30,
+    "title": "Les Trois couronnes du matelot",
+    "assets": [
+      { "type": "video", "id": 159503024, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
+    ],
+    "text": "<p>«&nbsp;Quelques jour plus tard, nous arrivâmes à Dakar.&nbsp;» Le Sénégal, une escale dans les circumnavigations du navire Funchalense des <em>Trois couronnes du matelot</em>.</p>",
+    "points": [39]
+  },
+  {
+    "id": 31,
+    "title": "Trois tristes tigres",
+    "assets": [
+      { "type": "img", "id": "los-capitanes", "desc": "Le 15 novembre 1968, lors de la première de <em>Trois tristes tigres</em>, Raoul Ruiz trinque avec ses producteurs, les capitaines de la marine marchande Serafín Selanio, Enrique Reimann et Ernesto Ruiz (père du cinéaste)." }
+    ],
+    "text": "<p><em>Trois tristes tigres</em> (<em>Tres tigres tigres</em>), le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968.</p>",
     "points": [15]
   }
 ]
