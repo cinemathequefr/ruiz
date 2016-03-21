@@ -1,5 +1,5 @@
 [
-  { "id": 1, "name": "Puerto Montt (Chili)", "lat": -41.47, "lng": -72.94 },
+  { "id": 1, "name": "Puerto Montt", "lat": -41.47, "lng": -72.94 },
   { "id": 2, "name": "Mexico", "lat": 19.43, "lng": -99.13 },
   { "id": 3, "name": "Honduras", "lat": 14.15, "lng": -87.14 },
   { "id": 4, "name": "Jamaïque", "lat": 17.98, "lng": -76.8 },
@@ -40,5 +40,6 @@
   { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2 },
   { "id": 40, "name": "Hambourg", "lat": 53.53, "lng": 9.9 },
   { "id": 41, "name": "Bogotá", "lat": 4.7, "lng": -74.07 },
-  { "id": 42, "name": "Étretat", "lat": 49.71, "lng": 0.2 }
+  { "id": 42, "name": "Etretat", "lat": 49.71, "lng": 0.2 },
+  { "id": 43, "name": "Bahía de Guayacán", "lat": -29.96, "lng": -71.36 }
 ]

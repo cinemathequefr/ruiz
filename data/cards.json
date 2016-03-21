@@ -102,8 +102,12 @@
   {
     "id": 15,
     "title": "Terre de sorciers",
-    "assets": [{ "type": "img", "id": "126899-1" }],
-    "points": [34]
+    "assets": [
+      { "type": "img", "id": "126899-1" },
+      { "type": "video", "id": null, "desc": "Extrait de <em>La Recta provincia</em>" }
+    ],
+    "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe La Recta provincia dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>",
+    "points": [34, 35]
   },
   {
     "id": 16,
@@ -142,12 +146,13 @@
   {
     "id": 21,
     "title": "Joris Ivens au Chili",
+    "text": "<p>En septembre 1962, Joris Ivens, répondant à l'invitation du Centre de cinéma expérimental fondé par le cinéaste Sergio Bravo, arrive au Chili. Pendant les trois mois que dure son séjour, le cinéaste néerlandais, figure incontournable du documentaire engagé, y réalise <em>À Valparaíso</em>, symphonie urbaine de la cité portuaire, et participe à des séminaires avec les étudiants. La venue d'Ivens a lieu au moment même où Ruiz reçoit de Bravo la promesse d'une aide (sous forme de pellicule et le prêt du matériel) pour tourner un premier film. Mais le scénario «&nbsp;vaguement expressionniste&nbsp;» imaginé par Ruiz d'après sa pièce de théâtre <em>La Maleta</em> ne semble pas vraiment convaincre Bravo. Joris Ivens le lit et prend la défense du projet, qui lui rappelle ce que fait en Pologne un jeune cinéaste nommé Roman Polanski. «&nbsp;Ivens, habitué à travailler avec des gens de tous les horizons, avec l'avant-garde française, estimait que ce que je proposais était tout à fait normal, et déclara qu'il fallait soutenir mon projet&nbsp;», racontera Ruiz plus tard. La femme de Joris Ivens, la poétesse Ewa Fiszer, entreprit quant à elle la traduction en polonais de quelques unes des pièces de Ruiz, qui y connurent un certain succès.</p>",
     "points": [16]
   },
   {
     "id": 22,
     "title": "La Ville des pirates",
-    "points": [7, 36]
+    "points": [7]
   },
   {
     "id": 23,
@@ -212,9 +217,21 @@
     "id": 31,
     "title": "Trois tristes tigres",
     "assets": [
-      { "type": "img", "id": "los-capitanes", "desc": "Le 15 novembre 1968, lors de la première de <em>Trois tristes tigres</em>, Raoul Ruiz trinque avec ses producteurs, les capitaines de la marine marchande Serafín Selanio, Enrique Reimann et Ernesto Ruiz (père du cinéaste)." }
+      { "type": "img", "id": "los-capitanes", "desc": "Le 15 novembre 1968, lors de la première de <em>Trois tristes tigres</em>, Raoul Ruiz pose avec ses producteurs, les capitaines de la marine marchande Serafín Selanio, Enrique Reimann et Ernesto Ruiz (père du cinéaste)." }
     ],
-    "text": "<p><em>Trois tristes tigres</em> (<em>Tres tigres tigres</em>), le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968.</p>",
+    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux amis dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Au-delà du geste d'entraide familiale, l'investissement, dans le contexte prometteur d'un nouveau cinéma chilien en plein essor, était toutefois mûrement réfléchi.</p>",
     "points": [15]
+  },
+  {
+    "id": 32,
+    "title": "Le fils de Francis Drake et les pirates juifs",
+    "text": "<p>Si le titre de <a href='#!/7/22'>La Ville des pirates</a> (également intitulé Rusticatio civitatis piratarum&nbsp;: «&nbsp;villégiature dans la cité des pirates&nbsp;») n'est pas vraiment élucidé par la vision du film, il s'agit pour Ruiz d'une allusion discrète à une histoire qui le fascinait depuis l'enfance, celle de la Fraternité du drapeau noir, alliance de pirates menée par Henry Drake (fils de Sir Francis Drake) et le capitaine juif Davis (né David Abrabanel), qui, à la fin du XVIe siècle, avaient établi dans la baie de Guayacán, à 200 milles nautiques au nord de Valparaíso, une cité servant de base arrière à leurs campagnes anti-espagnoles.</p>",
+    "points": [43]
+  },
+  {
+    "id": 33,
+    "title": "Lucerna, le navire des morts",
+    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, dans laquelle le navire s'appelle le Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>",
+    "points": [34]
   }
 ]
