@@ -17,7 +17,11 @@
   {
     "id": 3,
     "title": "Au-dessous du « Volcan »",
-    "assets": [{ "type": "img", "id": "le-havre" }],
+    "assets": [
+      { "type": "img", "id": "le-havre" },
+      { "type": "video", "id": 159965082, "desc": "Exrait de <em>Mémoire des apparences</em>" }
+    ],
+    "text": "<p>Sur décision de Jack Lang, qui souhaite voir les grandes Maisons de la culture régionales dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages. Au fil des mois, cette feuille de route jugée iconoclaste rencontre d'inévitables résistances. Interrogé un jour par une journaliste anglaise qui lui fait remarquer l'étrangeté de le voir ainsi mué en directeur d'institution culturelle, Ruiz répond, mi-amusé&nbsp;: «&nbsp;Si vous vous demandez ce que je fais là, dites-vous bien que moi aussi je me pose sérieusement la question.&nbsp;» Au Havre, Ruiz tourne <em>Mémoire des apparences</em>, <em>Le Professeur Taranne</em>, <a href='#!/42/28'>Mammame</a>, <em>La Chouette aveugle</em>, et participe entre autres à la production de <em>Mon cas</em> de Manoel de Oliveira (1986).</p>",
     "points": [9]
   },
   {
@@ -56,6 +60,7 @@
     "id": 8,
     "title": "Châteaux de sable en Hollande",
     "assets" : [{ "type": "video", "id": 159503020 }],
+    "text": "En juin 1981, Raoul Ruiz filme le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord.",
     "points": [31]
   },
   {
@@ -79,8 +84,9 @@
   },
   {
     "id": 12,
-    "title": "À Versailles",
+    "title": "Dans un jardin français",
     "assets" : [{ "type": "video", "id": 156572327 }],
+    "text": "<p>Dans les jardins de Versailles, impossible de se cacher. Les vastes allées dégagées qui se croisent tracent un panoptisme étoilé où rien ne saurait échapper au regard. Les intrigues doivent s'y dérouler sous les yeux de tous, et les trahisons apparaissent en plein jour. Dans <em>Querelle de jardins</em> (1982), le récit à l'allure de roman-photo naît de l'opposition entre le jardin à la française et le <a href='#!/44/36'>parc à l'anglaise</a>.</p>",
     "points": [32]
   },
   {
@@ -99,7 +105,7 @@
     "title": "Terre de sorciers",
     "assets": [
       { "type": "img", "id": "126899-1" },
-      { "type": "video", "id": null, "desc": "Extrait de <em>La Recta provincia</em>" }
+      { "type": "video", "id": 159929604, "desc": "Extrait de <em>La Recta provincia</em>" }
     ],
     "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe <em>La Recta provincia</em> dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>",
     "points": [34, 35]
@@ -189,7 +195,7 @@
       { "type": "video", "id": 159231485, "desc": "Extrait de <em>Mammame</em>" },
       { "type": "img", "id": "etretat", "desc": "Photo de plateau de <em>Mammame</em>" }
     ],
-    "text": "<p>Nommé directeur de la Maison de la culture du Havre fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <em>Mammame</em>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>",
+    "text": "<p>Nommé directeur de la <a href='#!/9/3'>Maison de la culture du Havre</a> fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <em>Mammame</em>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>",
     "points": [42]
   },
   {
@@ -225,13 +231,31 @@
   },
   {
     "id": 33,
-    "title": "Lucerna, le navire des morts",
-    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, dans laquelle le navire s'appelle le Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>",
-    "points": [34]
+    "title": "Lucerna, le navire des morts-vivants",
+    "assets": [{ "type": "video", "id": 159929605, "desc": "Extrait de <em>Litoral, cuentos del mar</em>" }],
+    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>",
+    "points": [34, 16]
   },
   {
     "id": 34,
     "title": "Le Transpatagonien",
     "points": [20]
+  },
+  {
+    "id": 35,
+    "title": "Chiliens en exil",
+    "assets": [{ "type": "video", "id": 159929603, "desc": "Extrait de <em>Diálogo de exiliados</em>" }],
+    "text": "Ruiz quitte le Chili un mois après le coup d'État de septembre 1973. Il arrive à Paris en février 1974, et, dès le mois de mars, tourne <em>Diálogo de exiliados</em> (<em>Dialogue d'exilés</em>), un film oscillant entre fiction et documentaire, dont les protagonistes –&nbsp;des militants de la gauche chilienne tout juste arrivés, certains la veille même de leur apparition dans la film&nbsp;– se retrouvent précipités en terre inconnue, tiraillés entre leur volonté d'organiser sans attendre une résistance depuis l'exil (trouver des soutiens, récolter des fonds) et les contraintes inéluctables de la vie quotidienne (trouver où dormir, apprendre le français). Sur un ton souvent proche de la farce, et avec une ironie dont il ne s'exclut pas, Ruiz dresse le tableau d'une utopie intenable.",
+    "points": [8]
+  },
+  {
+    "id": 36,
+    "title": "Dans un jardin anglais",
+    "assets": [{ "type": "video", "id": 159929602, "desc": "Extrait de <em>Querelles de jardins</em>" }],
+    "text": "<p>Raoul Ruiz met en scène la dispute ontologique qui oppose jardins à l'anglaise et à la française. Dans le jardin anglais, tout en méandres et recoins ombragés, on donne un rendez-vous galant, puis l'on voudrait céder au désespoir quand l'amante attendue ne vient pas. Cependant qu'<a href='#!/32/12'>à Versailles...</a></p>",
+    "points": [44]
   }
+
 ]
+
+
