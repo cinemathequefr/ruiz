@@ -96,17 +96,12 @@
   },
   {
     "id": 15,
-    "title": "Le Transpatagonien",
-    "points": [20]
-  },
-  {
-    "id": 15,
     "title": "Terre de sorciers",
     "assets": [
       { "type": "img", "id": "126899-1" },
       { "type": "video", "id": null, "desc": "Extrait de <em>La Recta provincia</em>" }
     ],
-    "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe La Recta provincia dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>",
+    "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe <em>La Recta provincia</em> dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>",
     "points": [34, 35]
   },
   {
@@ -233,5 +228,10 @@
     "title": "Lucerna, le navire des morts",
     "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, dans laquelle le navire s'appelle le Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>",
     "points": [34]
+  },
+  {
+    "id": 34,
+    "title": "Le Transpatagonien",
+    "points": [20]
   }
 ]
