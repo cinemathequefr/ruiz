@@ -5,14 +5,12 @@
     "assets" : [
       { "type": "video", "id": 156826233 }
     ],
-    "films": [51155],
-    "points": [16, 5, 6]
+    "films": [51155]
   },
   {
     "id": 2,
     "title": "Élections législatives dans le 12e arrondissement",
-    "assets" : [{ "type": "img", "id": "126617-2" }],
-    "points": [8]
+    "assets" : [{ "type": "img", "id": "126617-2" }]
   },
   {
     "id": 3,
@@ -21,8 +19,7 @@
       { "type": "img", "id": "le-havre" },
       { "type": "video", "id": 159965082, "desc": "Exrait de <em>Mémoire des apparences</em>" }
     ],
-    "text": "<p>Sur décision de Jack Lang, qui souhaite voir les centres culturels régionaux dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages. Au fil des mois, cette feuille de route jugée iconoclaste rencontre d'inévitables résistances. Interrogé un jour par une journaliste anglaise qui fait remarquer la bizarrerie de le voir devenu directeur d'institution culturelle, Ruiz répond&nbsp;: «&nbsp;Si vous vous demandez ce que je fais là, dites-vous que je suis le premier à me poser la question.&nbsp;» Au Havre, Ruiz tournera Mémoire des apparences, Le Professeur Taranne, <a href='#!/42/28'>Mammame</a>, <em>La Chouette aveugle</em>, et participe entre autres à la production de <em>Mon cas</em> de Manoel de Oliveira (1986).</p>",
-    "points": [9]
+    "text": "<p>Sur décision de Jack Lang, qui souhaite voir les centres culturels régionaux dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages. Au fil des mois, cette feuille de route jugée iconoclaste rencontre d'inévitables résistances. Interrogé un jour par une journaliste anglaise qui fait remarquer la bizarrerie de le voir devenu directeur d'institution culturelle, Ruiz répond&nbsp;: «&nbsp;Si vous vous demandez ce que je fais là, dites-vous que je suis le premier à me poser la question.&nbsp;» Au Havre, Ruiz tournera Mémoire des apparences, Le Professeur Taranne, <a href='#!/42/28'>Mammame</a>, <em>La Chouette aveugle</em>, et participe entre autres à la production de <em>Mon cas</em> de Manoel de Oliveira (1986).</p>"
   },
   {
     "id": 4,
@@ -31,20 +28,17 @@
       { "type": "video", "id": 159503026, "desc": "Extrait du <em>Toit de la baleine</em>" },
       { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Sur le tournage du <em>Toit de la baleine</em>, la mise en place du trucage sur plaque de verre" }
     ],
-    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les plats paysages de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux sera peint sur une plaque de verre fixée devant l'objectif. Il en résulte un lieu hybride, irréel, Patagonie mentale imprimée sur les prairies verdoyantes et les paisibles canaux.</p>",
-    "points": [19, 20]
+    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les plats paysages de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux sera peint sur une plaque de verre fixée devant l'objectif. Il en résulte un lieu hybride, irréel, Patagonie mentale imprimée sur les prairies verdoyantes et les paisibles canaux.</p>"
   },
   {
     "id": 5,
     "title": "La ville natale",
-    "text": "<p>Raúl Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago.</p>",
-    "points": [1]
+    "text": "<p>Raúl Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago.</p>"
   },
   {
     "id": 6,
     "title": "Un cabaret à Valparaíso",
-    "assets" : [{ "type": "video", "id": 155408815 }],
-    "points": [16]
+    "assets" : [{ "type": "video", "id": 155408815 }]
   },
   {
     "id": 7,
@@ -53,52 +47,44 @@
     "assets" : [
       { "type": "img", "id": "78830-1" },
       { "type": "video", "id": 159503021 }
-    ],
-    "points": [27]
+    ]
   },
   {
     "id": 8,
     "title": "Châteaux de sable en Hollande",
     "assets" : [{ "type": "video", "id": 159503020 }],
-    "text": "En juin 1981, Raoul Ruiz filme le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord.",
-    "points": [31]
+    "text": "En juin 1981, Raoul Ruiz filme le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord."
   },
   {
     "id": 9,
     "title": "La tour de Sigismond",
     "assets" : [{ "type": "img", "id": "c21-1" }],
-    "text": "«&nbsp;Un mécène italien, Antonio Presti, m'a proposé de construire une tour. J'en ai fait deux, en terre. On peut y dormir, elles font partie d'un hôtel. Simultanément, nous y avons tourné un film, <em>Turris eburnea</em>.&nbsp;»",
-    "points": [21]
+    "text": "«&nbsp;Un mécène italien, Antonio Presti, m'a proposé de construire une tour. J'en ai fait deux, en terre. On peut y dormir, elles font partie d'un hôtel. Simultanément, nous y avons tourné un film, <em>Turris eburnea</em>.&nbsp;»"
   },
   {
     "id": 10,
     "title": "Aventures à Madère",
-    "assets" : [{ "type": "img", "id": "51146-1" }],
-    "points": [5]
+    "assets" : [{ "type": "img", "id": "51146-1" }]
   },
   {
     "id": 11,
     "title": "Ombres dans un cimetière",
-    "text": "À l'hiver 1996, Raoul Ruiz est à Taïwan pour tourner un film resté inachevé, <em>La Comédie des ombres</em>. «&nbsp;C'est un film en mandarin tourné dans un cimetière, inspiré d'un récit du philosophe taoïste Tchouang-tseu. Le titre anglais du recueil est <em>Wandering on the Way</em>. Un cinéaste veut faire un film sur une sculpture mais il cherche en réalité à faire <em>Six personnages en quête d'auteur</em> de Pirandello. Un jour, au volant de sa voiture, il est pris d'éternuements répétés qui provoquent un accident dans lequel il meurt. À l'instant de sa mort, il pense au film qu'il n'a pas fait, et c'est à ce moment que surgissent d'autres morts à la recherche d'un cinéaste qui voudrait bien faire un film sur eux. Un film post-mortem, donc.&nbsp;»</p>",
-    "points": [22]
+    "text": "À l'hiver 1996, Raoul Ruiz est à Taïwan pour tourner un film resté inachevé, <em>La Comédie des ombres</em>. «&nbsp;C'est un film en mandarin tourné dans un cimetière, inspiré d'un récit du philosophe taoïste Tchouang-tseu. Le titre anglais du recueil est <em>Wandering on the Way</em>. Un cinéaste veut faire un film sur une sculpture mais il cherche en réalité à faire <em>Six personnages en quête d'auteur</em> de Pirandello. Un jour, au volant de sa voiture, il est pris d'éternuements répétés qui provoquent un accident dans lequel il meurt. À l'instant de sa mort, il pense au film qu'il n'a pas fait, et c'est à ce moment que surgissent d'autres morts à la recherche d'un cinéaste qui voudrait bien faire un film sur eux. Un film post-mortem, donc.&nbsp;»</p>"
   },
   {
     "id": 12,
     "title": "Dans un jardin français",
     "assets" : [{ "type": "video", "id": 156572327 }],
-    "text": "<p>Dans les jardins de Versailles, impossible de se cacher. Les vastes allées dégagées qui se croisent tracent un panoptisme étoilé où rien ne saurait échapper au regard. Les intrigues doivent s'y jouer sous les yeux de tous, et les trahisons apparaissent en plein jour. Dans <em>Querelle de jardins</em> (1982), le récit à l'allure de roman-photo naît de l'opposition entre le jardin à la française et le <a href='#!/44/36'>parc à l'anglaise</a>.</p>",
-    "points": [32]
+    "text": "<p>Dans les jardins de Versailles, impossible de se cacher. Les vastes allées dégagées qui se croisent tracent un panoptisme étoilé où rien ne saurait échapper au regard. Les intrigues doivent s'y jouer sous les yeux de tous, et les trahisons apparaissent en plein jour. Dans <em>Querelle de jardins</em> (1982), le récit à l'allure de roman-photo naît de l'opposition entre le jardin à la française et le <a href='#!/44/36'>parc à l'anglaise</a>.</p>"
   },
   {
     "id": 13,
     "title": "Le château dans le ciel",
-    "assets" : [{ "type": "img", "id": "126618-2" }],
-    "points": [18]
+    "assets" : [{ "type": "img", "id": "126618-2" }]
   },
   {
     "id": 14,
-    "title": "Un cinéma arabe à Belleville",
-    "points": [8, 9]
+    "title": "Un cinéma arabe à Belleville"
   },
   {
     "id": 15,
@@ -107,86 +93,72 @@
       { "type": "img", "id": "126899-1" },
       { "type": "video", "id": 159929604, "desc": "Extrait de <em>La Recta provincia</em>" }
     ],
-    "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe <em>La Recta provincia</em> dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>",
-    "points": [34, 35]
+    "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe <em>La Recta provincia</em> dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>"
   },
   {
     "id": 16,
-    "title": "L'école de cinéma de Santa Fe",
-    "points": [14]
+    "title": "L'école de cinéma de Santa Fe"
   },
   {
     "id": 17,
     "title": "Nucingen Haus",
     "text": "<p>Le titre de <em>La Maison Nucingen</em> est une fausse piste&nbsp;: pour ce film tourné dans le Chili central, au Sud de Santiago, Ruiz n'adapte pas le roman de Balzac, mais regarde plutôt du côté de la littérature gothique anglo-saxonne (<em>Carmilla</em> de Sheridan Le Fanu) et du <em>Vampyr</em> de Dreyer. Un homme gagne au poker une grande demeure campagnarde au pied de la cordillère des Andes. Accompagné de sa jeune épouse neurasthénique, il fait le voyage depuis l'Europe et s'installe dans la maison déjà occupée par quelques personnages énigmatiques. La consonance du titre balzacien désigne donc ici, au pied de la lettre, une maisonnée sous influence allemande (allusion à l'immigration germanique au Chili au cours du XIXe siècle), mais où, comble du raffinement, seule la langue française est tolérée. Une culture recouvre l'autre, et le Chili n'est bientôt qu'un écho lointain dans une histoire de revenants hors du temps et de la géographie.</p>",
-    "assets" : [{ "type": "video", "id": 156830514 }],
-    "points": [35]
+    "assets" : [{ "type": "video", "id": 156830514 }]
   },
   {
     "id": 18,
-    "title": "Captiva, une dictature insulaire",
-    "points": [29]
+    "title": "Captiva, une dictature insulaire"
   },
   {
     "id": 19,
     "title": "Il Viaggio clandestino",
-    "text": "Tourné dans l'arrière-pays de Castel di Tusa, en Sicile.",
-    "points": [21]
+    "text": "Tourné dans l'arrière-pays de Castel di Tusa, en Sicile."
   },
   {
     "id": 20,
     "assets" : [{ "type": "video", "id": 159230150, "desc": "Extrait de <em>La Noche de enfrente</em>" }],
-    "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville côtière du nord du Chili, entre le désert et l'océan, où il n'est pas revenu depuis 1970. «&nbsp;Je suis arrivé ici il y a quelques jours, et en me promenant dans le centre, j'ai senti que je pourrai y tourner un film que j'ai en projet, <em>La Noche de enfrente</em>. C'est une ville d'une grande vitalité, et en même temps une ville de retraités. Il y a cette lumière particulière, un côté mélancolique que l'on trouve jusque dans la façon de marcher des gens &ndash; y compris les jeunes. Je réalise qu'elle me fait penser à une ville qui n'a rien à voir, Luxembourg. Une ville que l'on quitte pour vivre sa vie et où l'on ne revient qu'à la fin de ses jours.&nbsp;» Trois ans plus tard, Ruiz y tourne effectivement <em>La Noche de enfrente</em> (<em>La Nuit d'en face</em>), qui sera son dernier film.",
-    "points": [36]
+    "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville côtière du nord du Chili, entre le désert et l'océan, où il n'est pas revenu depuis 1970. «&nbsp;Je suis arrivé ici il y a quelques jours, et en me promenant dans le centre, j'ai senti que je pourrai y tourner un film que j'ai en projet, <em>La Noche de enfrente</em>. C'est une ville d'une grande vitalité, et en même temps une ville de retraités. Il y a cette lumière particulière, un côté mélancolique que l'on trouve jusque dans la façon de marcher des gens &ndash; y compris les jeunes. Je réalise qu'elle me fait penser à une ville qui n'a rien à voir, Luxembourg. Une ville que l'on quitte pour vivre sa vie et où l'on ne revient qu'à la fin de ses jours.&nbsp;» Trois ans plus tard, Ruiz y tourne effectivement <em>La Noche de enfrente</em> (<em>La Nuit d'en face</em>), qui sera son dernier film."
   },
   {
     "id": 20,
-    "title": "Le Territoire",
-    "points": [37]
+    "title": "Le Territoire"
   },
   {
     "id": 21,
     "title": "Joris Ivens au Chili",
-    "text": "<p>En septembre 1962, Joris Ivens, répondant à l'invitation du Centre de cinéma expérimental fondé par le cinéaste Sergio Bravo, arrive au Chili. Pendant les trois mois que dure son séjour, le cinéaste néerlandais, figure incontournable du documentaire engagé, y réalise <em>À Valparaíso</em>, symphonie urbaine de la cité portuaire, et participe à des séminaires avec les étudiants. La venue d'Ivens a lieu au moment même où Ruiz reçoit de Bravo la promesse d'une aide (sous forme de pellicule et le prêt du matériel) pour tourner un premier film. Mais le scénario «&nbsp;vaguement expressionniste&nbsp;» imaginé par Ruiz d'après sa pièce de théâtre <em>La Maleta</em> ne semble pas vraiment convaincre Bravo. Joris Ivens le lit et prend la défense du projet, qui lui rappelle ce que fait en Pologne un jeune cinéaste nommé Roman Polanski. «&nbsp;Ivens, habitué à travailler avec des gens de tous les horizons, avec l'avant-garde française, estimait que ce que je proposais était tout à fait normal, et déclara qu'il fallait soutenir mon projet&nbsp;», racontera Ruiz plus tard. La femme de Joris Ivens, la poétesse Ewa Fiszer, entreprit quant à elle la traduction en polonais de quelques unes des pièces de Ruiz, qui y connurent un certain succès.</p>",
-    "points": [16]
+    "text": "<p>En septembre 1962, Joris Ivens, répondant à l'invitation du Centre de cinéma expérimental fondé par le cinéaste Sergio Bravo, arrive au Chili. Pendant les trois mois que dure son séjour, le cinéaste néerlandais, figure incontournable du documentaire engagé, y réalise <em>À Valparaíso</em>, symphonie urbaine de la cité portuaire, et participe à des séminaires avec les étudiants. La venue d'Ivens a lieu au moment même où Ruiz reçoit de Bravo la promesse d'une aide (sous forme de pellicule et le prêt du matériel) pour tourner un premier film. Mais le scénario «&nbsp;vaguement expressionniste&nbsp;» imaginé par Ruiz d'après sa pièce de théâtre <em>La Maleta</em> ne semble pas vraiment convaincre Bravo. Joris Ivens le lit et prend la défense du projet, qui lui rappelle ce que fait en Pologne un jeune cinéaste nommé Roman Polanski. «&nbsp;Ivens, habitué à travailler avec des gens de tous les horizons, avec l'avant-garde française, estimait que ce que je proposais était tout à fait normal, et déclara qu'il fallait soutenir mon projet&nbsp;», racontera Ruiz plus tard. La femme de Joris Ivens, la poétesse Ewa Fiszer, entreprit quant à elle la traduction en polonais de quelques unes des pièces de Ruiz, qui y connurent un certain succès.</p>"
   },
   {
     "id": 22,
-    "title": "La Ville des pirates",
-    "points": [7]
+    "title": "La Ville des pirates"
   },
   {
     "id": 23,
     "title": "Un roman à énigme",
     "text": "<p>Disciple du célèbre Edogawa Ranpo, qui fut l'un des pères du roman à énigme au Japon, le dénommé Eiryo Waga est l'auteur de <em>Tous les nuages sont des horloges</em>, un récit dont l'intrigue se déroule dans la campagne normande. Particularité embarrassante, il manque au texte son dernier chapitre. Tout aussi contrariant&nbsp;: le livre semble n'exister que dans une édition italienne de 1991 (<em>Tutte le nuvole sono orologi</em>, éditions Baskerville, Bologne). Retour en arrière&nbsp;: en 1988, Ruiz est chargé de donner un cours de scénario à la FEMIS. Le matin, ses étudiants travaillent à l'adaptation du fameux roman, aiguillonnés par le chapitre absent à inventer. L'après-midi, Ruiz tourne <em>le film</em>. Et bien sûr, Eiryo Waga, c'était lui.</p>",
-    "films": [126919],
-    "points": [38]
+    "films": [126919]
   },
   {
     "id": 24,
     "title": "[L'Île au trésor]",
-    "films": [52262],
-    "points": [39]
+    "films": [52262]
   },
   {
     "id": 25,
     "title": "Les enfants du bannissement",
-    "text": "<p>Dans les recoins inexplorés de la carto-filmographie ruizienne, le pays d'Afrique lusophone apparaît dans un titre intrigant : <em>Angola ou les enfants du bannissement</em>.</p>",
-    "points": [5, 26]
+    "text": "<p>Dans les recoins inexplorés de la carto-filmographie ruizienne, le pays d'Afrique lusophone apparaît dans un titre intrigant : <em>Angola ou les enfants du bannissement</em>.</p>"
   },
   {
     "id": 26,
     "title": "Ateliers",
     "assets": [
       { "type": "video", "id": 159504752, "desc": "Exrait de <em>Miotte vu par Ruiz</em>" }
-    ],
-    "points": [40, 11]
+    ]
   },
   {
     "id": 27,
     "title": "Pages arrachées",
-    "text": "<p>En 1993, Raoul Ruiz anime un atelier de cinéma dans la capitale colombienne. Le cinéaste Luis Ospina, qui avait rencontré Ruiz à Paris à la fin des années 1970, le rejoint et lui propose de coréaliser un film avec lui. Il en sort le court métrage <em>Capítulo 66</em>, sorte de cadavre exquis cinématographique imaginé comme un épisode pris au hasard d'une <em>telenovela</em> gothique dont on ne saura rien d'autre.</p>",
-    "points": [41]
+    "text": "<p>En 1993, Raoul Ruiz anime un atelier de cinéma dans la capitale colombienne. Le cinéaste Luis Ospina, qui avait rencontré Ruiz à Paris à la fin des années 1970, le rejoint et lui propose de coréaliser un film avec lui. Il en sort le court métrage <em>Capítulo 66</em>, sorte de cadavre exquis cinématographique imaginé comme un épisode pris au hasard d'une <em>telenovela</em> gothique dont on ne saura rien d'autre.</p>"
   },
   {
     "id": 28,
@@ -195,15 +167,13 @@
       { "type": "video", "id": 159231485, "desc": "Extrait de <em>Mammame</em>" },
       { "type": "img", "id": "etretat", "desc": "Photo de plateau de <em>Mammame</em>" }
     ],
-    "text": "<p>Nommé directeur de la <a href='#!/9/3'>Maison de la culture du Havre</a> fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <em>Mammame</em>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>",
-    "points": [42]
+    "text": "<p>Nommé directeur de la <a href='#!/9/3'>Maison de la culture du Havre</a> fin 1985, Ruiz trouve une occasion de se rapprocher du littoral. En 1986, il réalise <em>Mammame</em>, version cinématographique de la pièce du chorégraphe Jean-Claude Gallotta. Après trois quarts d'heure en lieu clos, le film et ses neuf danseurs se délocalisent d'un seul coup sur les falaises d'Étretat. Une fois encore, la présence de l'océan aimante le cinéma de Ruiz.</p>"
   },
   {
     "id": 29,
     "title": "L'appartement de la rue Huelén",
     "assets" : [],
-    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble &nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>",
-    "points": [15]
+    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble &nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>"
   },
   {
     "id": 30,
@@ -211,8 +181,7 @@
     "assets": [
       { "type": "video", "id": 159503024, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
     ],
-    "text": "<p>«&nbsp;Quelques jour plus tard, nous arrivâmes à Dakar.&nbsp;» Le Sénégal, une escale dans les circumnavigations du navire Funchalense des <em>Trois couronnes du matelot</em>.</p>",
-    "points": [39]
+    "text": "<p>«&nbsp;Quelques jour plus tard, nous arrivâmes à Dakar.&nbsp;» Le Sénégal, une escale dans les circumnavigations du navire Funchalense des <em>Trois couronnes du matelot</em>.</p>"
   },
   {
     "id": 31,
@@ -220,40 +189,34 @@
     "assets": [
       { "type": "img", "id": "los-capitanes", "desc": "Le 15 novembre 1968, lors de la première de <em>Trois tristes tigres</em>, Raoul Ruiz pose avec ses producteurs, les capitaines de la marine marchande Serafín Selanio, Enrique Reimann et Ernesto Ruiz (père du cinéaste)." }
     ],
-    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux amis dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Au-delà du geste d'entraide familiale, l'investissement, dans le contexte prometteur d'un nouveau cinéma chilien en plein essor, était toutefois mûrement réfléchi.</p>",
-    "points": [15]
+    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux amis dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Au-delà du geste d'entraide familiale, l'investissement, dans le contexte prometteur d'un nouveau cinéma chilien en plein essor, était toutefois mûrement réfléchi.</p>"
   },
   {
     "id": 32,
     "title": "Le fils de Francis Drake et les pirates juifs",
-    "text": "<p>Si le titre de <a href='#!/7/22'>La Ville des pirates</a> (également intitulé Rusticatio civitatis piratarum&nbsp;: «&nbsp;villégiature dans la cité des pirates&nbsp;») n'est pas vraiment élucidé par la vision du film, il s'agit pour Ruiz d'une allusion discrète à une histoire qui le fascinait depuis l'enfance, celle de la Fraternité du drapeau noir, alliance de pirates menée par Henry Drake (fils de Sir Francis Drake) et le capitaine juif Davis (né David Abrabanel), qui, à la fin du XVIe siècle, avaient établi dans la baie de Guayacán, à 200 milles nautiques au nord de Valparaíso, une cité servant de base arrière à leurs campagnes anti-espagnoles.</p>",
-    "points": [43]
+    "text": "<p>Si le titre de <a href='#!/7/22'>La Ville des pirates</a> (également intitulé Rusticatio civitatis piratarum&nbsp;: «&nbsp;villégiature dans la cité des pirates&nbsp;») n'est pas vraiment élucidé par la vision du film, il s'agit pour Ruiz d'une allusion discrète à une histoire qui le fascinait depuis l'enfance, celle de la Fraternité du drapeau noir, alliance de pirates menée par Henry Drake (fils de Sir Francis Drake) et le capitaine juif Davis (né David Abrabanel), qui, à la fin du XVIe siècle, avaient établi dans la baie de Guayacán, à 200 milles nautiques au nord de Valparaíso, une cité servant de base arrière à leurs campagnes anti-espagnoles.</p>"
   },
   {
     "id": 33,
     "title": "Lucerna, le navire des morts-vivants",
     "assets": [{ "type": "video", "id": 159929605, "desc": "Extrait de <em>Litoral, cuentos del mar</em>" }],
-    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>",
-    "points": [34, 16]
+    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>"
   },
   {
     "id": 34,
-    "title": "Le Transpatagonien",
-    "points": [20]
+    "title": "Le Transpatagonien"
   },
   {
     "id": 35,
     "title": "Chiliens en exil",
     "assets": [{ "type": "video", "id": 159929603, "desc": "Extrait de <em>Diálogo de exiliados</em>" }],
-    "text": "Ruiz quitte le Chili un mois après le coup d'État de septembre 1973. Il arrive à Paris en février 1974, et, dès le mois de mars, tourne <em>Diálogo de exiliados</em> (<em>Dialogue d'exilés</em>), un film oscillant entre fiction et documentaire, dont les protagonistes –&nbsp;des militants de la gauche chilienne tout juste arrivés, certains la veille même de leur apparition dans la film&nbsp;– se retrouvent précipités en terre inconnue, tiraillés entre leur volonté d'organiser sans attendre une résistance depuis l'exil (trouver des soutiens, récolter des fonds) et les contraintes inéluctables de la vie quotidienne (trouver où dormir, apprendre le français). Sur un ton souvent proche de la farce, et avec une ironie dont il ne s'exclut pas, Ruiz dresse le tableau d'une utopie intenable.",
-    "points": [8]
+    "text": "Ruiz quitte le Chili un mois après le coup d'État de septembre 1973. Il arrive à Paris en février 1974, et, dès le mois de mars, tourne <em>Diálogo de exiliados</em> (<em>Dialogue d'exilés</em>), un film oscillant entre fiction et documentaire, dont les protagonistes –&nbsp;des militants de la gauche chilienne tout juste arrivés, certains la veille même de leur apparition dans la film&nbsp;– se retrouvent précipités en terre inconnue, tiraillés entre leur volonté d'organiser sans attendre une résistance depuis l'exil (trouver des soutiens, récolter des fonds) et les contraintes inéluctables de la vie quotidienne (trouver où dormir, apprendre le français). Sur un ton souvent proche de la farce, et avec une ironie dont il ne s'exclut pas, Ruiz dresse le tableau d'une utopie intenable."
   },
   {
     "id": 36,
     "title": "Dans un jardin anglais",
     "assets": [{ "type": "video", "id": 159929602, "desc": "Extrait de <em>Querelles de jardins</em>" }],
-    "text": "<p>Dans <em>Querelles de jardins</em> (1982), Raoul Ruiz met en scène la dispute ontologique qui oppose jardins à l'anglaise et à la française. Dans le jardin anglais, tout en méandres et recoins ombragés, on donne un rendez-vous galant, puis l'on voudrait céder au désespoir quand l'amante attendue ne vient pas. Cependant qu'<a href='#!/32/12'>à Versailles...</a></p>",
-    "points": [44]
+    "text": "<p>Dans <em>Querelles de jardins</em> (1982), Raoul Ruiz met en scène la dispute ontologique qui oppose jardins à l'anglaise et à la française. Dans le jardin anglais, tout en méandres et recoins ombragés, on donne un rendez-vous galant, puis l'on voudrait céder au désespoir quand l'amante attendue ne vient pas. Cependant qu'<a href='#!/32/12'>à Versailles...</a></p>"
   }
 
 ]

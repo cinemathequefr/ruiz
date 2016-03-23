@@ -7,21 +7,20 @@
  */
 var card = (function () {
   var elemCardContainer = document.querySelector(".cardContainer");
-
   var renderTemplate = {};
-  _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
-  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>[{{id}}] {{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul></div>");
-
   var points, cards;
   var deck = []; // Array: DOM elements of cards
+
+  _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
+  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>[{{id}}] {{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul></div>");
 
   function init() {
     points = arguments[0];
     $(elemCardContainer).perfectScrollbar();
   }
 
-  function show(point) {
 
+  function show(point) {
     _.forEach(_.reverse(point.cards), function (card, i) {
       card.text = card.text || "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.";
       deck.push($(renderTemplate.card(_.assign({}, card, { // Extra data for the card template
@@ -60,8 +59,6 @@ var card = (function () {
     $.subscribe(event, callback);
   }
 
-
-
   function cardTitle(p, c, i) {
     var o = "";
     p = p || "";
@@ -69,12 +66,8 @@ var card = (function () {
     if (p != "") o = o + p + " (" + i + ")";
     if (p != "" && c != "") o = o + "&nbsp;: ";
     if (c != "") o = o + c;
-    console.log(o);
     return o;
   };
-
-
-
 
   return {
     init: init,
