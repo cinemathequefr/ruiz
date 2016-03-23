@@ -12,9 +12,6 @@ d3_queue.queue()
 
   var world = data[0];
   var films = data[3];
-
-  // var cards = normalizeCollection(data[1], ["assets", "text", "copyright", "films"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
-
   var cards = _(data[1])
     .thru(function (d) {
       return normalizeCollection(d, ["assets", "text", "copyright", "films"]); // Normalize cards for lodash template (stackoverflow.com/questions/15283741/#35485245)
