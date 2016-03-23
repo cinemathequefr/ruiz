@@ -35,7 +35,7 @@
   { "id": 34, "name": "Chiloé", "lat": -42.62, "lng": -73.92, "cards": [15, 33] },
   { "id": 35, "name": "Chili central", "lat": -34, "lng": -70.73, "cards": [15, 17] },
   { "id": 36, "name": "Antofagasta", "lat": -23.65, "lng": -70.4, "cards": [20] },
-  { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4, "cards": [] },
+  { "id": 37, "name": "Sintra", "lat": 38.8, "lng": -9.4, "cards": [37] },
   { "id": 38, "name": "Japon", "lat": 35.68, "lng": 139.72, "cards": [23] },
   { "id": 39, "name": "Sénégal", "lat": 14.77, "lng": -17.2, "cards": [24, 30] },
   { "id": 40, "name": "Hambourg", "lat": 53.53, "lng": 9.9, "cards": [26] },

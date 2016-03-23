@@ -79,8 +79,9 @@
   },
   {
     "id": 13,
-    "title": "Le château dans le ciel",
-    "assets" : [{ "type": "img", "id": "126618-2" }]
+    "title": "Regards sur un château",
+    "assets" : [{ "type": "img", "id": "126618-2" }],
+    "text": "<p>Commande pour un magazine d'Antenne 2, <em>Les Divisions de la nature</em> est pour Ruiz le film de la rencontre avec le directeur de la photo Henri Alekan et un terrain d'expérimentation effrénée autour de la fabrication de l'image&nbsp;: miroirs, filtres colorés et dégradés, jeux d'objectifs et fumigènes, autant de trucages d'artisans du cinéma mis en œuvre dans le moment de la prise de vue, un principe auquel Ruiz restera fidèle jusqu'au bout. Le film est aussi l'une de ses premières «&nbsp;fictions théoriques&nbsp;», où le château de Chambord –&nbsp;lieu commun&nbsp;– se matérialise sous trois aspects radicalement différents selon la perspective philosophique envisagée.</p>"
   },
   {
     "id": 14,
@@ -217,8 +218,18 @@
     "title": "Dans un jardin anglais",
     "assets": [{ "type": "video", "id": 159929602, "desc": "Extrait de <em>Querelles de jardins</em>" }],
     "text": "<p>Dans <em>Querelles de jardins</em> (1982), Raoul Ruiz met en scène la dispute ontologique qui oppose jardins à l'anglaise et à la française. Dans le jardin anglais, tout en méandres et recoins ombragés, on donne un rendez-vous galant, puis l'on voudrait céder au désespoir quand l'amante attendue ne vient pas. Cependant qu'<a href='#!/32/12'>à Versailles...</a></p>"
+  },
+  {
+    "id": 37,
+    "title": "Rites anthropophagiques",
+    "assets": [
+      { "type": "img", "id": "44145-1", "desc": "<em>Le Territoire</em> - &copy; François Ede" },
+      { "type": "img", "id": "tournage-territoire", "desc": "Henri Alekan et Raoul Ruiz sur le plateau du <em>Territoire</em> - &copy; François Ede" },
+      { "type": "video", "id": 160107951, "desc": "Extrait du <em>Territoire</em>" },
+      { "type": "img", "id": "44145-2", "desc": "<em>Le Territoire</em> - &copy; François Ede" }
+    ],
+    "text": ""
   }
-
 ]
 
 

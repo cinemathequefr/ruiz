@@ -31,7 +31,7 @@ var card = (function () {
 
     (function display(deck) {
       if (deck.length === 0) {
-        $(elemCardContainer).perfectScrollbar("update");
+        $(elemCardContainer).scrollTop(0).perfectScrollbar("update");
         $.publish("load");
         return;
       }
