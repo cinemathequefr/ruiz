@@ -77,8 +77,16 @@ svg.night .land {
   overflow: hidden;
   margin: 0 0 0 0;
   padding: 24px 48px;
-  border-bottom: solid 1px #666;
+  /*border-bottom: solid 1px #666;*/
   transition: background-color 0.5s;
+}
+
+.card:after {
+  display: block;
+  content: "";
+  width: 120px;
+  padding-top: 48px;
+  border-bottom: solid 1px #999;
 }
 
 /*
@@ -124,16 +132,23 @@ svg.night .land {
   margin: 0; padding: 0;
 }
 
-.card li {
+.card ul.places li {
   display: inline-block;
   padding: 3px;
   list-style-type: none;
   cursor: pointer;
 }
 
-.card li:hover {
+.card ul.places li:hover {
   background-color: #69f;
 }
+
+.card ul.captions li {
+  display: block;
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
 
 .card .title {
   display: block;

@@ -18,7 +18,7 @@
   { "id": 17, "name": "Nice", "lat": 43.71, "lng": 7.26, "cards": [] },
   { "id": 18, "name": "Chambord", "lat": 47.61, "lng": 1.52, "cards": [13] },
   { "id": 19, "name": "Hollande", "lat": 51.63, "lng": 4.67, "cards": [4] },
-  { "id": 20, "name": "Patagonie", "lat": -41.73, "lng": -68.92, "cards": [4, 34] },
+  { "id": 20, "name": "Patagonie", "lat": -41.73, "lng": -68.92, "cards": [4, 37, 34] },
   { "id": 21, "name": "Sicile", "lat": 38.01, "lng": 14.25, "cards": [9, 19] },
   { "id": 22, "name": "Taïwan", "lat": 25.04, "lng": 121.55, "cards": [11] },
   { "id": 23, "name": "Tunis", "lat": 36.8, "lng": 10.18, "cards": [] },

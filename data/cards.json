@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Sur les quais",
     "assets" : [
-      { "type": "video", "id": 156826233 }
+      { "type": "video", "id": 156826233, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
     ],
     "films": [51155]
   },
@@ -64,7 +64,7 @@
   {
     "id": 10,
     "title": "Aventures à Madère",
-    "assets" : [{ "type": "img", "id": "51146-1" }]
+    "assets" : [{ "type": "img", "id": "51146-1", "desc": "Photogramme des <em>Destins de Manoel</em>" }]
   },
   {
     "id": 11,
@@ -80,8 +80,8 @@
   {
     "id": 13,
     "title": "Regards sur un château",
-    "assets" : [{ "type": "img", "id": "126618-2" }],
-    "text": "<p>Commande pour un magazine d'Antenne 2, <em>Les Divisions de la nature</em> est pour Ruiz le film de la rencontre avec le directeur de la photo Henri Alekan et un terrain d'expérimentation effrénée autour de la fabrication de l'image&nbsp;: miroirs, filtres colorés et dégradés, jeux d'objectifs et fumigènes, autant de trucages d'artisans du cinéma mis en œuvre dans le moment de la prise de vue, un principe auquel Ruiz restera fidèle jusqu'au bout. Le film est aussi l'une de ses premières «&nbsp;fictions théoriques&nbsp;», où le château de Chambord –&nbsp;lieu commun&nbsp;– se matérialise sous trois aspects radicalement différents selon la perspective philosophique envisagée.</p>"
+    "assets" : [{ "type": "img", "id": "126618-2", "desc": "Photogramme des <em>Divisions de la nature</em> © INA" }],
+    "text": "<p>Petite fiction théorique glissée dans un sujet pour Antenne 2, <em>Les Divisions de la nature</em> (1978) aborde une question dont le cinéma s'estime généralement exonéré&nbsp;: celle de la représentation. À quoi le château de Chambord, l'un des lieux de France les plus connus, ressemble-t-il vu dans la perspective de la philosophie médiévale&nbsp;? De l'esthétique romantique&nbsp;? Pour démonter les fausses évidences de la vision, Ruiz interpose entre l'œil de la caméra et le monument une batterie de trucages et d'expérimentations optiques. C'est sa première collaboration avec le directeur de la photographie Henri Alekan, et l'expérience renforce chez Ruiz l'idée que le film, objet artisanal, se prépare puis se fabrique avant tout sur son plateau, et dans le moment du tournage. Sur l'apport d'Alekan à son cinéma, Ruiz dira&nbsp;: «&nbsp;Je n'étais pas habitué à quelqu'un qui commence par mesurer la lumière du soleil, et on se levait tous les jours à cinq heures pour repérer le point d'où sort le soleil. C'était une discipline que je connaissais pas. On mesurait les points d'où le soleil sort et on calculait son déplacement jour après jour. Alekan cherche d'abord la partie théorique de sa lumière&nbsp;: il fait des dessins avec toutes les positions de l'éclairage. C'est comme ça qu'on a décidé de faire un type de lumière et c'est lui qui m'a appris à travailler avec les filtres, de ne plus en avoir peur. C'est la première fois que je me suis servi de 16&nbsp;mm comme si c'était du 35&nbsp;mm, avec un tournage très lourd. C'est la première fois aussi que j'ai découvert les possibilités du changement de lumière pendant la prise.&nbsp;»</p>"
   },
   {
     "id": 14,
@@ -91,7 +91,7 @@
     "id": 15,
     "title": "Terre de sorciers",
     "assets": [
-      { "type": "img", "id": "126899-1" },
+      { "type": "img", "id": "126899-1", "desc": "Photogramme de <em>La Recta provincia</em>" },
       { "type": "video", "id": 159929604, "desc": "Extrait de <em>La Recta provincia</em>" }
     ],
     "text": "<p>La famille paternelle de Raoul Ruiz est originaire de la grande île de Chiloé, située en face de sa ville natale de Puerto Montt, dans le sud du Chili. Chiloé est un lieu à part dans l'imaginaire chilien, le siège d'une mythologie élaborée dont les récits entendus dans l'enfance ont laissé une empreinte profonde sur Ruiz. <em>La Recta provincia</em>, titre de la mini-série qu'il a réalisée pour la télévision chilienne en 2007, n'est pas un lieu mais le nom d'une confrérie de sorciers de Chiloé. L'une des croyances qui lui est associée présente une similitude frappante avec la géographie ruizienne construite dans l'exil, où chaque lieu s'hybride et résonne des échos multiples d'autres lieux lointains. «&nbsp;Chaque village, dans lequel réside l'autorité des sorciers, possède une correspondance magique avec d'autres lieux du monde. Quelques exemples&nbsp;: le petit village d'Achao est Buenos Aires. Dalcahue&nbsp;: Villa Rica. Et Aucar&nbsp;: Antofagasta. Plus la ville jumelle est éloignée, plus le village d'origine est petit. Ainsi, Payos, un hameau de quelque mille âmes, est-il le jumeau de l'Espagne, tandis qu'Achao, pas beaucoup plus grand, est celui des États-Unis d'Amérique.&nbsp;»  Malgré la référence ouverte à Chiloé, le syncrétisme ruizien ne faillit jamais puisqu'il situe <em>La Recta provincia</em> dans le Chili central, région de sa mère, et terreau d'un autre folklore.</p>"
@@ -104,7 +104,7 @@
     "id": 17,
     "title": "Nucingen Haus",
     "text": "<p>Le titre de <em>La Maison Nucingen</em> est une fausse piste&nbsp;: pour ce film tourné dans le Chili central, au Sud de Santiago, Ruiz n'adapte pas le roman de Balzac, mais regarde plutôt du côté de la littérature gothique anglo-saxonne (<em>Carmilla</em> de Sheridan Le Fanu) et du <em>Vampyr</em> de Dreyer. Un homme gagne au poker une grande demeure campagnarde au pied de la cordillère des Andes. Accompagné de sa jeune épouse neurasthénique, il fait le voyage depuis l'Europe et s'installe dans la maison déjà occupée par quelques personnages énigmatiques. La consonance du titre balzacien désigne donc ici, au pied de la lettre, une maisonnée sous influence allemande (allusion à l'immigration germanique au Chili au cours du XIXe siècle), mais où, comble du raffinement, seule la langue française est tolérée. Une culture recouvre l'autre, et le Chili n'est bientôt qu'un écho lointain dans une histoire de revenants hors du temps et de la géographie.</p>",
-    "assets" : [{ "type": "video", "id": 156830514 }]
+    "assets" : [{ "type": "video", "id": 156830514, "desc": "Extrait de <em>La Maison Nucingen</em>" }]
   },
   {
     "id": 18,
@@ -119,10 +119,6 @@
     "id": 20,
     "assets" : [{ "type": "video", "id": 159230150, "desc": "Extrait de <em>La Noche de enfrente</em>" }],
     "text": "En août 2007, Raoul Ruiz est à Antofagasta, grande ville côtière du nord du Chili, entre le désert et l'océan, où il n'est pas revenu depuis 1970. «&nbsp;Je suis arrivé ici il y a quelques jours, et en me promenant dans le centre, j'ai senti que je pourrai y tourner un film que j'ai en projet, <em>La Noche de enfrente</em>. C'est une ville d'une grande vitalité, et en même temps une ville de retraités. Il y a cette lumière particulière, un côté mélancolique que l'on trouve jusque dans la façon de marcher des gens &ndash; y compris les jeunes. Je réalise qu'elle me fait penser à une ville qui n'a rien à voir, Luxembourg. Une ville que l'on quitte pour vivre sa vie et où l'on ne revient qu'à la fin de ses jours.&nbsp;» Trois ans plus tard, Ruiz y tourne effectivement <em>La Noche de enfrente</em> (<em>La Nuit d'en face</em>), qui sera son dernier film."
-  },
-  {
-    "id": 20,
-    "title": "Le Territoire"
   },
   {
     "id": 21,
@@ -173,7 +169,9 @@
   {
     "id": 29,
     "title": "L'appartement de la rue Huelén",
-    "assets" : [],
+    "assets" : [
+      { "type": "video", "id": 160212813, "desc": "<em>Fabricante de sueños mecánicos</em> (<em>Fabricant de rêves mécaniques</em>), réalisé par l'actrice Chamila Rodríguez, évocation de l'hommage rendu à Raoul Ruiz le 16 septembre 2013 devant l'immeuble de la rue Huelén." }
+    ],
     "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble &nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>"
   },
   {
@@ -188,7 +186,7 @@
     "id": 31,
     "title": "Trois tristes tigres",
     "assets": [
-      { "type": "img", "id": "los-capitanes", "desc": "Le 15 novembre 1968, lors de la première de <em>Trois tristes tigres</em>, Raoul Ruiz pose avec ses producteurs, les capitaines de la marine marchande Serafín Selanio, Enrique Reimann et Ernesto Ruiz (père du cinéaste)." }
+      { "type": "img", "id": "los-capitanes", "desc": "Raoul Ruiz avec les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz. Collection Luis Alarcón" }
     ],
     "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux amis dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Au-delà du geste d'entraide familiale, l'investissement, dans le contexte prometteur d'un nouveau cinéma chilien en plein essor, était toutefois mûrement réfléchi.</p>"
   },
@@ -223,12 +221,12 @@
     "id": 37,
     "title": "Rites anthropophagiques",
     "assets": [
-      { "type": "img", "id": "44145-1", "desc": "<em>Le Territoire</em> - &copy; François Ede" },
-      { "type": "img", "id": "tournage-territoire", "desc": "Henri Alekan et Raoul Ruiz sur le plateau du <em>Territoire</em> - &copy; François Ede" },
+      { "type": "img", "id": "44145-1", "desc": "Photographie de tournage du <em>Territoire</em> &copy; François Ede" },
+      { "type": "img", "id": "tournage-territoire", "desc": "Henri Alekan et Raoul Ruiz sur le plateau du <em>Territoire</em> &copy; François Ede" },
       { "type": "video", "id": 160107951, "desc": "Extrait du <em>Territoire</em>" },
-      { "type": "img", "id": "44145-2", "desc": "<em>Le Territoire</em> - &copy; François Ede" }
+      { "type": "img", "id": "44145-2", "desc": "Photographie de tournage du <em>Territoire</em> &copy; François Ede" }
     ],
-    "text": ""
+    "text": "<p>Premier film de Ruiz tourné au Portugal, première production «&nbsp;internationale&nbsp;», <em>Le Territoire</em> est un film dont l'aventure reste entourée d'un halo de mystère, à commencer sur le rôle de Roger Corman, qui semble avoir été un temps impliqué. L'idée du film part d'un fait divers qui a eu un retentissement mondial&nbsp;: le crash dans les Andes, en 1972, d'un avion de passagers dont les survivants, qui ont attendu deux mois avant de pouvoir être secourus, se sont livrés au cannibalisme. Ruiz&nbsp;: «&nbsp;J'avais un peu lu ce qui s'était écrit autour de ça et j'avais trouvé des choses bizarres dans cette histoire. Le fait qu'ils étaient à un kilomètre d'un hôtel, qu'ils n'étaient pas à plus de cinq kilomètres de l'autoroute qu'ils pouvaient voir et qu'ils ont vue. Le fait aussi que n'importe quel étudiant d'école primaire ou secondaire d'Amérique latine devrait savoir que, quand on tombe dans la cordillère des Andes, il faut suivre la direction du soleil deux ou trois jours, et on arrive à la mer. Je me disais qu'il avait dû se passer autre chose. Je ne veux pas lancer d'hypothèse mais je me disais que dans une micro-société il y a toutes sortes de déformations qui se produisent, de anamorphoses et qu'on peut créer un territoire mythique. Je me disais que les gens, quelque part, avaient voulu s'enfermer pour pouvoir se manger tranquillement.&nbsp;» Tourné dans une forêt près de Sintra, près de Lisbonne, <em>Le Territoire</em> remplace les rescapés de l'accident par un groupe de randonneurs qui se perd et finit par tourner en rond. Le film ressemble à un mélange entre <em>La Vallée</em> de Barbet Schroeder, <em>Stalker</em> de Tarkovski, et <em>L'Ange exterminateur</em> de Buñuel.</p>"
   }
 ]
 
