@@ -42,5 +42,6 @@
   { "id": 41, "name": "Bogotá", "lat": 4.7, "lng": -74.07, "cards": [27] },
   { "id": 42, "name": "Etretat", "lat": 49.71, "lng": 0.2, "cards": [28] },
   { "id": 43, "name": "Bahía de Guayacán", "lat": -29.96, "lng": -71.36, "cards": [32] },
-  { "id": 44, "name": "Parc de Bagatelle", "lat": 48.85, "lng": 1.63, "cards": [36] }
+  { "id": 44, "name": "Parc de Bagatelle", "lat": 48.85, "lng": 1.63, "cards": [36] },
+  { "id": 45, "name": "Montsouris", "lat": 46.58, "lng": 2.66, "cards": [38] }
 ]

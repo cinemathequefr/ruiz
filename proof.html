@@ -20,10 +20,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.1.0/lodash.js"></script>
     <script>
-    function display() {
-      var data = normalizeCollection(arguments[0], ["title", "text"]);
+    function display(pointsData, cardsData) {
+
+      var data = _(normalizeCollection(cardsData, ["title", "text"]))
+      .map(function (c) {
+        return _.assign(c, {
+          points: _(pointsData)
+            .filter(function (p) {
+              return _.indexOf(p.cards, c.id) > -1;
+            })
+            .map(function (p) {
+              return p.id;
+            })
+            .value()
+        });
+      })
+      .value();
+
+      console.log(data);
+
       _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-      var template = _.template("<a name='{{id}}'></a><h2>({{id}}) {{title}}</h2><div>Lieux : <% { _.forEach(points, function (p, i) { %>{{p}}<% if (i + 1 < points.length) { %>, <% } }); } %></div><div class='text'>{{ text }}</div><hr>");
+      // var template = _.template("<a name='{{id}}'></a><h2>({{id}}) {{title}}</h2><div>Lieux : <% { _.forEach(points, function (p, i) { %>{{p}}<% if (i + 1 < points.length) { %>, <% } }); } %></div><div class='text'>{{ text }}</div><hr>");
+      var template = _.template("<a name='{{id}}'></a><h2>({{id}}) {{title}}</h2><div class='text'>{{ text }}</div><ul><% _.forEach(points, function (p) { %><li><a href='./#!/{{p}}/{{id}}'>{{p}}/{{id}}</a></li><% }); %></ul><hr>");
       _.forEach(data, function (item) {
         $(".container").append(template(item));
       });
@@ -44,7 +62,11 @@
     </div>
 
     <script>
-    $.getJSON("data/cards.json").done(display);
+    // $.getJSON("data/cards.json").done(display);
+
+    $.when($.getJSON("data/points.json"), $.getJSON("data/cards.json")).then(function () {
+      display(arguments[0][0], arguments[1][0]);
+    });
     </script>
   </body>
 </html>
