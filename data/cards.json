@@ -1,16 +1,21 @@
 [
   {
     "id": 1,
-    "title": "Sur les quais",
+    "title": "Embarquement",
     "assets" : [
       { "type": "video", "id": 156826233, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
     ],
+    "text": "<p>Valparaíso, la grande cité portuaire chilienne et lieu de son enfance, est sans doute le point central de la géographie ruizienne. En 1982, lorsqu'il réalise Les <em>Trois couronnes du matelot</em>, près d'une décennie s'est écoulée depuis son départ en exil, et Valparaíso –&nbsp;par où le marin de l'histoire passe et repasse&nbsp;– un endroit mythique auquel seul le souvenir et l'imagination permettent d'accéder. Tourné entre Lisbonne et Funchal (chef-lieu de l'île de Madère), le film hybride les deux sites pour réinventer la ville portuaire et ses quais.</p>",
     "films": [51155]
   },
   {
     "id": 2,
-    "title": "Élections législatives dans le 12e arrondissement",
-    "assets" : [{ "type": "img", "id": "126617-2" }]
+    "title": "Élections dans le 12e arrondissement",
+    "assets" : [
+      { "type": "img", "id": "126617-2", "desc": "Photogramme de <em>De grands événements et des gens ordinaires</em> - ©&nbsp;Ina" },
+      { "type": "img", "id": "126617-1", "desc": "Photogramme de <em>De grands événements et des gens ordinaires</em> - ©&nbsp;Ina" }
+    ],
+    "text": "<p>En février 1978, l'INA propose à Raoul Ruiz de tourner un portrait de son quartier parisien et de ses habitants à l'approche des élections législatives. À cette époque, Ruiz habite rue Marsoulan, dans le quartier de Picpus (12e arrondissement), aux allures de petite ville de province. Il y a dans cette commande un aspect quasi ethnographique –&nbsp;le regard de l'étranger sur le rituel de la campagne électorale française&nbsp;– que le film évoque par une rapide allusion aux <em>Lettres persanes</em> de Montesquieu. Mais surtout, devant les réticences des personnes qu'il veut interroger, Ruiz transforme <em>De grands événements et des gens ordinaires</em> en réflexion ironique et abrasive sur les malentendus du genre documentaire. À l'autre bout de l'arrondissement, dans leur salle de rédaction du 9, passage de la Boule-Blanche, les deux Pascal des Cahiers du cinéma (Kané et Bonitzer) débattent de la distinction entre fiction et cinéma direct.</p>"
   },
   {
     "id": 3,
@@ -64,7 +69,10 @@
   {
     "id": 10,
     "title": "Aventures à Madère",
-    "assets" : [{ "type": "img", "id": "51146-1", "desc": "Photogramme des <em>Destins de Manoel</em>" }]
+    "assets" : [
+      { "type": "img", "id": "51146-1", "desc": "Photogramme des <em>Destins de Manoel</em>" },
+      { "type": "img", "id": "51146-2", "desc": "Photogramme des <em>Destins de Manoel</em>" }
+    ]
   },
   {
     "id": 11,
@@ -143,7 +151,7 @@
   {
     "id": 25,
     "title": "Les enfants du bannissement",
-    "text": "<p>Dans les recoins inexplorés de la carto-filmographie ruizienne, le pays d'Afrique lusophone apparaît dans un titre intrigant : <em>Angola ou les enfants du bannissement</em>.</p>"
+    "text": "<p>L'évocation romanesque d'un lieu peut tenir à son simple nom. Un lointain pays d'Afrique lusophone trouve sa place dans la filmo-géographie ruizienne grâce à un film invisible et dont on ne sait rien ou presque&nbsp;: <em>Angola ou les enfants du bannissement</em>, tourné à Madère en même temps que <em>Les Destins de Manoel</em>. Un film jumeau donc, ou plutôt film excroissance comme il s'en produit parfois chez Ruiz (<a href='#!/7/39'>Point de fuite</a>). «&nbsp;Le film s'est fait parce que Paulo Branco, le producteur, n'avait pas payé les acteurs des <em>Destins de Manoel</em>, qui quittaient le tournage les uns après les autres. Pour le punir, nous avons fait ce film en un week-end, une vengeance à laquelle il ne s'attendait pas. C'est un long métrage tourné en deux jours et demi, dans lequel jouent tous les techniciens.&nbsp;»</p>"
   },
   {
     "id": 26,
@@ -170,9 +178,9 @@
     "id": 29,
     "title": "L'appartement de la rue Huelén",
     "assets" : [
-      { "type": "video", "id": 160212813, "desc": "<em>Fabricante de sueños mecánicos</em> (<em>Fabricant de rêves mécaniques</em>), réalisé par l'actrice Chamila Rodríguez, évocation de l'hommage rendu à Raoul Ruiz le 16 septembre 2013 devant l'immeuble de la rue Huelén." }
+      { "type": "video", "id": 160212813, "desc": "<em>Fabricante de sueños mecánicos</em> (<em>Fabricant de rêves mécaniques</em>), réalisé par l'actrice Chamila Rodríguez et le cinéaste Galut Alarcón, évocation de l'hommage rendu à Raoul Ruiz le 16 septembre 2013 devant l'immeuble de la rue Huelén." }
     ],
-    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble &nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>"
+    "text": "<p>À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble avec ces mots de Waldo Rojas (poète et grand ami de Ruiz)&nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;».</p>"
   },
   {
     "id": 30,
@@ -186,9 +194,10 @@
     "id": 31,
     "title": "Trois tristes tigres",
     "assets": [
-      { "type": "img", "id": "los-capitanes", "desc": "Raoul Ruiz avec les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz. Collection Luis Alarcón" }
+      { "type": "img", "id": "lobby-still-tres-tristes-tigres", "desc": "Photo promotionnelle pour <em>Trois tristes tigres</em> - Collection Luis Alarcón" },
+      { "type": "img", "id": "los-capitanes", "desc": "Raoul Ruiz avec les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz - Collection Luis Alarcón" }
     ],
-    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux amis dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Au-delà du geste d'entraide familiale, l'investissement, dans le contexte prometteur d'un nouveau cinéma chilien en plein essor, était toutefois mûrement réfléchi.</p>"
+    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion.</p>"
   },
   {
     "id": 32,
@@ -234,6 +243,12 @@
     "title": "Colloque de chiens",
     "assets": [],
     "text": "<p>«&nbsp;La petite ville de Montsouris&nbsp;». Un endroit quelconque en France, mais qu'on est tenté de voir pile au milieu, pour servir de foyer à un roman-photo criminel habité par une obsession géométrique. <em>Colloque de chiens</em> (1977), tourné au banc-titre, est un récit en spirale qui finit par désigner son centre&nbsp;–&nbsp;on pense à <em>La Mort et la boussole</em>, la nouvelle de Borges, qui joue un jeu sembable avec une autre forme.</p>"
+  },
+  {
+    "id": 39,
+    "title": "Point de fuite",
+    "assets": [],
+    "text": ""
   }
 ]
 
