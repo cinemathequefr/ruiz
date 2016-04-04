@@ -1,17 +1,17 @@
 [
   { "id": 1, "name": "Puerto Montt", "lat": -41.47, "lng": -72.94, "cards": [5] },
-  { "id": 2, "name": "Mexico", "lat": 19.43, "lng": -99.13, "cards": [] },
+  { "id": 2, "name": "Mexico", "lat": 19.43, "lng": -99.13, "cards": [41] },
   { "id": 3, "name": "Honduras", "lat": 14.15, "lng": -87.14, "cards": [] },
   { "id": 4, "name": "Jamaïque", "lat": 17.98, "lng": -76.8, "cards": [] },
   { "id": 5, "name": "Madère", "lat": 32.75, "lng": -17, "cards": [1, 10, 25] },
   { "id": 6, "name": "Lisbonne", "lat": 38.71, "lng": -9.14, "cards": [1] },
   { "id": 7, "name": "Baleal", "lat": 39.38, "lng": -9.34, "cards": [22, 39] },
-  { "id": 8, "name": "Paris", "lat": 48.86, "lng": 2.35, "cards": [35, 2, 14] },
+  { "id": 8, "name": "Paris", "lat": 48.86, "lng": 2.35, "cards": [35, 2, 14, 40] },
   { "id": 9, "name": "Le Havre", "lat": 49.49, "lng": 0.13, "cards": [3, 14] },
   { "id": 10, "name": "Allemagne", "lat": 50.73, "lng": 7.1, "cards": [] },
-  { "id": 11, "name": "New York", "lat": 40.71, "lng": -74.01, "cards": [26] },
+  { "id": 11, "name": "New York", "lat": 40.71, "lng": -74.01, "cards": [42, 26] },
   { "id": 12, "name": "Bâton-Rouge", "lat": 30.42, "lng": -91.1, "cards": [] },
-  { "id": 13, "name": "Duke University", "lat": 36, "lng": -78.94, "cards": [] },
+  { "id": 13, "name": "Durham", "lat": 36, "lng": -78.94, "cards": [43] },
   { "id": 14, "name": "Santa Fe", "lat": -31.64, "lng": -60.70, "cards": [16] },
   { "id": 15, "name": "Santiago", "lat": -33.44, "lng": -70.65, "cards": [31, 29] },
   { "id": 16, "name": "Valparaíso", "lat": -33.05, "lng": -71.62, "cards": [1, 6, 21, 33] },
@@ -43,5 +43,7 @@
   { "id": 42, "name": "Etretat", "lat": 49.71, "lng": 0.2, "cards": [28] },
   { "id": 43, "name": "Bahía de Guayacán", "lat": -29.96, "lng": -71.36, "cards": [32] },
   { "id": 44, "name": "Parc de Bagatelle", "lat": 48.85, "lng": 1.63, "cards": [36] },
-  { "id": 45, "name": "Montsouris", "lat": 46.58, "lng": 2.66, "cards": [38] }
+  { "id": 45, "name": "Montsouris", "lat": 46.58, "lng": 2.66, "cards": [38] },
+  { "id": 46, "name": "Tanger", "lat": 35.76, "lng": -5.86, "cards": [40] },
+  { "id": 47, "name": "Hong Kong", "lat": 22.42, "lng": 114.15, "cards": [] }
 ]

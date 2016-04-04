@@ -21,7 +21,25 @@ h2 {
   font-size: 1.25rem;
 }
 
-svg {
+/*
+.title {
+  position: fixed; overflow: hidden;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title svg {
+  width: 640px;
+  padding: 48px;
+}
+
+.title svg path {
+  fill: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0 0 8px #444);
+}
+*/
+
+svg.map {
   position: fixed;
   top: 0; left: 0; bottom: 0; width: 50%;
   background-repeat: no-repeat;
@@ -36,15 +54,6 @@ svg {
   fill: #ccaa99;
   filter: drop-shadow(0 0 8px #444);
   transition: fill 1s, filter 1s;
-}
-
-svg.night {
-  background-color: #181b2c;
-}
-
-svg.night .land {
-  fill: #29222c;
-  filter: drop-shadow(0 0 0 transparent);
 }
 
 .pin {
