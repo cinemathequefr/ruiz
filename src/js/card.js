@@ -39,14 +39,20 @@ var card = (function () {
       var $card = deck[0];
       if (_.isUndefined($card.isRemove) === false) {
         deck.shift();
-        $card.slideUp(250, function () {
+        $card.animate({ opacity: 0 }, 350, "easeOutQuad", function () {
           $card.remove();
           display(deck);
         });
       } else {
         _.assign($card, { isRemove: true }); // Marked for removal on next call
         $card.imagesLoaded(function () { // https://github.com/desandro/imagesloaded
-          $card.hide().prependTo($(elemCardContainer)).slideDown(350, function () {
+
+          $card.css({ visibility: "none", opacity: 0 }).prependTo($(elemCardContainer));
+          var h = $card.height();
+
+          $card
+          .css({ height: 0, visibility: "visible" })
+          .animate({ height: h + "px", opacity: 1 }, Math.max(200, h * 1.25), "easeOutQuad", function () {
             window.setTimeout(function () {
               display(_.tail(deck));
             }, 100);
