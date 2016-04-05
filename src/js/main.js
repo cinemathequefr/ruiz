@@ -28,16 +28,12 @@ d3_queue.queue()
       coordinates: [p.lng, p.lat],
       cards: _.map(p.cards, function (c) {
         var card = _.find(cards, { id: c });
-        // card.points.push(p.id); // Push point id to the points array
         card.points.push(p); // Push point to the points array
         return card;
       })
     });
   })
   .value();
-
-  console.log(points);
-
 
   map.init(world, points);
   card.init(points);

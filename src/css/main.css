@@ -244,6 +244,14 @@ span+span:before { content: '\20\2192\20'; }
 }
 
 
+.arc {
+  fill: transparent;
+  /*stroke: #369;*/
+  stroke: #eef;
+  stroke-width: 10px;
+  stroke-dasharray: 3,6;
+  opacity: 1;
+}
 
 
 

@@ -19,6 +19,8 @@ var map = (function () {
 
   var world, points;
 
+  var lastPoint = {}; // TEST
+
   function init() {
     world = arguments[0];
     points = arguments[1];
@@ -64,8 +66,19 @@ var map = (function () {
   }
 
   function panTo(point) {
+
+    // svg.selectAll(".arc") // Arcs
+    // .data([{ type: "LineString", coordinates: [[lastPoint.lat || 0, lastPoint.lng || 0], [point.lat, point.lng]] }])
+    // .enter()
+    // .append("path")
+    // .attr("class", "arc")
+    // .attr("d", function (d) {
+    //   return path(d);
+    // });
+
     projection.rotate(zoom.rotateTo(point.coordinates)); // https://github.com/BBC-News-Labs/newsmap/blob/master/js/utilities/zoom_functions.js#L6
     svg.transition().duration(1000).call(zoom.projection(projection).event);
+    lastPoint = point;
   }
 
   function zoomed() {
@@ -74,7 +87,13 @@ var map = (function () {
     .attr("transform", function (d) {
       return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
     });
+
+    // svg.select(".arc")
+    // .attr("transform", function (d) {
+    //   return "translate(" + projection(d.coordinates[0], d.coordinates[1]) + ")";
+    // })
   }
+
 
   return {
     init: init,

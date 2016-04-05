@@ -39,7 +39,7 @@ var card = (function () {
       var $card = deck[0];
       if (_.isUndefined($card.isRemove) === false) {
         deck.shift();
-        $card.animate({ opacity: 0 }, 350, "easeOutQuad", function () {
+        $card.animate({ opacity: 0 }, 250, "easeOutQuad", function () {
           $card.remove();
           display(deck);
         });
@@ -52,7 +52,7 @@ var card = (function () {
 
           $card
           .css({ height: 0, visibility: "visible" })
-          .animate({ height: h + "px", opacity: 1 }, Math.max(200, h * 1.25), "easeOutQuad", function () {
+          .animate({ height: h + "px", opacity: 1 }, Math.max(200, h), "easeOutQuad", function () {
             window.setTimeout(function () {
               display(_.tail(deck));
             }, 100);
