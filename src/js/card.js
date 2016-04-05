@@ -12,8 +12,8 @@ var card = (function () {
   var deck = []; // Array: DOM elements of cards
 
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
-  // renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>[{{id}}] {{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul></div>");
-  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>[{{id}}] {{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul><ul class='captions'><% _.forEach(assets, function (m) { %><li>{{ m.desc }}</li><% }); %></ul></div>");
+  // renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>[{{id}}] {{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul><ul class='captions'><% _.forEach(assets, function (m) { %><li>{{ m.desc }}</li><% }); %></ul></div>");
+  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><p><span class='title'>{{ cardTitle }}</span> {{ text }}</p><ul class='places'><% _.forEach(_.filter(points, function (p) { return p.id !== pointId; }), function (p) { %><li data-pointId='{{ p.id }}'>{{ p.name }}</li><% }); %></ul><ul class='captions'><% _.forEach(assets, function (m) { %><li>{{ m.desc }}</li><% }); %></ul></div>");
 
   function init() {
     points = arguments[0];
@@ -70,7 +70,8 @@ var card = (function () {
     var o = "";
     p = p || "";
     c = c || "";
-    if (p != "") o = o + p + " (" + i + ")";
+    // if (p != "") o = o + p + " (" + i + ")";
+    if (p != "") o = o + p;
     if (p != "" && c != "") o = o + "&nbsp;: ";
     if (c != "") o = o + c;
     return o;
