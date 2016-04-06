@@ -52,7 +52,7 @@ var card = (function () {
 
           $card
           .css({ height: 0, visibility: "visible" })
-          .animate({ height: h + "px", opacity: 1 }, Math.max(200, h), "easeOutQuad", function () {
+          .animate({ height: h + "px", opacity: 1 }, 450, "easeOutQuad", function () {
             window.setTimeout(function () {
               display(_.tail(deck));
             }, 100);

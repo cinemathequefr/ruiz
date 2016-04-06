@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Embarquement",
+    "title": "Embarquement sur le <em>Funchalense</em>",
     "assets" : [
       { "type": "video", "id": 156826233, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
     ],
@@ -33,7 +33,7 @@
       { "type": "video", "id": 159503026, "desc": "Extrait du <em>Toit de la baleine</em>" },
       { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Sur le tournage du <em>Toit de la baleine</em>, la mise en place du trucage sur plaque de verre" }
     ],
-    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les plats paysages de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux sera peint sur une plaque de verre fixée devant l'objectif. Il en résulte un lieu hybride, irréel, Patagonie mentale imprimée sur les prairies verdoyantes et les paisibles canaux.</p>"
+    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les paysages parfaitement plats de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux est peint sur une plaque de verre fixée devant l'objectif. Il en résulte, le temps d'un unique plan, un lieu hybride, irréel, une Patagonie mentale qui laissera son empreinte sur toute la suite du film.</p>"
   },
   {
     "id": 5,
@@ -109,7 +109,8 @@
   },
   {
     "id": 16,
-    "title": "L'école de cinéma de Santa Fe"
+    "title": "L'école de cinéma",
+    "text": "<p>En tournant son premier court métrage, <em>La Maleta</em>, Ruiz s'aperçoit qu'il ne connaît pas grand chose à la réalisation. Avant même de finaliser le montage de son film, il saisit l'occasion d'aller étudier en Argentine. «&nbsp;À l'école de cinéma de Santa Fe, on m'a appris que le devoir de tout être humain né en Amérique latine est de tourner des documentaires&nbsp;», ironise-t-il quelques années plus tard. «&nbsp;Il fallait se mettre en quête de populations opprimées, ramener des scènes à sensation... en vain, puisque la région est la plus prospère d'Argentine.&nbsp;»</p>"
   },
   {
     "id": 17,
@@ -198,23 +199,23 @@
   },
   {
     "id": 31,
-    "title": "Trois tristes tigres",
+    "title": "Soirée de première",
     "assets": [
       { "type": "img", "id": "lobby-still-tres-tristes-tigres", "desc": "Photo promotionnelle pour <em>Trois tristes tigres</em> - Collection Luis Alarcón" },
       { "type": "img", "id": "los-capitanes", "desc": "Raoul Ruiz avec les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz - Collection Luis Alarcón" }
     ],
-    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit, autour de Ruiz et des nombreux invités, les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion.</p>"
+    "text": "<p><em>Trois tristes tigres</em>, le premier long métrage de Raoul Ruiz, sort à Santiago en novembre 1968. Au cinéma Bandera, le vendredi 15, la soirée de première réunit autour de Ruiz et des nombreux invités les interprètes du film, Shenda Román, Delfina Guzmán, Luis Alarcón, Nelson Villagra et Jaime Vadell, le dramaturge Alejandro Sieveking –&nbsp;jeune auteur de la pièce dont le film est tiré&nbsp;–, et trois hommes d'âge mur en uniforme de la marine&nbsp;: les capitaines Serafín Selanio, Enrique Reimann et Ernesto Ruiz (le père du cinéaste), producteurs du film au sein de la société Los Capitanes créée pour l'occasion. Les trois premières réalisations de Raoul Ruiz étant à l'époque restées inachevées, son père s'était lancé avec ses deux collègues dans l'aventure de la production pour s'assurer que son fils parviendrait cette fois-ci à ses fins. Un investissement toutefois mûrement réfléchi dans le contexte d'un cinéma national en plein essor.</p>"
   },
   {
     "id": 32,
     "title": "Le fils de Francis Drake et les pirates juifs",
-    "text": "<p>Si le titre de <a href='#!/7/22'>La Ville des pirates</a> (également intitulé Rusticatio civitatis piratarum&nbsp;: «&nbsp;villégiature dans la cité des pirates&nbsp;») n'est pas vraiment élucidé par la vision du film, il s'agit pour Ruiz d'une allusion discrète à une histoire qui le fascinait depuis l'enfance, celle de la Fraternité du drapeau noir, alliance de pirates menée par Henry Drake (fils de Sir Francis Drake) et le capitaine juif Davis (né David Abrabanel), qui, à la fin du XVIe siècle, avaient établi dans la baie de Guayacán, à 200 milles nautiques au nord de Valparaíso, une cité servant de base arrière à leurs campagnes anti-espagnoles.</p>"
+    "text": "<p>Si le titre de <a href='#!/7/22'><em>La Ville des pirates</em></a> (sous-titré <em>Rusticatio civitatis piratarum</em>&nbsp;: «&nbsp;villégiature dans la cité des pirates&nbsp;») n'est pas vraiment élucidé par la vision du film, il s'agit pour Ruiz d'une allusion discrète à une histoire qui le fascinait depuis l'enfance, celle de la Fraternité du drapeau noir, une alliance de pirates menée par Henry Drake (fils de Sir Francis Drake) et le capitaine juif Davis (né David Abrabanel, issu d'une prestigieuse lignée de rabbins sépharades), qui, à la fin du XVIe siècle, avaient établi dans la baie de Guayacán, à 200 milles nautiques au nord de <a href='#!/16'>Valparaíso</a>, une cité servant de base arrière à leurs campagnes anti-espagnoles.</p>"
   },
   {
     "id": 33,
     "title": "Lucerna, le navire des morts-vivants",
     "assets": [{ "type": "video", "id": 159929605, "desc": "Extrait de <em>Litoral, cuentos del mar</em>" }],
-    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/15'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>"
+    "text": "<p>Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/34'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres.</p>"
   },
   {
     "id": 34,
@@ -248,7 +249,7 @@
     "id": 38,
     "title": "Colloque de chiens",
     "assets": [],
-    "text": "<p>«&nbsp;Dans la petite ville de Montsouris...&nbsp;», réitère la voix off. Avec son bar-tabac Le Joli-Mont autour duquel se noue l'intrigue à répétition, Montsouris est la ville française sans qualité, sise peut-être au coeur de l'hexagone pour mieux servir de point focal à ce roman-photo passionnel et criminel habité par une obsession géométrique. <em>Colloque de chiens</em> (1977), réalisé essentiellement au banc-titre, est un récit en spirale qui finit par désigner son centre. «&nbsp;Cherchez au centre&nbsp;», avertit le commissaire du film. On pense à Borges, à <em>La Mort et la boussole</em>, qui joue un jeu semblable avec une autre figure élémentaire. Le scénario, co-écrit par Raoul Ruiz et Nicole Muchnik, compte aussi une source plus triviale&nbsp;: les titres tapageurs du magazine <em>Détective</em> assemblés en un <em>cut-up</em> étourdissant. <em>Colloque de chiens</em> est aussi un regard oblique sur la géographie urbaine française, à la fois familière et inquiétante.</p>"
+    "text": "<p>«&nbsp;Dans la petite ville de Montsouris...&nbsp;», réitère la voix off. Avec son bar-tabac Le Joli-Mont autour duquel se noue l'intrigue à répétition, Montsouris est la ville française sans qualité, sise peut-être au cœur de l'hexagone pour mieux servir de point focal à ce roman-photo passionnel et criminel habité par une obsession géométrique. <em>Colloque de chiens</em> (1977), réalisé essentiellement au banc-titre, est un récit en spirale qui finit par désigner son centre. «&nbsp;Cherchez au centre&nbsp;», avertit le commissaire du film. On pense à Borges, à <em>La Mort et la boussole</em>, qui joue un jeu semblable avec une autre figure élémentaire. Le scénario, co-écrit par Raoul Ruiz et Nicole Muchnik, compte aussi une source plus triviale&nbsp;: les titres tapageurs du magazine <em>Détective</em> assemblés en un <em>cut-up</em> étourdissant. <em>Colloque de chiens</em> est aussi un regard oblique sur la géographie péri-urbaine française, à la fois familière et inquiétante.</p>"
   },
   {
     "id": 39,
@@ -270,7 +271,7 @@
   {
     "id": 42,
     "title": "The Golden Boat",
-    "text": "<p>L'œuvre de Raoul Ruiz compte son film indépendant new-yorkais. Tandis qu'il enseigne à Harvard pendant l'année universitaire 1989-1990, Ruiz rencontre deux jeunes producteurs intrépides, Jordi Torrent et James Schamus, qui se proposent pour faire un film avec lui. Budget de 125&nbsp;000 dollars, scénario écrit en 48 heures («&nbsp;Les gens sont tellement malheureux ici, sans scénario&nbsp;», dira Ruiz), production montée en une semaine, tournage bouclé en 12 jours... La nouvelle d'un tournage de Ruiz provoque une petite effervescence dans le milieu de l'avant-garde artistique. On trouve ainsi dans <em>The Golden Boat</em>&nbsp;: des acteurs du Wooster Group (troupe de théâtre expérimental en vue), des apparitions de Jim Jarmusch et Barbet Schroeder, et une bande musicale signée John Zorn. Ruiz applique à son film les lois de la <em>telenovela</em>. «&nbsp;Le plan secret du film était de faire se comporter les New-Yorkais comme des Chiliens&nbsp;: entrer dans les appartements sans frapper, engager la conversation avec des inconnus dans la rue. En même temps, on y trouve certaines icônes nord-américaines, comme un serial killer. Mais celui-ci n'est au fond pas si mauvais, et la communauté finit par l'accepter. On trouve donc dans le film des éléments paradoxaux auxquels j'essaie de donner une touche de thriller.&nbsp;» «&nbsp;La ville montrée dans <em>The Golden Boat</em>, c'est le New York que j'ai connu dans les années 60. C'est peut-être parce que j'étais jeune, mais pratiquement à chaque coin de rue, j'ai eu affaire à des bagarres. J'ai reçu des coups de poings de tous les côtés, quand je m'y attendais le moins. Mais la plupart des histoires de ce film viennent du Santiago d'aujourd'hui. Les assassins alcooliques qui se promènent dans le rue en train pour tuer, et que tout le monde connaît dans le quartier, ça c'est plutôt chilien que new-yorkais.&nbsp;»</p>"
+    "text": "<p>L'œuvre de Raoul Ruiz compte son film indépendant new-yorkais. Tandis qu'il enseigne à Harvard pendant l'année universitaire 1989-1990, Ruiz rencontre deux jeunes producteurs intrépides, Jordi Torrent et James Schamus, qui se proposent pour faire un film avec lui. Budget de 125&nbsp;000 dollars, scénario écrit en 48 heures («&nbsp;Les gens sont tellement malheureux ici, sans scénario&nbsp;», dira Ruiz), production montée en une semaine, tournage bouclé en 12 jours... La nouvelle d'un tournage de Ruiz provoque une petite effervescence dans le milieu de l'avant-garde artistique. On trouve ainsi dans <em>The Golden Boat</em>&nbsp;: des acteurs du Wooster Group (troupe de théâtre expérimental en vue), des apparitions de Jim Jarmusch et Barbet Schroeder, et une bande musicale signée John Zorn. Ruiz applique à son film les lois de la <a href='#!/2'><em>telenovela</em></a>. «&nbsp;Le plan secret du film était de faire se comporter les New-Yorkais comme des Chiliens&nbsp;: entrer dans les appartements sans frapper, engager la conversation avec des inconnus dans la rue. En même temps, on y trouve certaines icônes nord-américaines, comme un serial killer. Mais celui-ci n'est au fond pas si mauvais, et la communauté finit par l'accepter. On trouve donc dans le film des éléments paradoxaux auxquels j'essaie de donner une touche de thriller.&nbsp;» «&nbsp;La ville montrée dans <em>The Golden Boat</em>, c'est le New York que j'ai connu dans les années 60. C'est peut-être parce que j'étais jeune, mais pratiquement à chaque coin de rue, j'ai eu affaire à des bagarres. J'ai reçu des coups de poings de tous les côtés, quand je m'y attendais le moins. Mais la plupart des histoires de ce film viennent du Santiago d'aujourd'hui. Les assassins alcooliques qui se promènent dans le rue en train pour tuer, et que tout le monde connaît dans le quartier, ça c'est plutôt chilien que new-yorkais.&nbsp;»</p>"
   },
   {
     "id": 43,
@@ -290,14 +291,23 @@
   {
     "id": 46,
     "title": "Sur le chemin de l'exil",
-    "text": "<p>Après le coup d'État du 11 septembre 1973, Raoul Ruiz, proche du grouvernement Allende, déménage chez ses parents par prudence. En octobre, le documentariste Patricio Guzmán est arrêté. Miguel Littin, réalisateur également et directeur de Chile Films, se réfugie à l'ambassade du Mexique. Au moment où il venait de se décider à quitter le pays, Ruiz reçoit d'un ami, le cinéaste allemand Peter Lilienthal, un cadeau inespéré, un billet d'avion. Lilienthal en envoie également un à l'écrivain Antonio Skármeta avec ces mots&nbsp;: «&nbsp;Ils vont vous tuez. Partez vite.&nbsp;» Le 12 octobre 1973, Ruiz et Skármeta s'envolent ensemble pour Berlin.  Ruiz restera quelques mois en Allemagne avant d'aller à <a href='#!/8'>Paris</a>.</p>"
+    "text": "<p>Après le coup d'État du 11 septembre 1973, à Santiago, Raoul Ruiz, proche du gouvernement Allende, s'installe par prudence chez ses parents. En octobre, le documentariste Patricio Guzmán est arrêté. Miguel Littin, réalisateur et directeur de Chile Films, trouve refuge à l'ambassade du Mexique. Au moment même où il se décide à quitter le pays, Ruiz reçoit d'un ami, le cinéaste allemand Peter Lilienthal, un cadeau inespéré&nbsp;: un billet d'avion. Lilienthal en envoie également un à l'écrivain Antonio Skármeta avec ces mots&nbsp;: «&nbsp;Ils vont vous tuer. Partez vite.&nbsp;» Le 12 octobre 1973, sous la protection de l'ambassade d'Allemagne, Ruiz et Skármeta s'envolent ensemble pour Berlin. Ruiz y restera quelques mois avant d'aller à <a href='#!/8'>Paris</a>, où il s'installera finalement.</p>"
   },
   {
     "id": 47,
-    "title": "Aconcagua",
+    "title": "Le navire Aconcagua",
     "assets": [
       { "type": "img", "id": "raoul-ruiz-13-ans", "desc": "Raoul Ruiz à 13 ans" }
     ],
     "text": "<p>Sous le commandement du capitaine Ernesto Ruiz, le cargo Aconcagua quitte Valparaíso pour rallier Hambourg. Nous sommes en 1954. À bord du navire, l'épouse du commandant, Olga Pino, et Raoul, leur fils unique, sont aussi du voyage.</p>"
+  },
+  {
+    "id": 48,
+    "title": "Trois tigres et un léopard",
+    "assets": [
+      { "type": "img", "id": "locarno-1", "desc": "L'annonce du palmarès dans le journal du festival" }
+    ],
+    "text": "<p>En 1969, le premier long métrage de Ruiz, <em>Trois tristes tigres</em>, est sélectionné en compétition au festival de Locarno. Ruiz prépare son voyage en Europe en se laissant pousser moustache et favoris qui le signaleront comme Sud-Américain. Le 12 octobre, son film remporte le grand prix du festival ex-æquo.</p>"
   }
+
 ]
