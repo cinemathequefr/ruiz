@@ -23,7 +23,7 @@
   { "id": 22, "name": "Taïwan", "lat": 25.04, "lng": 121.55, "cards": [11] },
   { "id": 23, "name": "Tunis", "lat": 36.8, "lng": 10.18, "cards": [] },
   { "id": 24, "name": "Maroc", "lat": 31.63, "lng": -7.98, "cards": [] },
-  { "id": 25, "name": "Grenoble", "lat": 45.19, "lng": 5.72, "cards": [] },
+  { "id": 25, "name": "Grenoble", "lat": 45.19, "lng": 5.72, "cards": [49] },
   { "id": 26, "name": "Angola", "lat": -8.89, "lng": 13.33, "cards": [25] },
   { "id": 27, "name": "Golfe de Botnie", "lat": 64, "lng": 21.86, "cards": [7] },
   { "id": 28, "name": "Suisse", "lat": 46.62, "lng": 6.49, "cards": [48] },
@@ -47,4 +47,4 @@
   { "id": 46, "name": "Tanger", "lat": 35.76, "lng": -5.86, "cards": [40] },
   { "id": 47, "name": "Hong Kong", "lat": 22.42, "lng": 114.15, "cards": [] },
   { "id": 48, "name": "Iowa City", "lat": 41.66, "lng": -91.53, "cards": [44] }
-]
+] 

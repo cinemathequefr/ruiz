@@ -33,7 +33,7 @@
       { "type": "video", "id": 159503026, "desc": "Extrait du <em>Toit de la baleine</em>" },
       { "type": "img", "id": "tournage-het-dak-van-de-walvis", "desc": "Sur le tournage du <em>Toit de la baleine</em>, la mise en place du trucage sur plaque de verre" }
     ],
-    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située en Patagonie. Produit par le festival de Rotterdam, le film se tourne pourtant dans les paysages parfaitement plats de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux est peint sur une plaque de verre fixée devant l'objectif. Il en résulte, le temps d'un unique plan, un lieu hybride, irréel, une Patagonie mentale qui laissera son empreinte sur toute la suite du film.</p>"
+    "text": "<p>En juillet 1981, Raoul Ruiz tourne <em>Le Toit de la baleine</em> (<em>Het Dak van de Walvis</em>), fable ethnographique et fantastique située dans un lieu incertain qui tiendrait à la fois de la Patagonie et des Pays-Bas. Produit par le festival de Rotterdam, le film se tourne dans les paysages parfaitement plats de la campagne hollandaise. Pour représenter la cordillère des Andes à l'horizon, Henri Alekan, le directeur de la photo, fait réaliser un trucage à la prise de vue où le profil montagneux est peint sur une plaque de verre fixée devant l'objectif. Il en résulte, le temps d'un unique plan, un lieu hybride, irréel, un paysage mental qui laisse son empreinte sur toute la suite du film.</p>"
   },
   {
     "id": 5,
@@ -139,7 +139,10 @@
   },
   {
     "id": 22,
-    "title": "La Ville des pirates"
+    "title": "La Ville des pirates",
+    "assets": [
+      { "type": "video", "id": 161786723, "desc": "Extrait de <em>La Ville des pirates</em>" }
+    ]
   },
   {
     "id": 23,
@@ -169,7 +172,7 @@
   },
   {
     "id": 27,
-    "title": "Un chapitre au hasard",
+    "title": "Capítulo 66",
     "text": "<p>En 1993, Raoul Ruiz anime un atelier de cinéma dans la capitale colombienne. Le cinéaste Luis Ospina, qui avait rencontré Ruiz à Paris à la fin des années 1970, le rejoint et lui propose de coréaliser un film avec lui. Il en sort le court métrage <em>Capítulo 66</em>, sorte de cadavre exquis cinématographique imaginé comme un épisode pris au hasard d'une <em>telenovela</em> gothique dont on ne saura rien d'autre.</p>"
   },
   {
@@ -254,14 +257,16 @@
   {
     "id": 39,
     "title": "Point de fuite",
-    "assets": [],
-    "text": ""
+    "assets": [
+      { "type": "video", "id": 161786081, "desc": "Extrait de <em>Point de fuite</em>" }
+    ],
+    "text": "<p><em>Point de fuite</em> est tourné immédiatement à la suite de <em>La Ville des pirates</em>. On y retrouve le même cadre –&nbsp;la presqu'île de Baleal et la maison du producteur Paulo Branco&nbsp;–, et la présence d'Anne Alvaro. L'homme au visage bandé qui arrive sur l'île pour disputer des parties de poker avec Branco est Steve Baer (crédité Baës), un joueur professionnel dont Barbet Schroeder venait d'adapter le récit dans le film <em>Tricheurs</em>, tourné à Madère. «&nbsp;Thriller mélancolique&nbsp;», promenade de série B baignée d'une composition lancinante de Jorge Arriagada, <em>Point de fuite</em> est l'envers absolu de <em>La Ville des pirates</em> –&nbsp;et le fait d'y reconnaître très précisément les mêmes lieux rend la juxtaposition des deux films tout à fait fascinante.</p>"
   },
   {
     "id": 40,
     "title": "Les bas-fonds",
     "assets": [],
-    "text": "<p>Tanger est l'une des escales du marin des <em>Trois couronnes du matelot</em>. Dans une séquence nocturne, on reconnaît le quartier de Bercy qui a servi de cadre à son tournage –&nbsp;les entrepôts à vin et les rails de l'actuelle cour Saint-Émilion.</p>"
+    "text": "<p>Tanger est l'une des escales du marin des <em>Trois couronnes du matelot</em>. Dans une séquence nocturne, on reconnaît le quartier de Bercy qui a servi de cadre à son tournage –&nbsp;les entrepôts à vin et les rails de la cour Saint-Émilion, à quelques encablures du site de l'actuelle Cinémathèque.</p>"
   },
   {
     "id": 41,
@@ -296,18 +301,19 @@
   {
     "id": 47,
     "title": "Le navire Aconcagua",
-    "assets": [
-      { "type": "img", "id": "raoul-ruiz-13-ans", "desc": "Raoul Ruiz à 13 ans" }
-    ],
+    "assets": [{ "type": "img", "id": "raoul-ruiz-13-ans", "desc": "Raoul Ruiz à 13 ans" }],
     "text": "<p>Sous le commandement du capitaine Ernesto Ruiz, le cargo Aconcagua quitte Valparaíso pour rallier Hambourg. Nous sommes en 1954. À bord du navire, l'épouse du commandant, Olga Pino, et Raoul, leur fils unique, sont aussi du voyage.</p>"
   },
   {
     "id": 48,
     "title": "Trois tigres et un léopard",
-    "assets": [
-      { "type": "img", "id": "locarno-1", "desc": "L'annonce du palmarès dans le journal du festival" }
-    ],
+    "assets": [{ "type": "img", "id": "locarno-1", "desc": "L'annonce du palmarès dans le journal du festival" }],
     "text": "<p>En 1969, le premier long métrage de Ruiz, <em>Trois tristes tigres</em>, est sélectionné en compétition au festival de Locarno. Ruiz prépare son voyage en Europe en se laissant pousser moustache et favoris qui le signaleront comme Sud-Américain. Le 12 octobre, son film remporte le grand prix du festival ex-æquo.</p>"
+  },
+  {
+    "id": 49,
+    "title": "Principauté rock",
+    "assets": [{ "type": "video", "id": 161787327, "desc": "Extrait de <em>Régime sans pain</em>" }],
+    "text": ""
   }
-
 ]
