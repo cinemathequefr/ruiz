@@ -219,6 +219,49 @@ span+span:before { content: '\20\2192\20'; }
   opacity: 1;
 }
 
+
+.menuIcon {
+  position: fixed;
+  top: 2px;
+  left: 4px;
+  width: 28px; height: 28px;
+  fill: #222;
+  transition: 0.1s;
+  cursor: pointer;
+
+
+}
+
+.menuIcon:hover, .menuIcon.open {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ul.menu {
+  position: fixed; display: none;
+  top: 30px; left: 4px; min-width: 160px;
+  margin: 0; padding: 4px;
+  color: #222; background-color: rgba(255, 255, 255, 0.5);
+  font-weight: 600; font-size: 0.875rem; letter-spacing: 0.04rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+ul.menu li {
+  padding: 0.25rem 8px;
+  transition: 0.1s;
+}
+
+ul.menu li:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+ul.menu a {
+  color: inherit; text-decoration: none;
+}
+
+
+
+
 /*
 #title {
   position: absolute;

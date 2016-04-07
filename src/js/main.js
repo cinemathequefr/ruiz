@@ -35,6 +35,10 @@ d3_queue.queue()
   })
   .value();
 
+
+
+
+
   map.init(world, points);
   card.init(points);
   map.on("click", function (e, point) {
