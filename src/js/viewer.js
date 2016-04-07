@@ -11,15 +11,15 @@ var viewer = (function () {
     $elViewer.append("<div class='viewerContent'></div><div class='viewerClose'></div>");
     $elViewerContent = $elViewer.children(".viewerContent");
     $elViewerClose = $elViewer.children(".viewerClose");
-    $(window).on("resize", windowResize);
+    // $(window).on("resize", windowResize);
   }
 
-  function open(src) {
-    $elViewerContent.append("<img src='" + src +"'>");
+  function open(src, desc) {
+    $elViewerContent.append("<img src='" + src +"'><div class='caption'>" + desc + "</div>");
     $elViewerImg = $elViewerContent.children("img");
+    _isOpen = true;
     windowResize();
     $elViewer.fadeIn(250, function () {
-      _isOpen = true;
       $elViewerClose.one("click", close);
       $(document).on("keydown", function (e) {
         if (e.which === 27) {

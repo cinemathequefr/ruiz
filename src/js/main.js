@@ -50,10 +50,14 @@ d3_queue.queue()
   viewer.init($(".viewer"));
 
   $(".cardContainer").on("click", "img", function () {
-    viewer.open(this.src);
+    viewer.open(this.src, $(this).data("desc"));
   });
 
-
+  $(window).on("resize", function () {
+    window.setTimeout(function (){
+      window.location.reload();
+    }, 10); 
+  });
 
   // Routing
   Path.root("#!/");

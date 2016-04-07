@@ -27,12 +27,12 @@ h2 {
   font-family: Merriweather; font-weight: 400; font-size: 1rem;
 }
 
+
 svg.map {
   position: fixed;
-  top: 0; left: 0; bottom: 0; width: 50%;
+  top: 0; left: 0; width: 50vw; height: 100vh;
   background-repeat: no-repeat;
   background-color: #778899;
-  /*background-color: #615d99;*/
   cursor: grab;
   transition: background-color 1s;
   box-sizing: border-box;
@@ -201,6 +201,13 @@ span+span:before { content: '\20\2192\20'; }
 
 .viewer .viewerClose:hover:before, .viewer .viewerClose.on:before {
   opacity: 1;
+}
+
+.viewer .caption {
+  position: fixed; display: block;
+  width: 100%;
+  bottom: 36px;
+  text-align: center;
 }
 
 .arc {

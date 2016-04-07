@@ -15,7 +15,8 @@ var map = (function () {
 
   var path = d3.geo.path().projection(projection);
   var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
-  var svg = d3.select("svg").attr("width", width).attr("height", height);
+  // var svg = d3.select("svg").attr("width", width).attr("height", height);
+  var svg = d3.select("svg");
 
   var world, points;
 
