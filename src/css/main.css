@@ -1,3 +1,7 @@
+
+
+
+
 body {
   position: relative;
   margin: 0;
@@ -18,26 +22,10 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  padding-top: 1rem;
+  color: #eee;
+  font-family: Merriweather; font-weight: 400; font-size: 1rem;
 }
-
-/*
-.title {
-  position: fixed; overflow: hidden;
-  top: 0; left: 0; width: 100vw; height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.title svg {
-  width: 640px;
-  padding: 48px;
-}
-
-.title svg path {
-  fill: rgba(255, 255, 255, 1);
-  filter: drop-shadow(0 0 8px #444);
-}
-*/
 
 svg.map {
   position: fixed;
@@ -86,7 +74,6 @@ svg.map {
   overflow: hidden;
   margin: 0 0 0 0;
   padding: 24px 48px;
-  /*border-bottom: solid 1px #666;*/
   transition: background-color 0.5s;
 }
 
@@ -98,15 +85,8 @@ svg.map {
   border-bottom: solid 1px #999;
 }
 
-/*
-.card:hover {
-  background: #2e251e;
-}
-*/
-
 .mediaContainer {
   display: block; overflow: hidden; width: 100%;
-  /*outline: solid 1px red;*/
 }
 
 .asset {
@@ -141,15 +121,8 @@ svg.map {
   margin: 0; padding: 0;
 }
 
-.card ul.places li {
-  display: inline-block;
-  padding: 3px;
-  list-style-type: none;
-  cursor: pointer;
-}
-
-.card ul.places li:hover {
-  background-color: #69f;
+.card .places {
+  color: #69f;
 }
 
 .card ul.captions li {
@@ -159,31 +132,18 @@ svg.map {
 }
 
 
-.card .title {
-  display: block;
-  font-family: Merriweather; font-weight: 400; font-size: 1rem; color: #eee;
-  padding-bottom: 1rem;
-}
-
 .card a {
-  /*color: #ddd;*/
   color: #69f;
-  font-weight: 600;
-  text-decoration: inherit;
+  text-decoration: none;
   border-bottom: solid 1px #69f;
   padding: 0 0px;
+  transition: 0.25s;
 }
 
-
-
-
-
-
-/*
-.card p, .card h2 {
-  margin-left: 48px; margin-right: 48px;
+.card a:hover, .card a:active {
+  color: #9cf;
+  border-bottom-color: #9cf;
 }
-*/
 
 /*
 .videoOverlay {
@@ -243,7 +203,6 @@ span+span:before { content: '\20\2192\20'; }
   opacity: 1;
 }
 
-
 .arc {
   fill: transparent;
   /*stroke: #369;*/
@@ -252,8 +211,6 @@ span+span:before { content: '\20\2192\20'; }
   stroke-dasharray: 3,6;
   opacity: 1;
 }
-
-
 
 /*
 #title {
@@ -266,4 +223,8 @@ span+span:before { content: '\20\2192\20'; }
 */
 
 
-
+@media only screen and (max-width: 768px) {
+  .asset {
+    width: 100%;
+  }
+}

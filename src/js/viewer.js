@@ -38,6 +38,7 @@ var viewer = (function () {
   }
 
   function windowResize() {
+    if (_isOpen === false) return;
     var ww = $(window).width() - 24; // 2*12px margin
     var wh = $(window).height() - 80; // 2*12px margin + some height for caption
     var f = fitInBox($elViewerImg[0].naturalWidth, $elViewerImg[0].naturalHeight, ww, wh, true);
