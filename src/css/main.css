@@ -11,6 +11,7 @@ body {
 
 a {
   text-decoration: inherit;
+  color: #ddd;
 }
 
 div {
@@ -262,12 +263,16 @@ ul.menu a {
 .page {
   position: fixed; display: none;
   top: 0; right: 0; bottom: 0; left: 0;
-  background-color: #251e18; color: #ddd;
+  color: #ddd;
+  /*background-color: rgba(37, 30, 24, .85); */
+  background-color: #251e18; 
 }
 
 .page .inner {
+  position: relative;
   width: 700px; max-width: 90%;
-  margin: 24px auto;
+  margin: 0 auto;
+  padding: 130px 0 0 0;
 }
 
 .page .intro {
@@ -275,12 +280,40 @@ ul.menu a {
   top: 0; right: 0; bottom: 0; left: 0;
 }
 
-.page .intro svg.title {
+/*
+.page .inner:before {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 250px;
+  height: 120px;
+  content: "";
+  background-image: url("../../img/raoul-ruiz-escales.svg");
+  background-repeat: no-repeat;
+  background-position: -20% 0%;
+}
+*/
+
+
+.splash {
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: #369;
+}
+
+.splash > img.title {
   position: absolute;
   width: 50vw; left: 25vw;
   top: 25vh;
   fill: #eee;
+  transition: 0.5s;
+  cursor: pointer;
 }
+
+.splash > img.title:hover {
+  fill: #933;
+}
+
 
 
 @media only screen and (max-width: 768px) {

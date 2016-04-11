@@ -1,5 +1,20 @@
 // Dependencies: path.js
 
+
+
+// First run
+var $splash = $(".splash").vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/trois-couronnes-du-matelot-3.mp4" }, { loop: true, muted: true, position: "50% 50%" });
+var $splashTitle = $splash.children("img.title");
+$splashTitle.on("click", function () {
+  $splash.fadeOut(800, function () {
+    $splash.empty();
+  })
+});
+
+
+
+
+
 d3_queue.queue()
 // .defer(d3.json, "data/world-50m.json")
 .defer(d3.json, "data/world-110m.json")
@@ -8,6 +23,7 @@ d3_queue.queue()
 .awaitAll(function (error, data) {
 
   if (error) throw error;
+
 
   var world = data[0];
 
@@ -55,7 +71,6 @@ d3_queue.queue()
   });
 
   // Routing
-  // Path.root("#!/" + randomPointId());
   Path.root("#!/intro");
   Path.map("#!/intro").to(function () { page.open("intro"); });
   Path.map("#!/index").to(function () { page.open("index"); });
