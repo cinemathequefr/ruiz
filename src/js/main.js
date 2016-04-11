@@ -35,21 +35,12 @@ d3_queue.queue()
   })
   .value();
 
-
-
-
-
   map.init(world, points);
   card.init(points);
+
   map.on("click", function (e, point) {
     setPath(point.id);
   });
-
-
-  // Deleted (not used)
-  // $(".cardContainer").on("click", "li", function () {
-  //   setPath($(this).data("pointid"));
-  // });
 
   viewer.init($(".viewer"));
 
@@ -64,7 +55,11 @@ d3_queue.queue()
   });
 
   // Routing
-  Path.root("#!/");
+  // Path.root("#!/" + randomPointId());
+  Path.root("#!/intro");
+  Path.map("#!/intro").to(function () { page.open("intro"); });
+  Path.map("#!/index").to(function () { page.open("index"); });
+  Path.map("#!/credits").to(function () { page.open("credits"); });
   Path.map("#!/(:pid)(/:cid)").to(navigate);
   Path.listen();
 
@@ -78,7 +73,7 @@ d3_queue.queue()
         window.location.hash = "#!/" + pid;
       }
     } else {
-      window.location.hash = "#!/";
+      window.location.hash = "#!/" + randomPointId();
     }
   }
 
@@ -88,7 +83,7 @@ d3_queue.queue()
     var cid = v.cid;
     var point = _.find(points, { id: pid });
 
-    if (v.isModified) {
+    if (v.isModified) { // If the location hash path was invalid, we update the location hash with the modified (valid) path
       setPath(pid, cid);
       return;
     }
@@ -96,10 +91,15 @@ d3_queue.queue()
     if (point) {
       $(_.map(points, "svg")).removeClass("on");
       $(point.svg).addClass("on");
+      page.close();
       map.panTo(point);
       card.show(point);
+      return;
     }
+
+    setPath(randomPointId()); // Fallback to random point
   }
+
 
   function validatePath(pid, cid) { // Given 2 path parameters pid (point id) and cid (card id), returns a "valid" pair, following fallback rules when the given combination is invalid.
     pid = parseInt(pid, 10) || null;
@@ -120,10 +120,15 @@ d3_queue.queue()
         if (!_.isUndefined(c)) out.cid = c.id;
       }
     }
-
-    out.isModified = (pid !== out.pid || cid !== out.cid); // True: path has been modified to a valid one
+    out.isModified = (pid !== out.pid || cid !== out.cid); // True: path had to be modified by this function to yield a valid one
     return out;
   }
+
+  function randomPointId() {
+    return _.sample(points).id;
+  }
+
+
 });
 
 
