@@ -298,20 +298,22 @@ ul.menu a {
 .splash {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
-  background-color: #369;
+  /*background-color: #369;*/
 }
 
-.splash > img.title {
-  position: absolute;
-  width: 50vw; left: 25vw;
+.splash > .title {
+  position: relative; display: block;
+  width: 25vw; margin: 0 auto;
   top: 25vh;
-  fill: #eee;
+  fill: #fff;
+  opacity: 0.5;
   transition: 0.5s;
   cursor: pointer;
 }
 
-.splash > img.title:hover {
-  fill: #933;
+.splash > .title:hover {
+  opacity: 1;
+  width: 55vw;
 }
 
 
