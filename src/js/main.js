@@ -3,17 +3,10 @@
 
 
 // First run
-var $splash = $(".splash").vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/trois-couronnes-du-matelot-3.mp4" }, { loop: true, muted: true, position: "50% 50%" });
-var $splashTitle = $splash.children("img.title");
-$splashTitle.on("click", function () {
-  $splash.fadeOut(800, function () {
-    $splash.empty();
-  })
+intro.init();
+intro.on("intro.open", function () {
+  $(".content").show();
 });
-
-
-
-
 
 d3_queue.queue()
 // .defer(d3.json, "data/world-50m.json")
@@ -54,7 +47,7 @@ d3_queue.queue()
   map.init(world, points);
   card.init(points);
 
-  map.on("click", function (e, point) {
+  map.on("map.click", function (e, point) {
     setPath(point.id);
   });
 
@@ -71,11 +64,9 @@ d3_queue.queue()
   });
 
   // Routing
-  Path.root("#!/intro");
-  Path.map("#!/intro").to(function () { page.open("intro"); });
-  Path.map("#!/index").to(function () { page.open("index"); });
-  Path.map("#!/credits").to(function () { page.open("credits"); });
-  Path.map("#!/(:pid)(/:cid)").to(navigate);
+  Path.root("#!/");
+  Path.map("#!/").to(intro.open);
+  Path.map("#!/place(/:pid)(/:cid)").to(navigate);
   Path.listen();
 
   function setPath(pid, cid) {
@@ -83,12 +74,12 @@ d3_queue.queue()
     cid = parseInt(cid, 10) || null;
     if (pid) {
       if (cid) {
-        window.location.hash = "#!/" + pid + "/" + cid;
+        window.location.hash = "#!/place/" + pid + "/" + cid;
       } else {
-        window.location.hash = "#!/" + pid;
+        window.location.hash = "#!/place/" + pid;
       }
     } else {
-      window.location.hash = "#!/" + randomPointId();
+      window.location.hash = "#!/place/" + randomPointId();
     }
   }
 
@@ -98,6 +89,9 @@ d3_queue.queue()
     var cid = v.cid;
     var point = _.find(points, { id: pid });
 
+    $(".content").show();
+    intro.close();
+
     if (v.isModified) { // If the location hash path was invalid, we update the location hash with the modified (valid) path
       setPath(pid, cid);
       return;
@@ -106,7 +100,7 @@ d3_queue.queue()
     if (point) {
       $(_.map(points, "svg")).removeClass("on");
       $(point.svg).addClass("on");
-      page.close();
+      // page.close();
       map.panTo(point);
       card.show(point);
       return;

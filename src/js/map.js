@@ -54,12 +54,12 @@ var map = (function () {
       })
       .each(function (d) { _.assign(d, { svg: this }) }) // Assign to each point object its corresponding svg element
       .on("click", function (d) {
-        $.publish("click", d);
+        $.publish("map.click", d);
       });
 
     svg.call(zoom).call(zoom.event);
     zoom.on("zoom.redraw", zoomed); // Use arbitrary namespace to prevent unwanted removal of existing listener on this event type
-    $.publish("ready");
+    $.publish("map.ready");
   }
 
   function on(event, callback) {
