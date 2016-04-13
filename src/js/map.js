@@ -15,11 +15,8 @@ var map = (function () {
 
   var path = d3.geo.path().projection(projection);
   var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
-  // var svg = d3.select("svg").attr("width", width).attr("height", height);
   var svg = d3.select("svg");
-
   var world, points;
-
   var lastPoint = {}; // TEST
 
   function init() {
@@ -33,11 +30,6 @@ var map = (function () {
       .datum(topojson.feature(world, world.objects.land))
       .attr("class", "land")
       .attr("d", path);
-
-    // d3_queue.queue().defer(d3.xml, "img/compass.svg").awaitAll(function (error, data) {
-    //   if (error) throw error;
-    //   svg.node().appendChild(data[0].getElementsByTagName("svg")[0]);
-    // });
 
     svg.selectAll(".pin")
       .data(points)

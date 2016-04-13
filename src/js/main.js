@@ -1,35 +1,29 @@
-// Dependencies: path.js
 
 
+var $intro = $(".intro");
+var $splash = $intro.find(".splash");
+var $title = $splash.find(".title");
 
-// First run
 intro.init();
-intro.on("intro.open", function () {
-  $(".content").show();
-});
 
 d3_queue.queue()
-// .defer(d3.json, "data/world-50m.json")
 .defer(d3.json, "data/world-110m.json")
 .defer(d3.json, "data/cards.json")
 .defer(d3.json, "data/points.json")
 .awaitAll(function (error, data) {
-
   if (error) throw error;
+  var world, cards, points;
 
-
-  var world = data[0];
-
-  var cards = _(data[1])
+  world = data[0];
+  cards = _(data[1])
   .thru(function (c) {
-    return normalizeCollection(c, ["assets", "text", "copyright", "films"]); // Normalize cards
+    return normalizeCollection(c, ["assets", "text", "copyright"]); // Normalize cards
   })
   .map(function (c) {
-    return _.assign(c, { "points": [] }) // Empty points array 
+    return _.assign(c, { "points": [] })
   })
   .value();
-
-  var points = _(data[2])
+  points = _(data[2])
   .filter(function (p) { return p.cards.length > 0; }) // (1) Leave out points without cards
   .map(function (p) { // (2+3) Make it a collection of GeoJSON points and replace the card property (array of IDs) with an array of references to cards
     return _.assign(p, {
@@ -37,21 +31,22 @@ d3_queue.queue()
       coordinates: [p.lng, p.lat],
       cards: _.map(p.cards, function (c) {
         var card = _.find(cards, { id: c });
-        card.points.push(p); // Push point to the points array
+        card.points.push(p);
         return card;
       })
     });
   })
   .value();
 
+  // Initialization
   map.init(world, points);
   card.init(points);
-
-  map.on("map.click", function (e, point) {
-    setPath(point.id);
-  });
-
   viewer.init($(".viewer"));
+
+  // DOM Bindings
+  $(".btn-intro").on("click", function() {
+    window.location.hash = "#!/";
+  });
 
   $(".cardContainer").on("click", "img", function () {
     viewer.open(this.src, $(this).data("desc"));
@@ -63,27 +58,32 @@ d3_queue.queue()
     }, 10); 
   });
 
+
+  // Events
+  intro.on("intro.enter", function () {
+    setPath(randomPointId());
+  });
+
+  map.on("map.click", function (e, point) {
+    setPath(point.id);
+  });
+
+
   // Routing
   Path.root("#!/");
   Path.map("#!/").to(intro.open);
-  Path.map("#!/place(/:pid)(/:cid)").to(navigate);
+  Path.map("#!/(:pid)(/:cid)").to(navigate);
+  Path.rescue(_.noop);
   Path.listen();
 
-  function setPath(pid, cid) {
-    pid = parseInt(pid, 10) || null;
-    cid = parseInt(cid, 10) || null;
-    if (pid) {
-      if (cid) {
-        window.location.hash = "#!/place/" + pid + "/" + cid;
-      } else {
-        window.location.hash = "#!/place/" + pid;
-      }
-    } else {
-      window.location.hash = "#!/place/" + randomPointId();
-    }
-  }
 
-  function navigate() { // Should not be called directly. Call setPath instead
+
+
+
+
+
+
+  function navigate() { // Should not be called directly - call setPath instead
     var v = validatePath(this.params.pid, this.params.cid);
     var pid = v.pid;
     var cid = v.cid;
@@ -96,17 +96,34 @@ d3_queue.queue()
       setPath(pid, cid);
       return;
     }
-
     if (point) {
       $(_.map(points, "svg")).removeClass("on");
       $(point.svg).addClass("on");
-      // page.close();
       map.panTo(point);
       card.show(point);
       return;
     }
-
     setPath(randomPointId()); // Fallback to random point
+  }
+
+
+  function randomPointId() {
+    return _.sample(points).id;
+  }
+
+
+  function setPath(pid, cid) {
+    pid = parseInt(pid, 10) || null;
+    cid = parseInt(cid, 10) || null;
+    if (pid) {
+      if (cid) {
+        window.location.hash = "#!/" + pid + "/" + cid;
+      } else {
+        window.location.hash = "#!/" + pid;
+      }
+    } else {
+      window.location.hash = "#!/" + randomPointId();
+    }
   }
 
 
@@ -116,7 +133,6 @@ d3_queue.queue()
     var out = { pid: null, cid: null };
     var c = _.find(cards, { id: cid });
     var p;
-
     if (!_.isUndefined(c)) {
       p = _.find(c.points, { id: pid });
       out.cid = cid;
@@ -131,10 +147,6 @@ d3_queue.queue()
     }
     out.isModified = (pid !== out.pid || cid !== out.cid); // True: path had to be modified by this function to yield a valid one
     return out;
-  }
-
-  function randomPointId() {
-    return _.sample(points).id;
   }
 
 

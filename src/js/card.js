@@ -16,7 +16,7 @@ var card = (function () {
 
   function init() {
     points = arguments[0];
-    $(elemCardContainer).perfectScrollbar();
+    $(elemCardContainer).perfectScrollbar({ suppressScrollX: true, wheelSpeed: 3 });
   }
 
 

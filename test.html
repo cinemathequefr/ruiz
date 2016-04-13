@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="src/css/vendor/perfect-scrollbar.min.css">
+    <style>
+    body {
+      position: relative;
+      margin: 0;
+    }
+
+    .container {
+      position: fixed; overflow: hidden;
+      top: 0; right: 0; bottom: 0; left: 0;
+    }
+
+    .content {
+      position: relative;
+      background-color: #69f;
+      height: 2000px;
+      outline: solid 1px red;
+    }
+    </style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="src/js/vendor/perfect-scrollbar.jquery.min.js"></script>
+
+
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="content">Lorum ipsem...</div>
+    </div>
+
+
+    <script>
+    $(".container").perfectScrollbar({ suppressScrollX: true });
+    </script>
+
+
+
+
+  </body>
+</html>
