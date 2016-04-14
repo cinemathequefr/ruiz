@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Au-dessous du « Volcan »",
     "assets": [
-      { "type": "img", "id": "le-havre" },
+      { "type": "img", "id": "le-havre", "desc": "Raoul Ruiz devant la Maison de la culture du Havre ©&nbsp;Guillermo Vilela" },
       { "type": "video", "id": 159965082, "desc": "Exrait de <em>Mémoire des apparences</em>" }
     ],
     "text": "Sur décision de Jack Lang, qui souhaite voir les centres culturels régionaux dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages. Au fil des mois, cette feuille de route jugée iconoclaste rencontre d'inévitables résistances. Interrogé un jour par une journaliste anglaise qui fait remarquer la bizarrerie de le voir devenu directeur d'institution culturelle, Ruiz répond&nbsp;: «&nbsp;Si vous vous demandez ce que je fais là, dites-vous que je suis le premier à me poser la question.&nbsp;» Au Havre, Ruiz tournera Mémoire des apparences, Le Professeur Taranne, <a href='#!/42/28'>Mammame</a>, <em>La Chouette aveugle</em>, et participe entre autres à la production de <em>Mon cas</em> de Manoel de Oliveira (1986)."
@@ -43,7 +43,7 @@
   {
     "id": 6,
     "title": "Un cabaret à Valparaíso",
-    "assets" : [{ "type": "video", "id": 155408815 }]
+    "assets" : [{ "type": "video", "id": 155408815, "desc": "" }]
   },
   {
     "id": 7,
@@ -51,13 +51,13 @@
     "text": "En mars 1986, trois cinéastes s'embarquent sur le brise-glace suédois Frej&nbsp;: un maître du cinéma ethnographique (Jean Rouch), une jeune diplômée d'une école de cinéma suédoise (Titte Törnroth), et Raoul Ruiz. En immersion parmi l'équipage de ce bâtiment qui sillonne le Golfe de Botnie d'octobre à mai pour ouvrir des voies de passage aux navires de commerce à travers la glace, les trois réalisateurs rendent compte de leur expérience, caméra Aäton à la main. Le film qui en résulte, <em>Brise-glace</em>, montre successivement ces trois regards.",
     "assets" : [
       { "type": "img", "id": "78830-1", "desc": "Photo de tournage de <em>Brise-glace</em> ©&nbsp;Katalin Volcsanszky" },
-      { "type": "video", "id": 159503021 }
+      { "type": "video", "id": 159503021, "desc": "" }
     ]
   },
   {
     "id": 8,
     "title": "Châteaux de sable",
-    "assets" : [{ "type": "video", "id": 159503020 }],
+    "assets" : [{ "type": "video", "id": 159503020, "desc": "" }],
     "text": "En juin 1981, Raoul Ruiz filme pour TF1 le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord."
   },
   {
@@ -85,7 +85,7 @@
   {
     "id": 12,
     "title": "Dans un jardin français",
-    "assets" : [{ "type": "video", "id": 156572327 }],
+    "assets" : [{ "type": "video", "id": 156572327, "desc": "" }],
     "text": "Dans les jardins de Versailles, impossible de se cacher. Les vastes allées dégagées qui se croisent tracent un panoptisme étoilé où rien ne saurait échapper au regard. Les intrigues doivent s'y jouer sous les yeux de tous, et les trahisons apparaissent en plein jour. Dans <em>Querelle de jardins</em> (1982), le récit à l'allure de roman-photo naît de l'opposition entre le jardin à la française et le <a href='#!/44/36'>parc à l'anglaise</a>."
   },
   {
