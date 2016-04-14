@@ -44,7 +44,7 @@ d3_queue.queue()
   viewer.init($(".viewer"));
 
   // DOM Bindings
-  $(".btn-intro").on("click", function() {
+  $(".anchor").on("click", function() {
     window.location.hash = "#!/";
   });
 
@@ -71,7 +71,14 @@ d3_queue.queue()
 
   // Routing
   Path.root("#!/");
-  Path.map("#!/").to(intro.open);
+
+  // Path.map("#!/").to(intro.open);
+  Path.map("#!/").to(function () {
+    intro.open();
+    card.empty();
+  });
+
+
   Path.map("#!/(:pid)(/:cid)").to(navigate);
   Path.rescue(_.noop);
   Path.listen();

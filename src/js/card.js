@@ -61,6 +61,12 @@ var card = (function () {
     })(deck);
   }
 
+  function empty() {
+    deck = [];
+    $(elemCardContainer).empty();
+  }
+
+
   function on(event, callback) {
     $.subscribe(event, callback);
   }
@@ -82,7 +88,8 @@ var card = (function () {
   return {
     init: init,
     on: on,
-    show: show
+    show: show,
+    empty: empty
   };
 
 })();

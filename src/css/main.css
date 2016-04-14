@@ -207,6 +207,7 @@ svg.map {
 }
 
 
+/*
 svg.ship {
   display: block;
   width: 200px; margin: 0 auto;
@@ -221,10 +222,10 @@ svg.ship path {
 svg.ship:hover path {
   fill: #9cf;
 }
+*/
 
 
-
-
+/*
 .button {
   display: inline-block;
   margin-top: 1rem; border: solid 2px #69f; padding: 12px; 
@@ -238,7 +239,7 @@ svg.ship:hover path {
 .button:hover {
   background-color: #69f; color: #251e18;
 }
-
+*/
 
 .intro .notes {
   margin: 3rem 0;
@@ -268,23 +269,19 @@ a.logocf:hover, a.logocf:active {
   opacity: 0.85;
 }
 
-.btn-intro {
+.anchor {
   position: fixed;
-  left: 6px; top: 4px;
-  width: 24px; height: 24px;
+  left: 0px; top: 0px; width: 36px; height: 36px;
   padding: 0;
+  fill: #fff;
   cursor: pointer;
   box-sizing: padding-box;
   opacity: 0.5;
-  transition: 0.25s;
+  transition: 0.35s;
 }
 
-.btn-intro:hover {
+.anchor:hover {
   opacity: 0.85;
-}
-
-.btn-intro path {
-  fill: #fff;
 }
 
 /*
