@@ -68,26 +68,16 @@ d3_queue.queue()
     setPath(point.id);
   });
 
-
   // Routing
   Path.root("#!/");
-
-  // Path.map("#!/").to(intro.open);
   Path.map("#!/").to(function () {
     intro.open();
     card.empty();
   });
 
-
   Path.map("#!/(:pid)(/:cid)").to(navigate);
   Path.rescue(_.noop);
   Path.listen();
-
-
-
-
-
-
 
 
   function navigate() { // Should not be called directly - call setPath instead

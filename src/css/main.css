@@ -30,13 +30,9 @@ hr.short {
   margin: 2rem 0;
 }
 
-
-
-
 .content {
   display: none;
 }
-
 
 svg.map {
   position: fixed;
@@ -46,7 +42,6 @@ svg.map {
   cursor: all-scroll;
   box-sizing: border-box;
 }
-
 
 .land {
   fill: #ccaa99;
@@ -74,9 +69,6 @@ svg.map {
   filter: drop-shadow(0 0 6px #444);
 }
 
-
-
-
 .cardContainer {
   position: fixed; display: block; overflow: hidden;
   top: 0; right: 0; bottom: 0; width: 50vw;
@@ -84,7 +76,7 @@ svg.map {
 }
 
 .card {
-  margin: 48px 0 0 0;/* padding: 48px 0;*/
+  margin: 48px 0 0 0;
 }
 
 .card h2 {
@@ -93,11 +85,27 @@ svg.map {
   font-size: 1.375rem; font-weight: 600;
 }
 
-.card p, .card ul {
+.card p {
   padding-left: 2%; padding-right: 2%;
   font-size: 0.938rem; letter-spacing: 0.04rem;
 }
 
+.card .places {
+  color: #69f;
+}
+
+.card a {
+  color: #69f;
+  text-decoration: none;
+  border-bottom: solid 1px #69f;
+  padding: 0 0px;
+  transition: 0.25s;
+}
+
+.card a:hover, .card a:active {
+  color: #9cf;
+  border-bottom-color: #9cf;
+}
 
 .mediaContainer {
   display: block; overflow: hidden; width: 100%;
@@ -127,9 +135,6 @@ svg.map {
   background-color: #000;
 }
 
-
-
-
 .viewer {
   position: fixed; display: none;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -156,16 +161,11 @@ svg.map {
 
 .viewer .caption {
   position: fixed; display: block;
-  width: 100%;
   bottom: 36px;
+  width: 100%;
+  font-size: 0.938rem;
   text-align: center;
 }
-
-
-
-
-
-
 
 .intro {
   position: fixed; overflow: hidden; display: none;
@@ -206,41 +206,6 @@ svg.map {
   font-size: 0.938rem; letter-spacing: 0.04rem;  
 }
 
-
-/*
-svg.ship {
-  display: block;
-  width: 200px; margin: 0 auto;
-  cursor: pointer;
-}
-
-svg.ship path {
-  fill: #ccc;
-  transition: 1s;
-}
-
-svg.ship:hover path {
-  fill: #9cf;
-}
-*/
-
-
-/*
-.button {
-  display: inline-block;
-  margin-top: 1rem; border: solid 2px #69f; padding: 12px; 
-  color: #69f;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.25s;
-  clear: left;
-}
-
-.button:hover {
-  background-color: #69f; color: #251e18;
-}
-*/
-
 .intro .notes {
   margin: 3rem 0;
   /*font-size: 0.813rem;*/ font-size: 0.875rem; color: #ccc;
@@ -253,8 +218,6 @@ svg.ship:hover path {
 .intro .notes a:hover, .intro .notes a:active {
   text-decoration: underline;
 }
-
-
 
 a.logocf {
   position: fixed;
@@ -293,7 +256,3 @@ a.logocf:hover, a.logocf:active {
   background-color: #fff !important;
 }
 */
-
-
-
-

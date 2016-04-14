@@ -7,8 +7,7 @@ var intro = (function () {
 
 
   function init() {
-    // $splash.vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/trois-couronnes-du-matelot-3.mp4" }, { loop: true, muted: true, position: "50% 50%" });
-    $splash.vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/intro-1.mp4" }, { loop: true, muted: true, position: "50% 50%" });
+    $splash.vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/intro-1.mp4" }, { loop: true, muted: true, position: "50% 0%" });
     v = $splash.data("vide");
     $intro.perfectScrollbar({ suppressScrollX: true });
     $(".enter").on("click", function () {
