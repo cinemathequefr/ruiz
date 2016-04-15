@@ -1,17 +1,18 @@
 [
   {
     "id": 1,
-    "title": "Embarquement sur le Funchalense",
+    "title": "À bord du Funchalense",
     "assets" : [
       { "type": "video", "id": 156826233, "desc": "Extrait des <em>Trois couronnes du matelot</em>" }
     ],
-    "text": "Valparaíso, la grande cité portuaire chilienne et lieu de son enfance, est sans doute le point central de la géographie ruizienne. En 1982, lorsqu'il réalise Les <em>Trois couronnes du matelot</em>, près d'une décennie s'est écoulée depuis son départ en exil, et Valparaíso –&nbsp;par où le marin de l'histoire passe et repasse&nbsp;– un endroit mythique auquel seul le souvenir et l'imagination permettent d'accéder. Tourné entre Lisbonne et Funchal (chef-lieu de l'île de Madère), le film hybride les deux sites pour réinventer la ville portuaire et ses quais.",
+    "text": "Valparaíso, la grande cité portuaire chilienne et lieu de l'enfance de Raoul Ruiz, est sans doute le point central de la géographie ruizienne. En 1982, lorsqu'il réalise Les <em>Trois couronnes du matelot</em>, près d'une décennie s'est écoulée depuis son départ en exil, et Valparaíso –&nbsp;par où le marin de l'histoire passe et repasse&nbsp;– un endroit mythique auquel seul le souvenir et l'imagination permettent d'accéder. Tourné entre Lisbonne et Funchal (chef-lieu de l'île de Madère), le film hybride les deux sites pour réinventer la ville portuaire et ses quais.",
     "films": [51155]
   },
   {
     "id": 2,
     "title": "Élections dans le 12e arrondissement",
     "assets" : [
+      { "type": "video", "id": 162964427, "desc": "" },
       { "type": "img", "id": "126617-2", "desc": "Photogramme de <em>De grands événements et des gens ordinaires</em> ©&nbsp;Ina" },
       { "type": "img", "id": "126617-1", "desc": "Photogramme de <em>De grands événements et des gens ordinaires</em> ©&nbsp;Ina" }
     ],
@@ -24,7 +25,7 @@
       { "type": "img", "id": "le-havre", "desc": "Raoul Ruiz devant la Maison de la culture du Havre ©&nbsp;Guillermo Vilela" },
       { "type": "video", "id": 159965082, "desc": "Exrait de <em>Mémoire des apparences</em>" }
     ],
-    "text": "Sur décision de Jack Lang, qui souhaite voir les centres culturels régionaux dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages. Au fil des mois, cette feuille de route jugée iconoclaste rencontre d'inévitables résistances. Interrogé un jour par une journaliste anglaise qui fait remarquer la bizarrerie de le voir devenu directeur d'institution culturelle, Ruiz répond&nbsp;: «&nbsp;Si vous vous demandez ce que je fais là, dites-vous que je suis le premier à me poser la question.&nbsp;» Au Havre, Ruiz tournera Mémoire des apparences, Le Professeur Taranne, <a href='#!/42/28'>Mammame</a>, <em>La Chouette aveugle</em>, et participe entre autres à la production de <em>Mon cas</em> de Manoel de Oliveira (1986)."
+    "text": "Sur décision de Jack Lang, qui souhaite voir les centres culturels régionaux dirigées par des artistes, Raoul Ruiz est nommé directeur de la Maison de la culture du Havre à l'été 1985. Ruiz prend possession des lieux –&nbsp;une construction d'Oscar Niemeyer surnommée le «&nbsp;Volcan&nbsp;»&nbsp;–, avec un projet en tête&nbsp;: transformer la salle de spectacles normande en pôle de création audiovisuelle, cinéma et télévision. D'emblée, il envisage d'y produire une dizaine de longs métrages, réalisés par lui et d'autres. Au fil des mois, cette feuille de route iconoclaste se heurte à une résistance croissante. Interrogé un jour par une journaliste anglaise qui fait remarquer la bizarrerie de le voir devenu directeur d'institution culturelle, Ruiz répond sans hésiter&nbsp;: «&nbsp;Vous vous demandez ce que je fais là&nbsp;? Mais je suis le premier à me poser la question.&nbsp;» Au Volcan, où il reste quatre ans, jusqu'en 1989, Ruiz tourne entre autres <em>Mémoire des apparences</em>, <em>Le Professeur Taranne</em>, <a href='#!/42/28'><em>Mammame</em></a> et <em>La Chouette aveugle</em>. Manoel de Oliveira vient y tourner <em>Mon cas</em> (1986)."
   },
   {
     "id": 4,
@@ -38,7 +39,7 @@
   {
     "id": 5,
     "title": "La ville natale",
-    "text": "Raúl Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago."
+    "text": "Raoul Ruiz naît le 25 juillet 1941 à Puerto Montt, capitale de la région des Lacs, à un millier de kilomètres au Sud de Santiago. La ville est proche de l'île de <a href='#!/34'>Chiloé</a>, lieu d'origine de sa famille paternelle –&nbsp;où il reviendra souvent passer ses vacances d'été après avoir déménagé avec sa famille dans la région de <a href='#!/16'>Valparaíso</a>."
   },
   {
     "id": 6,
@@ -48,7 +49,7 @@
   {
     "id": 7,
     "title": "Histoires de glace",
-    "text": "En mars 1986, trois cinéastes s'embarquent sur le brise-glace suédois Frej&nbsp;: un maître du cinéma ethnographique (Jean Rouch), une jeune diplômée d'une école de cinéma suédoise (Titte Törnroth), et Raoul Ruiz. En immersion parmi l'équipage de ce bâtiment qui sillonne le Golfe de Botnie d'octobre à mai pour ouvrir des voies de passage aux navires de commerce à travers la glace, les trois réalisateurs rendent compte de leur expérience, caméra Aäton à la main. Le film qui en résulte, <em>Brise-glace</em>, montre successivement ces trois regards.",
+    "text": "En mars 1986, trois cinéastes s'embarquent sur le brise-glace suédois Frej&nbsp;: un maître du cinéma ethnographique (Jean Rouch), une jeune diplômée d'une école de cinéma suédoise (Titte Törnroth), et Raoul Ruiz. En immersion parmi l'équipage de ce bâtiment qui sillonne le Golfe de Botnie d'octobre à mai pour ouvrir des voies de passage à travers la glace aux navires de commerce, les trois réalisateurs doivent rendre compte de leur expérience, caméra Aäton à la main. Trois jours après le départ, Raoul Ruiz se casse un bras en marchant sur la glace. Ramené à terre, il poursuit son travail à distance, donnant ses instructions par téléphone. Les images fixes de la photographe Katalin Volcsanszky se combinent aux images de cinéma pour donner un objet hybride, film-roman-photo, une forme déjà expérimentée dans <a href='#!/45/38'>Colloque de chiens</a>. Le projet d'ensemble, intitulé <em>Brise-glace</em>, comprenant le film, une création musicale et radiophonique, et un livre, a été imaginé par Pascal-Emmanuel Gallet.",
     "assets" : [
       { "type": "img", "id": "78830-1", "desc": "Photo de tournage de <em>Brise-glace</em> ©&nbsp;Katalin Volcsanszky" },
       { "type": "video", "id": 159503021, "desc": "" }
@@ -58,7 +59,7 @@
     "id": 8,
     "title": "Châteaux de sable",
     "assets" : [{ "type": "video", "id": 159503020, "desc": "" }],
-    "text": "En juin 1981, Raoul Ruiz filme pour TF1 le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord."
+    "text": "En juin 1981, Raoul Ruiz filme le Hollandais Pieter Wiersma, bâtisseur solitaire de châteaux de sable sur les plages de la mer du Nord. Co-réalisé avec Nadine Descendre, c'est un bref reportage destiné à une émission de TF1."
   },
   {
     "id": 9,
@@ -75,7 +76,8 @@
     "assets" : [
       { "type": "img", "id": "51146-1", "desc": "Photogramme des <em>Destins de Manoel</em>" },
       { "type": "img", "id": "51146-2", "desc": "Photogramme des <em>Destins de Manoel</em>" }
-    ]
+    ],
+    "text": "L'île de Madère, où Ruiz aborde une première fois lors du tournage des <em>Trois couronnes du matelot</em>, sert de cadre deux ans plus tard à un conte de Noël en trois épisodes commandé par la télévision portugaise, <em>Manoel dans l'île des merveilles</em> (il en existe une version cinéma sous le titre <em>Les Destins de Manoel</em>). La Madère du conte a tout d'une île merveilleuse, pour sa splendeur naturelle –&nbsp;côtes rugueuses et montagnes verdoyantes&nbsp;–, mais plus encore par l'étrangeté des dérèglements du temps auquel est soumis Manoel, le petit garçon. «&nbsp;<em>Les Destins de Manoel</em> sont trois histoires superposées, racontées de trois points de vue, et ce sont des histoires pour enfants. Elles proviennent de trois souces différentes. La première partie vient d'un texte du mathématicien Kurt Gödel, un texte très simple dans lequel il dit qu'il faut envisager, théoriquement mais sérieusement, la possibilité du retour dans le passé&nbsp;: l'idée que l'on puisse revenir dans le passé pour se rencontrer soi-même et se convaincre de ne pas faire certaines choses, ce qui nous fait entrer dans une boucle temporelle.&nbsp;»"
   },
   {
     "id": 11,
@@ -96,7 +98,9 @@
   },
   {
     "id": 14,
-    "title": "Un cinéma arabe à Belleville"
+    "title": "Un cinéma arabe à Belleville",
+    "assets": [{ "type": "video", "id": 162964425, "desc": "" }],
+    "text": "À Belleville, qui devient rapidement le quartier de Raoul Ruiz à Paris, des populations d'origines multiples se côtoient, et notablement deux civilisations qui occupent une place essentielle dans l'imaginaire ruizien&nbsp;: la Chine classique et le monde arabe. Écrit avec Benoît Peeters, <em>La Chouette aveugle</em> (qui &laquo;&nbsp;adapte&nbsp;&raquo; le roman du même titre écrit par l'Iranien immigré à Paris Sadegh Hedayat) situe précisément son point de départ&nbsp;: un petit cinéma arabe du Belleville des années 50 qui projette en boucle les mêmes mélos égyptiens. Le penchant de Ruiz pour la culture arabo-andalouse médiévale aura tôt fait de faire sauter tout point de repère identifiable, précipitant le film dans une sorte cauchemar archaïque. <em>La Chouette aveugle</em> (1986) est l'un des films tournés par Ruiz à la Maison de la culture du Havre lorsqu'il en assure la direction."
   },
   {
     "id": 15,
@@ -120,7 +124,8 @@
   },
   {
     "id": 18,
-    "title": "Captiva, une dictature insulaire"
+    "title": "Une dictature insulaire",
+    "text": "En 1970, «&nbsp;en réaction à un excès de discussion politique&nbsp;», Raoul Ruiz se lance dans un projet de film «&nbsp;irresponsable, déconnecté de la réalité chilienne&nbsp;», <em>La Colonie pénitentiaire</em>, basé sur la nouvelle de Kafka. Captiva, îlot situé à 200 milles au large des côtes de l'Équateur et du Pérou, fut d'abord une léproserie, puis un bagne, sous domination équatorienne, puis péruvienne. En 1950, l'île devient une société pilote sous le patronage des Nations unies, et, en 1972, un État indépendant dirigé par un certain Llanes. «&nbsp;Une sorte de Suisse latino-américaine divisée en cantons, où l'on a conservé toutes les habitudes carcérales. C'est une sorte de colonie pénitentiaire autogérée. Une journaliste chilienne s'y rend pour un reportage et constate un certain nombre de faits aberrants. Et, à la fin, le spectateur réalise que ces faits (tortures, viols) ne sont qu'une mise en scène réalisée spécialement pour la journaliste, pour qu'elle puisse en rendre compte. Autrement dit, l'île, au lieu de produire du cuivre, par exemple, produit des informations.&nbsp;»"
   },
   {
     "id": 19,
@@ -161,7 +166,7 @@
   {
     "id": 25,
     "title": "Les enfants du bannissement",
-    "text": "Un simple nom peut suffire à l'évocation romanesque d'un lieu. Un film invisible et dont on ne sait rien ou presque –&nbsp;son titre&nbsp;: <em>Angola ou les enfants du bannissement</em>&nbsp;– vaut à la lointaine ex-colonie portugaise d'Afrique australe de prendre sa place dans la cartographie ruizienne. Mais s'agit-il vraiment de l'Angola&nbsp;? Ou d'une allusion encore plus lointaine à la ville chilienne d'Angol, à mi-chemin entre <a href='#!/1'>Puerto Montt</a> et <a href='#!/15'>Santiago</a>&nbsp;? Le film a été tourné à Madère en même temps que <em>Les Destins de Manoel</em>. Un film jumeau donc, ou plutôt une excroissance comme il s'en produit parfois chez Ruiz (<em>Point de fuite</em>). «&nbsp;Le film s'est fait parce que le producteur, Paulo Branco, n'avait pas payé les acteurs des <em>Destins de Manoel</em>, qui quittaient le tournage les uns après les autres. Pour le punir, nous avons fait ce film en un week-end, une vengeance à laquelle il ne s'attendait pas. C'est un long métrage tourné en deux jours et demi, dans lequel jouent tous les techniciens.&nbsp;» Curieusement, le film est parfois mentionné comme quatrième partie des <em>Destins de Manoel</em>, qui n'en compte pourtant que trois : une hésitation entre le 3 et le 4 typique de Ruiz."
+    "text": "Un simple nom peut suffire à l'évocation romanesque d'un lieu. Un film invisible et dont on ne sait rien ou presque –&nbsp;son titre&nbsp;: <em>Angola ou les enfants du bannissement</em>&nbsp;– vaut à la lointaine ex-colonie portugaise d'Afrique australe de prendre sa place dans la cartographie ruizienne. Mais s'agit-il vraiment de l'Angola&nbsp;? Ou d'une allusion encore plus lointaine à la ville chilienne d'Angol, à mi-chemin entre <a href='#!/1'>Puerto Montt</a> et <a href='#!/15'>Santiago</a>&nbsp;? Le film a été tourné à Madère en même temps que <em>Les Destins de Manoel</em>. Un film jumeau donc, ou plutôt une excroissance comme il s'en produit parfois chez Ruiz (<em>Point de fuite</em>). «&nbsp;Le film s'est fait parce que le producteur, Paulo Branco, n'avait pas payé les acteurs des <em>Destins de Manoel</em>, qui quittaient le tournage les uns après les autres. Pour le punir, nous avons fait ce film en un week-end, une vengeance à laquelle il ne s'attendait pas. C'est un long métrage tourné en deux jours et demi, dans lequel jouent tous les techniciens.&nbsp;» Curieusement, le film est parfois mentionné comme quatrième partie des <em>Destins de Manoel</em>, qui n'en compte pourtant que trois... une hésitation très ruizienne entre les chiffres 3 et 4."
   },
   {
     "id": 26,
@@ -188,6 +193,7 @@
     "id": 29,
     "title": "L'appartement de la rue Huelén",
     "assets" : [
+      { "type": "video", "id": 162964424, "desc": "" },
       { "type": "video", "id": 160212813, "desc": "<em>Fabricante de sueños mecánicos</em> (<em>Fabricant de rêves mécaniques</em>), réalisé par l&apos;actrice Chamila Rodríguez et le cinéaste Galut Alarcón, évocation de l&apos;hommage rendu à Raoul Ruiz le 16 septembre 2013 devant l&apos;immeuble de la rue Huelén." }
     ],
     "text": "À la fin des années 1950, Olga Pino, la mère de Raoul Ruiz, est nommée directrice d'une école technique de Santiago. La famille quitte la région de Valparaíso pour emménager dans un appartement du quartier de Providencia, au n° 115 de la rue Huelén. Quelques années plus tard, Ruiz y tourne des plans de son premier court métrage, <em>La Maleta</em>, et la totalité de son film inachevé de 1967, <em>El Tango del viudo</em>. En 1983, lors de son premier voyage au Chili après dix ans d'exil, l'appartement de ses parents apparaît à nouveau dans le film qu'il réalise à cette occasion, <em>Le Retour d'un amateur de bibliothèques</em>. (...) Le 16 septembre 2013, une plaque commémorative est apposée sur la façade de l'immeuble avec ces mots de Waldo Rojas (poète et grand ami de Ruiz)&nbsp;: «&nbsp;Ici a vécu, et n'a jamais cessé de vivre, le cinéaste Raoul Ruiz, fabricant de rêves mécaniques&nbsp;»."
@@ -218,7 +224,7 @@
     "id": 33,
     "title": "Lucerna, le navire des morts-vivants",
     "assets": [{ "type": "video", "id": 159929605, "desc": "Extrait de <em>Litoral, cuentos del mar</em>" }],
-    "text": "Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: <a href='#!/16/1'>Les Trois couronnes du matelot</a> et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans le <a href='#!/20/34'>Transpatagonien</a>, à des joutes de récits plus fantastiques les uns que les autres."
+    "text": "Dans la mythologie de Chiloé, deux vaisseaux fantômes sillonnent les eaux de l'archipel. Le plus connu est le Caleuche, appelé aussi «&nbsp;bateau des sorciers&nbsp;»  ou «&nbsp;navire des sortilèges&nbsp;». Visible parfois par temps de brouillard, il prend l'apparence d'un navire richement illuminé d'où s'échappent les sons d'une fête. Le Lucerna, dont on dit l'intérieur aussi vaste que la terre elle-même, fait office de transport des morts-vivants et des sorcières. Ces mythes, qui existent sous de nombreuses variantes et rejoignent la légende européenne du Hollandais volant, trouvent une forte résonance chez Ruiz –&nbsp;dont le père était capitaine de navire&nbsp;– et ont directement imprégné deux de ses films&nbsp;: Les Trois couronnes du matelot et, en 2008, la mini-série <em>Litoral, cuentos del mar</em>, située dans la région de Valparaíso et dans laquelle le navire s'appelle Lucerna et où l'équipage, vivant ou mort, se livre pour tuer le temps, comme dans <em>Le Transpatagonien</em>, à des joutes de récits plus fantastiques les uns que les autres."
   },
   {
     "id": 34,
@@ -251,7 +257,11 @@
   {
     "id": 38,
     "title": "Colloque de chiens",
-    "assets": [],
+    "assets": [{
+      "type": "video",
+      "id": 162964426,
+      "desc": ""
+    }],
     "text": "«&nbsp;Dans la petite ville de Montsouris...&nbsp;», réitère la voix off. Avec son bar-tabac Le Joli-Mont autour duquel se noue l'intrigue à répétition, Montsouris est la ville française sans qualité, sise peut-être au cœur de l'hexagone pour mieux servir de point focal à ce roman-photo passionnel et criminel habité par une obsession géométrique. <em>Colloque de chiens</em> (1977), réalisé essentiellement au banc-titre, est un récit en spirale qui finit par désigner son centre. «&nbsp;Cherchez au centre&nbsp;», avertit le commissaire du film. On pense à Borges, à <em>La Mort et la boussole</em>, qui joue un jeu semblable avec une autre figure élémentaire. Le scénario, co-écrit par Raoul Ruiz et Nicole Muchnik, compte aussi une source plus triviale&nbsp;: les titres tapageurs du magazine <em>Détective</em> assemblés en un <em>cut-up</em> étourdissant. <em>Colloque de chiens</em> est aussi un regard oblique sur la géographie péri-urbaine française, à la fois familière et inquiétante."
   },
   {
@@ -271,7 +281,7 @@
   {
     "id": 41,
     "title": "Scénariste de <em>telenovelas</em>",
-    "text": "Au début de l'année 1966, Raoul Ruiz arrive au Mexique. Au terme d'un séjour de six mois dans plusieurs universités aux États-Unis, il a obtenu par l'entremise de l'écrivain chilien José Donoso une place de scénariste auprès de Valentín Pimstein, producteur de feuilleton pour Telesistema México. «&nbsp;Je faisais surtout les fins d'épisodes, les &quot;suspens&quot;. Je corrigeais. Je rajoutais un peu de mélodrame. Parfois, je faisais des chapitres complets, comme María Isabel, par exemple, qui a eu pas mal de succès. Je n'étais pas tout à fait un nègre, j'étais plutôt un rewriter. J'ai donc pris contact là avec la vitesse.&nbsp;» Mais l'épisode mexicain de Ruiz se termine abruptement&nbsp;: son employeur ayant oublié de régulariser sa situation, il est expulsé du territoire après une semaine passée derrière les barreaux. De retour au Chili, Ruiz met à profit son expérience mexicaine en devenant également scénariste pour la télévision. Les règles narratives de la <em>telenovela</em> –&nbsp;où ce ne sont pas les personnages qui mènent le récit, mais un récit aux voies impénétrables qui les meut à sa guise&nbsp;– marqueront Ruiz, qui y voit un antidote à la tyrannie des trois actes et à la «&nbsp;théorie du conflit central&nbsp;» enseignée aux États-Unis."
+    "text": "Au début de l'année 1966, Raoul Ruiz arrive au Mexique. Au terme d'un séjour de six mois dans plusieurs universités aux États-Unis, il a obtenu par l'entremise de l'écrivain chilien José Donoso une place de scénariste auprès de Valentín Pimstein, producteur de feuilletons pour Telesistema México. «&nbsp;Je faisais surtout les fins d'épisodes, les &quot;suspens&quot;. Je corrigeais. Je rajoutais un peu de mélodrame. Parfois, je faisais des chapitres complets, comme María Isabel, par exemple, qui a eu pas mal de succès. Je n'étais pas tout à fait un nègre, j'étais plutôt un rewriter. J'ai donc pris contact là avec la vitesse.&nbsp;» Mais l'épisode mexicain de Ruiz se termine abruptement&nbsp;: son employeur ayant oublié de régulariser sa situation, il est expulsé du territoire après une semaine passée derrière les barreaux. De retour au Chili, Ruiz met à profit son expérience mexicaine en devenant également scénariste pour la télévision. Les règles narratives de la <em>telenovela</em> –&nbsp;où ce ne sont pas les personnages qui mènent le récit, mais un récit aux voies impénétrables qui les meut à sa guise&nbsp;– marqueront Ruiz, qui y voit un antidote à la tyrannie des trois actes et à la «&nbsp;théorie du conflit central&nbsp;» enseignée aux États-Unis."
   },
   {
     "id": 42,

@@ -10,7 +10,7 @@ var card = (function() {
   var deck = []; // Array: DOM elements of cards
 
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
-  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img data-desc='{{ asset.desc }}' title='{{ asset.desc.replace(/<[^>]+>/g, '') }}' src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><h2>{{ cardTitle }}</h2><p>{{ text }}<% var places = _.filter(points, function (p) { return p.id !== pointId; }); if (places.length > 0) { %> <span class='places'>(Voir aussi&nbsp;: <% _.forEach(places, function (p, i) { %><a href='#!/{{ p.id }}'>{{ p.name }}</a><% if (i + 1 < places.length) { %>, <% }}); %>)</span><% } %></p></div>");
+  renderTemplate.card = _.template("<div class='card' data-id='{{ id }}'><div class='mediaContainer'><% _.forEach(assets, function (asset) { %><div class='asset'><% if (asset.type === 'img') { %><img data-desc='{{ asset.desc }}' title='{{ asset.desc.replace(/<[^>]+>/g, '') }}' src='http://cf.pasoliniroma.com/static/ruiz/img/{{ asset.id }}.jpg'><% } else if (asset.type === 'video') { %><iframe class='video' src='//player.vimeo.com/video/{{ asset.id }}' frameborder='0'></iframe><% } %></div><% }); %></div><h2>{{ cardTitle }}</h2><p>{{ text }}<% var places = _.filter(points, function (p) { return p.id !== pointId; }); if (places.length > 0) { %> <span class='places'>(Voir aussi&nbsp;: <% _.forEach(places, function (p, i) { %><a href='#!/{{ p.id }}'>{{ p.name }}</a><% if (i + 1 < places.length) { %>, <% }}); %>)</span><% } %></p><hr class='short'></div>");
 
   function init() {
     points = arguments[0];
@@ -22,7 +22,8 @@ var card = (function() {
 
   function show(point) {
     _.forEach(_.reverse(point.cards), function(card, i) {
-      card.text = card.text || "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.";
+      // card.text = card.text || "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.";
+      card.text = card.text || "";
       deck.push($(renderTemplate.card(_.assign({}, card, { // Extra data for the card template
         pointId: point.id,
         cardTitle: cardTitle(point.name, card.title, (point.cards.length - i))
