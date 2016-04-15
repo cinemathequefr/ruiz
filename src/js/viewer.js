@@ -1,4 +1,4 @@
-var viewer = (function () {
+var viewer = (function() {
 
   var $elViewer;
   var $elViewerContent;
@@ -15,20 +15,20 @@ var viewer = (function () {
   }
 
   function open(src, desc) {
-    $elViewerContent.append("<img src='" + src +"'><div class='caption'>" + desc + "</div>");
+    $elViewerContent.append("<img src='" + src + "'><div class='caption'>" + desc + "</div>");
     $elViewerImg = $elViewerContent.children("img");
     _isOpen = true;
     windowResize();
-    $elViewer.fadeIn(250, function () {
+    $elViewer.fadeIn(250, function() {
       $elViewerClose.one("click", close);
-      $(document).on("keydown", function (e) {
+      $(document).on("keydown", function(e) {
         if (e.which === 27) {
           $(document).off("keydown");
           $elViewerClose.addClass("on");
         }
       });
-      $(document).on("keyup", function (e) { // Close with Escape key
-        if (e.which  === 27) {
+      $(document).on("keyup", function(e) { // Close with Escape key
+        if (e.which === 27) {
           $elViewerClose.removeClass("on");
           $(document).off("keyup");
           close();
@@ -53,34 +53,38 @@ var viewer = (function () {
 
   }
 
-
   function close() {
-    $elViewer.fadeOut(250, function () {
+    $elViewer.fadeOut(250, function() {
       $elViewerContent.empty();
       _isOpen = false;
       $(this).hide();
-    })
+    });
   }
 
   function isOpen() {
     return _isOpen;
   }
 
-
   function fitInBox(width, height, maxWidth, maxHeight, isExpandable) {
     var aspect = width / height;
     var initWidth = width;
     var initHeight = height;
     if (width > maxWidth || height < maxHeight) {
-      width = maxWidth; height = Math.floor(width / aspect);
+      width = maxWidth;
+      height = Math.floor(width / aspect);
     }
     if (height > maxHeight || width < maxWidth) {
-      height = maxHeight; width = Math.floor(height * aspect);
+      height = maxHeight;
+      width = Math.floor(height * aspect);
     }
     if (!!isExpandable === false && (width >= initWidth || height >= initHeight)) {
-      width = initWidth; height = initHeight;
+      width = initWidth;
+      height = initHeight;
     }
-    return { width: width, height: height };
+    return {
+      width: width,
+      height: height
+    };
   }
 
   return {

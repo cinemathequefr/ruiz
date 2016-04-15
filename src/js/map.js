@@ -1,17 +1,16 @@
 /* Map */
 /* Dependencies: jquery, lodash, ba-tiny-pubsub, d3, topojson, d3-queue, d3.geo.zoom (+ extra projection august) */
-
-var map = (function () {
+var map = (function() {
   var height = window.innerHeight,
-      width = window.innerWidth / 2,
-      scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 2.5]];
+    width = window.innerWidth / 2,
+    scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 2.5]];
 
   var projection = d3.geo
-      .august()
-      .center([0, 0])
-      .rotate([60, 0, -180])
-      .scale(scaleRange[0])
-      .translate([(width / 2), (height / 2)]);
+    .august()
+    .center([0, 0])
+    .rotate([60, 0, -180])
+    .scale(scaleRange[0])
+    .translate([(width / 2), (height / 2)]);
 
   var path = d3.geo.path().projection(projection);
   var zoom = d3.geo.zoom().projection(projection).scale(scaleRange[0]).scaleExtent(scaleRange);
@@ -36,16 +35,22 @@ var map = (function () {
       .enter()
       .append("circle")
       .attr("class", "pin")
-      .attr("data-id", function (d) { return d.id; })
+      .attr("data-id", function(d) {
+        return d.id;
+      })
       // .attr("r", 9)
-      .attr("r", function (d) {
+      .attr("r", function(d) {
         return 6 + (d.cards.length * 3); // Variable radius
       })
-      .attr("transform", function (d) {
-        return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
+      .attr("transform", function(d) {
+        return "translate(" + projection([d.coordinates[0], d.coordinates[1]]) + ")";
       })
-      .each(function (d) { _.assign(d, { svg: this }) }) // Assign to each point object its corresponding svg element
-      .on("click", function (d) {
+      .each(function(d) {
+        _.assign(d, {
+          svg: this
+        });
+      }) // Assign to each point object its corresponding svg element
+      .on("click", function(d) {
         $.publish("map.click", d);
       });
 
@@ -77,16 +82,15 @@ var map = (function () {
   function zoomed() {
     svg.selectAll(".land").attr("d", path);
     svg.selectAll(".pin")
-    .attr("transform", function (d) {
-      return "translate(" + projection([ d.coordinates[0], d.coordinates[1] ]) + ")";
-    });
+      .attr("transform", function(d) {
+        return "translate(" + projection([d.coordinates[0], d.coordinates[1]]) + ")";
+      });
 
     // svg.select(".arc")
     // .attr("transform", function (d) {
     //   return "translate(" + projection(d.coordinates[0], d.coordinates[1]) + ")";
     // })
   }
-
 
   return {
     init: init,

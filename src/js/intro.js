@@ -1,16 +1,20 @@
-var intro = (function () {
-  // var $intro = $(".intro");
-  // var $splash = $intro.find(".splash");
-  // var $title = $splash.find(".title");
+var intro = (function() {
   var isOpen = false;
   var v;
 
-
   function init() {
-    $splash.vide({ mp4: "http://cf.pasoliniroma.com/static/ruiz/video/intro-1.mp4" }, { loop: true, muted: true, position: "50% 0%" });
+    $splash.vide({
+      mp4: "http://cf.pasoliniroma.com/static/ruiz/video/intro-1.mp4"
+    }, {
+      loop: true,
+      muted: true,
+      position: "50% 0%"
+    });
     v = $splash.data("vide");
-    $intro.perfectScrollbar({ suppressScrollX: true });
-    $(".enter").on("click", function () {
+    $intro.perfectScrollbar({
+      suppressScrollX: true
+    });
+    $(".enter").on("click", function() {
       $.publish("intro.enter");
     });
   }

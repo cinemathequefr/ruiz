@@ -1,14 +1,12 @@
-
-
 /**
  * Card
  * Manages the card pane (right half of window)
  *
  */
-var card = (function () {
+var card = (function() {
   var elemCardContainer = document.querySelector(".cardContainer");
   var renderTemplate = {};
-  var points, cards;
+  var points;
   var deck = []; // Array: DOM elements of cards
 
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g; // Set mustache-style interpolate delimiters
@@ -16,12 +14,14 @@ var card = (function () {
 
   function init() {
     points = arguments[0];
-    $(elemCardContainer).perfectScrollbar({ suppressScrollX: true, wheelSpeed: 3 });
+    $(elemCardContainer).perfectScrollbar({
+      suppressScrollX: true,
+      wheelSpeed: 3
+    });
   }
 
-
   function show(point) {
-    _.forEach(_.reverse(point.cards), function (card, i) {
+    _.forEach(_.reverse(point.cards), function(card, i) {
       card.text = card.text || "Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratino datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.";
       deck.push($(renderTemplate.card(_.assign({}, card, { // Extra data for the card template
         pointId: point.id,
@@ -38,24 +38,37 @@ var card = (function () {
       var $card = deck[0];
       if (_.isUndefined($card.isRemove) === false) {
         deck.shift();
-        $card.animate({ opacity: 0 }, 250, "easeOutQuad", function () {
+        $card.animate({
+          opacity: 0
+        }, 250, "easeOutQuad", function() {
           $card.remove();
           display(deck);
         });
       } else {
-        _.assign($card, { isRemove: true }); // Marked for removal on next call
-        $card.imagesLoaded(function () { // https://github.com/desandro/imagesloaded
+        _.assign($card, {
+          isRemove: true
+        }); // Marked for removal on next call
+        $card.imagesLoaded(function() { // https://github.com/desandro/imagesloaded
 
-          $card.css({ visibility: "none", opacity: 0 }).prependTo($(elemCardContainer));
+          $card.css({
+            visibility: "none",
+            opacity: 0
+          }).prependTo($(elemCardContainer));
           var h = $card.height();
 
           $card
-          .css({ height: 0, visibility: "visible" })
-          .animate({ height: h + "px", opacity: 1 }, 450, "easeOutQuad", function () {
-            window.setTimeout(function () {
-              display(_.tail(deck));
-            }, 100);
-          });
+            .css({
+              height: 0,
+              visibility: "visible"
+            })
+            .animate({
+              height: h + "px",
+              opacity: 1
+            }, 450, "easeOutQuad", function() {
+              window.setTimeout(function() {
+                display(_.tail(deck));
+              }, 100);
+            });
         });
       }
     })(deck);
@@ -66,7 +79,6 @@ var card = (function () {
     $(elemCardContainer).empty();
   }
 
-
   function on(event, callback) {
     $.subscribe(event, callback);
   }
@@ -75,15 +87,11 @@ var card = (function () {
     var o = "";
     p = p || "";
     c = c || "";
-    // if (p != "") o = o + p + " (" + i + ")";
-    if (p != "") o = o + p;
-    if (p != "" && c != "") o = o + "&nbsp;: ";
-    if (c != "") o = o + c;
+    if (p !== "") o = o + p;
+    if (p !== "" && c != "") o = o + "&nbsp;: ";
+    if (c !== "") o = o + c;
     return o;
   }
-
-
-
 
   return {
     init: init,
