@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Proofreading] Raoul Ruiz : Escales</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic">
+    <style>
+    .container {
+      width: 700px; margin: 24px auto;
+      font-family: Source Sans Pro; font-size: 1rem; line-height: 1.5;
+    }
+    hr { margin: 36px 0 18px 0; border: none; border-top: solid 1px #999; }
+    strong { font-weight: 600; }
+
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.1.0/lodash.js"></script>
+    <script>
+    function display(pointsData, cardsData) {
+
+      var data = _(normalizeCollection(cardsData, ["title", "text"]))
+      .map(function (c) {
+        return _.assign(c, {
+          points: _(pointsData)
+            .filter(function (p) {
+              return _.indexOf(p.cards, c.id) > -1;
+            })
+            .map(function (p) {
+              return p.id;
+            })
+            .value()
+        });
+      })
+      .value();
+
+      console.log(data);
+
+      _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
+      // var template = _.template("<a name='{{id}}'></a><h2>({{id}}) {{title}}</h2><div>Lieux : <% { _.forEach(points, function (p, i) { %>{{p}}<% if (i + 1 < points.length) { %>, <% } }); } %></div><div class='text'>{{ text }}</div><hr>");
+      var template = _.template("<a name='{{id}}'></a><h2>({{id}}) {{title}}</h2><div class='text'>{{ text }}</div><ul><% _.forEach(points, function (p) { %><li><a href='./#!/{{p}}/{{id}}'>{{p}}/{{id}}</a></li><% }); %></ul><hr>");
+      _.forEach(data, function (item) {
+        $(".container").append(template(item));
+      });
+    }
+
+    function normalizeCollection (collection, properties) {
+      properties = properties || [];
+      return _.map(collection, function (obj) {
+        return _.assign({}, _.zipObject(properties, _.fill(Array(properties.length), null)), obj);
+      });
+    }
+    </script>
+  </head>
+  <body>
+
+    <div class="container">
+      
+    </div>
+
+    <script>
+    // $.getJSON("data/cards.json").done(display);
+
+    $.when($.getJSON("data/points.json"), $.getJSON("data/cards.json")).then(function () {
+      display(arguments[0][0], arguments[1][0]);
+    });
+    </script>
+  </body>
+</html>
