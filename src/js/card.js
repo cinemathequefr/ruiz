@@ -4,6 +4,7 @@
  *
  */
 var card = (function() {
+  "use strict";
   var elemCardContainer = document.querySelector(".cardContainer");
   var renderTemplate = {};
   var points;

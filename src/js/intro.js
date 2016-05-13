@@ -1,4 +1,5 @@
 var intro = (function() {
+  "use strict";
   var isOpen = false;
   var v;
 

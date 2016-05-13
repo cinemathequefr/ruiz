@@ -1,9 +1,8 @@
 var $intro = $(".intro");
 var $splash = $intro.find(".splash");
-var $title = $splash.find(".title");
 
 $(function() {
-
+  "use strict";
   intro.init();
 
   d3_queue.queue()
@@ -75,12 +74,16 @@ $(function() {
 
       // Routing
       Path.root("#!/");
-      Path.map("#!/").to(function() {
+      Path.map("#!/").enter(updateAnalytics).to(function() {
         intro.open();
         card.empty();
       });
 
-      Path.map("#!/(:pid)(/:cid)").to(navigate);
+      function updateAnalytics () {
+        ga("send", "pageview", document.location.href);
+      }
+
+      Path.map("#!/(:pid)(/:cid)").enter(updateAnalytics).to(navigate);
       Path.rescue(_.noop);
       Path.listen();
 

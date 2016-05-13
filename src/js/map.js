@@ -1,6 +1,7 @@
 /* Map */
 /* Dependencies: jquery, lodash, ba-tiny-pubsub, d3, topojson, d3-queue, d3.geo.zoom (+ extra projection august) */
 var map = (function() {
+  "use strict";
   var height = window.innerHeight,
     width = window.innerWidth / 2,
     scaleRange = [Math.max(width, height) * 0.333, [Math.max(width, height) * 2.5]];

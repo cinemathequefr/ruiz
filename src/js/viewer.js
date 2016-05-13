@@ -1,4 +1,5 @@
 var viewer = (function() {
+  "use strict";
 
   var $elViewer;
   var $elViewerContent;
